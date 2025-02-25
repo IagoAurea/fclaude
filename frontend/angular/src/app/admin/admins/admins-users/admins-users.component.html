@@ -1,0 +1,113 @@
+<div class="table-responsive">
+  <div class="table-container">
+    <table class="table" style="border: 1px solid #d3d3d3; margin-top: 10px;">
+      <tr class="bg-white">
+        <th class="text-left" style="border: 1px solid #dddbdb; padding: 20px; color: #050c44;">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <div class="user-list">
+              <img src="assets/img/icons/houses.png" alt="Icono de casa" class="house-icon" style="margin-right: 5px; width: 15px; position: relative; top: -2px;">
+              {{ 'NAV.LISUSUARIOS' | translate }}
+            </div>
+            <!-- Componente de selección de idioma colocado al final de la celda -->
+            <app-language-selector></app-language-selector>
+          </div>
+        </th>
+        <!-- Componente admin-dropdown colocado en una nueva celda -->
+        <th class="admin-dropdown" style="border: 1px solid #dddbdb; padding: 20px; color: #050c44; width: 100px;">
+          <app-admin-dropdown></app-admin-dropdown>
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <div>
+      <label>{{ 'PLAYERS.PLANES_POR_PAGINA' | translate }}</label>
+      <select [(ngModel)]="itemsPerPage" (change)="p = 1"  style="margin-left: 10px;">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+    </div>
+
+    <div class="add-user-button-container-mobile d-lg-none" style="display: flex; justify-content: center;">
+      <button
+      (click)="openEditProfileDialog()"
+      class="btn btn-primary w-30 d-lg-block"
+      id="editar_perfil_btn"
+      pTooltip=" {{ 'profile.Añadir' | translate }}"
+      *ngIf="!hideProfileButton"
+      style="height: 2.625rem; width: 18.75rem; margin: 20px 10px;"
+    >
+      {{ "Añadir nuevo Usuario" | translate }} <span class="plus-symbol">+</span>
+    </button>
+    </div>
+    <div class="buscador p-input-icon-left d-lg-none">
+      <input pInputText type="text" class="p-inputtext p-component p-element" placeholder="Buscar">
+      <i class="pi pi-search"></i>
+    </div>
+    <!-- Primera tabla -->
+<table class="table table-centered datatable dt-responsive nowrap table-card-list table-with-margin custom-border clase-tabla-inferior">
+  <thead>
+    <tr class="bg-transparent responsive-row">
+      <th class="text-left">
+        <div class="header-container" style="display: flex; justify-content: space-between; align-items: center;">
+          <span class="form-text text-muted styled-text"> {{ 'NAV.LISTA_USUARIOS' | translate }}</span>
+          <div class="extra-container" style="display: flex; align-items: center;">
+            <div class="buscador p-input-icon-left d-none d-lg-block">
+              <input pInputText type="text" class="p-inputtext p-component p-element" placeholder="{{ 'NAV.BUSCAR' | translate }}">
+              <i class="pi pi-search"></i>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th class="text-right">
+        <button
+          (click)="openEditProfileDialog()"
+          class="btn btn-primary w-30 d-none d-lg-block"
+          id="editar_perfil_btn"
+          pTooltip=" {{ 'profile.Añadir' | translate }}"
+          *ngIf="!hideProfileButton"
+          style="height: 2.625rem; width: 18.75rem;float: right;"
+        >
+        {{ 'NAV.AÑADIR' | translate }} <span class="plus-symbol">+</span>
+        </button>
+      </th>
+    </tr>
+  </thead>
+</table>
+
+<!-- Segunda tabla -->
+<table class="table table-centered datatable dt-responsive nowrap table-card-list table-with-margin custom-border clase-tabla-inferior mt-0">
+  <thead>
+    <tr>
+      <th><span class="form-text text-muted styled-text">{{ 'NOMBREYAPELLIDOS' | translate }}</span></th>
+      <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'CORREO' | translate }}</span></th>
+      <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'Plansubcrito' | translate }}</span></th>
+      <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'Fechacreacion' | translate }}</span></th>
+      <th class="actions"><span class="form-text text-muted">{{ 'Acciones' | translate }}</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pedido of user | paginate: { itemsPerPage: itemsPerPage, currentPage: p }">
+      <!-- ... (resto de las celdas) ... -->
+    </tr>
+
+    <tr *ngIf="!user || user.length === 0">
+      <td colspan="5"><span class="form-text text-muted">{{ 'NOUSUARIOS' | translate }}</span></td>
+    </tr>
+  </tbody>
+</table>
+    <div class="table-container" style="display: flex; justify-content: flex-end;">
+      <!-- Resto del contenido de .table-container -->
+
+      <div class="pagination-container">
+        <pagination-controls (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>
+      </div>
+    </div>
+  </div>
+</div>

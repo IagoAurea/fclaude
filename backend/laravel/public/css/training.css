@@ -1,0 +1,20 @@
+html {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    border: inset 5px transparent;
+    margin-top: 195px;
+    background-repeat: no-repeat;
+    background-size: 90% 8%;
+}
+
+section {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.example {
+    background-color: aqua;
+}

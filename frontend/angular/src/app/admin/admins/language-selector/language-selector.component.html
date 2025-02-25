@@ -1,0 +1,36 @@
+
+<p-dropdown
+  (onChange)="cambiar($event)"
+  [(ngModel)]="idioma"
+  [options]="languages"
+  optionLabel="name"
+  optionValue="value"
+  styleClass="border-0"
+>
+  <ng-template pTemplate="selectedItem">
+    <div
+      *ngIf="idioma"
+      class="country-item country-item-value d-flex align-items-center"
+    >
+      <i
+        class="pi pi-globe mr-2 text-main"
+        style="font-size: 1.25rem"
+      ></i>
+      <img
+        [src]="idioma === 'es' ? spanishFlag : englishFlag"
+        width="15"
+        class="mx-1"
+      />
+      <div>{{ idioma.toUpperCase() }}</div>
+    </div>
+  </ng-template>
+  <ng-template let-language pTemplate="item">
+    <div class="language-item" style="display: flex">
+      <img
+        [src]="language.value === 'es' ? spanishFlag : englishFlag"
+        width="15"
+      />
+      <div style="margin-left: 3px">{{ language.name }}</div>
+    </div>
+  </ng-template>
+</p-dropdown>

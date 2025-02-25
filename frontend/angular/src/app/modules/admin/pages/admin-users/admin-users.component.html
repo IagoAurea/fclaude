@@ -1,0 +1,85 @@
+<p>
+  <span>{{ 'adminUsers.LBL_SELECTUSERTEAM' | translate }}</span>
+</p>
+
+<div class="d-flex">
+  <!-- Columna izquierda: Buscador de usuarios -->
+  <div class="search-container">
+    <app-user-search></app-user-search>
+  </div>
+  
+<div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th colspan="4">
+          <div class="d-flex align-items-center justify-content-between">
+            <label for="teamSelect">
+              <span>{{ 'adminUsers.LBL_PERMISSIONS' | translate }}</span>
+            </label>
+            <select id="teamSelect" class="form-control custom-select w-25">
+              <option value="">{{ 'adminUsers.LBL_SELECT_TEAM' | translate }}</option>
+              <option value="team1">Equipo 1</option>
+              <option value="team2">Equipo 2</option>
+              <option value="team3">Equipo 3</option>
+            </select>
+
+            <div class="ml-3">
+              <label for="allPermissions">
+                <input type="checkbox" id="allPermissions" [(ngModel)]="allPermissionsSelected" (click)="toggleAllPermissions()"> 
+                <span>{{ 'adminUsers.LBL_ALLPERMISSIONS' | translate }}</span>
+              </label>
+            </div>
+            <div >
+              <!-- <div *ngIf="showConfirmationMessage" class="confirmation-message">
+                {{ 'adminUsers.PermissionsGranted' | translate }}
+              </div> -->
+              <div *ngIf="feedbackMessage.text" class="feedback-message" [ngClass]="feedbackMessage.type">
+                {{ feedbackMessage.text }}
+              </div>
+              
+              <button [disabled]="isLoading" class="btn btn-primary" (click)="grantPermissions()">
+                {{ 'adminUsers.ButtonSaveInvite' | translate }}
+              </button>
+
+              <div *ngIf="isLoading" class="loading-indicator">
+                <span>Cargando...</span>
+                <!-- O utiliza un spinner -->
+                <div class="spinner"></div>
+              </div>
+
+            </div>
+          </div>
+        </th>
+      </tr>
+    </thead>
+
+<tbody *ngFor="let category of permissions.data">
+  <!-- Encabezado de la categoría -->
+  <tr (click)="toggleCategoryExpansion(category)" style="cursor: pointer;">
+    <td colspan="2" class="font-weight-bold">
+      {{ categoryTranslationKeys[category.type] | translate }}
+      <span class="toggle-arrow">
+        <i [class]="category.expanded ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
+      </span>
+    </td>
+  </tr>
+
+  <!-- Permisos de la categoría -->
+  <ng-container *ngIf="category.expanded">
+    <tr *ngFor="let permission of category.permissions">
+      <td></td>
+      <td>
+        <label for="{{ permission.id }}">
+          <input type="checkbox" id="{{ permission.id }}" [(ngModel)]="permission.selected"
+            (click)="preventClickPropagation($event)">
+          <span>{{ getPermissionTranslationKey(permission.name) | translate }}</span>
+        </label>
+      </td>
+    </tr>
+  </ng-container>
+</tbody>
+
+
+  </table>
+</div>

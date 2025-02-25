@@ -1,0 +1,22 @@
+<p-dropdown
+(onChange)="cambiar($event)"
+  [(ngModel)]="opcion"
+  [options]="opciones"
+  optionLabel="name"
+  optionValue="value"
+  styleClass="border-0"
+>
+  <ng-template pTemplate="selectedItem">
+    <div *ngIf="opcion" class="country-item country-item-value d-flex align-items-center" style="position: relative; overflow: visible; z-index: 1;">
+      <div style="position: relative; margin-left: 50px;">
+        <img src="assets/img/icons/boy.svg" alt="Icono de Admin" style="position: absolute; margin: 0; padding: 0; width: 40px; height: 44px; object-fit: contain; left: -46px; top: -10px; z-index: 2;">
+        Admin
+      </div>
+    </div>
+  </ng-template>
+  <ng-template let-opcion pTemplate="item">
+    <div class="language-item" style="display: flex">
+      <div style="margin-left: 3px">{{ opcion.name }}</div>
+    </div>
+  </ng-template>
+</p-dropdown>

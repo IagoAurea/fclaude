@@ -1,0 +1,203 @@
+[  
+    {
+        "code": "deep_trunk_flexion_test",
+        "name_spanish": "Flexión profunda de tronco",
+        "name_english": "Deep trunk flexion",
+        "description_spanish": "Con la realización de esta prueba podremos medir la flexibilidad global del tronco, miembro superior e inferior.",
+        "instruction_spanish": "Con la realización de esta prueba podremos medir la flexibilidad global del tronco, miembro superior e inferior.",
+        "material_spanish": "Un cajón o un banco, un taco de madera y una cinta métrica.",
+        "procedure_spanish": "Comenzamos el test de pie, con las piernas semiflexionadas, separadas a la distancia marcada por la tabla (máximo 76 cm) y toda la planta del pie apoyada en el tope del cajón o banco, que coincide con el punto cero de la escala o metro. Realizando una flexión del tronco, el objetivo de la pueba es tratar de llegar lo más lejos posible el taco de madera (ver ilustración), empujándolo de forma suave y progresiva con la punta de los dedos de ambas manos, evitando en todo momento dar tirones. Las manos deberán deslizarse hacia atrás, sin apoyar los dedos en la tabla para hacer fuerza y poder llegar más lejos. Tampoco estará permitido realizar movimientos bruscos, adelantar una mano a la otra ni levantar la planta de los pies del suelo durante la realización del test. Registraremos la distancia comprendida entre la marca de los talones (tope del cajón o banco) y el taco de madera. En el caso de no disponer de taco, cogeremos como referencia la marca de los dedos hasta donde es capaz de llegar el sujeto.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. Registraremos la mejor marca, así como, la media si realiza 2 intentos o la mediana en el caso de hace 3 intentos.",
+        "description_english": "With this test the global flexibility of the trunk, upper and lower limbs can be measured.",
+        "instruction_english": "With this test the global flexibility of the trunk, upper and lower limbs can be measured.",
+        "material_english": "A smooth wall, anti-slip surface to prevent slipping and a stopwatch.",
+        "procedure_english": "The subject begins the test standing, with legs semi-flexed, separated the distance marked by the table (max. 30 in. or 76 cm) and the entire sole of the foot resting on the top of the plyo box or bench, which coincides with the zero point of the meter. By bending his/her body, the subject will try to displace the wooden block as far back as possible (see illustration), pushing it gently and progressively with the fingertips of both hands but avoiding jerks or uncontrolled movements.  The subject's hands must slide backwards, without resting the fingers on the board to make force or gain balance trying to reach further. It is also not allowed to make sudden movements, to advance one hand over the other or to lift the soles off the ground during the test. The distance between the heel mark (stop of the box or bench) and the wooden block will be measured. If a wooden block is not available, the mark of the fingers as far back as the subject is capable to reach will be registered.",
+        "evaluation_english": "Measured in centimeters (cm). The subject will have a maximum of 3 attempts, and all attempts where any rule is broken will be considered null and discarded.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "019_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+               "question_code": "019_test_2",
+               "value": 0,
+               "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "sit_and_reach_test",
+        "name_spanish": "Flexión de tronco sentado",
+        "name_english": "Sit and reach",
+        "description_spanish": "Creado en 1952, el test de Wells y Dillon o Seat and Reach sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de sentado con piernas juntas y extendidas.",
+        "instruction_spanish": "Creado en 1952, el test de Wells y Dillon o Seat and Reach sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de sentado con piernas juntas y extendidas.",
+        "material_spanish": "Una tarima de madera con escala de graduación numérica o en su defecto un banco sueco y una cinta métrica.",
+        "procedure_spanish": "Comenzaremos la prueba desde la posición de sentado, descalzos con los pies apoyados en el pie del banco, las piernas extendidas y los pies juntos. Si la longitud de los pies supera la altura del banco, se colocarán los talones en contacto con la pata del banco, abriendo las punteras y manteniendo éstas en contacto con los bordes laterales superiores del mismo. El objetivo es tratar de alcanzar con los dedos la mayor distancia posible sin adelantar más una mano que otra. Debes efectuar la flexión del tronco con suavidad, sin doblar las rodillas ni mover los pies, así como, aguantar al menos 3 segundos en el punto máximo de estiramiento.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. El cero corresponderá al pie del banco, donde van colocados los pies del ejecutante. El resultado será negativo si el sujeto no es capaz de alcanzar el punto de apoyo de los pies, y positivo cuando lo sobrepase. (En fisicalcoach,) Podrás obtener la mejor marca, así como la media o la mediana.",
+        "description_english": "Created in 1952, the Wells and Dillon or Seat and Reach test is used to evaluate trunk flexion ability from a seated position with legs together and extended.",
+        "instruction_english": "Created in 1952, the Wells and Dillon or Seat and Reach test is used to evaluate trunk flexion ability from a seated position with legs together and extended.",
+        "material_english": "A wooden platform with a distance scale in cm or inches. If not available, aSwedish bench and a tape measure will be enough.",
+        "procedure_english": "The subject will start the test from the sitting position, barefoot with feet resting on the lower part of the bench, legs extended and feet together. If the length of the feet exceeds the height of the bench, the heels shall be placed in contact with the leg of the bench, opening the feet in a V shape and keeping the toes in contact with the upper side edges of the bench. The goal of this test is to try to reach as far as possible with both hands without taking one over other. The subject must perform the trunk flexion smoothly, without bending his/her knees or moving his/her feet, and hold at least 3 seconds at the maximum stretch point.",
+        "evaluation_english": "Measured in centimeters (cm). The subject will have a maximum of 3 attempts, and all attempts where any rule is broken will be considered null and discarded. The zero will be set at the foot of the bench where the subject's feet are placed. The result will be negative if the subject is not able to reach that point, and positive when he/she exceeds it.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "019_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "tou_touch_test",
+        "name_spanish": "Test dedos planta",
+        "name_english": "Tou touch",
+        "description_spanish": "Creado en 1952, el test de Kraus y Hirshland sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de pie con piernas juntas y extendidas.",
+        "instruction_spanish": "Creado en 1952, el test de Kraus y Hirshland sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de pie con piernas juntas y extendidas.",
+        "material_spanish": "Tarima o cajón de madera con escala de graduación numérica y una cinta métrica.",
+        "procedure_spanish": "Comenzaremos la prueba desde la posición de pie, descalzos con los pies apoyados en el extremo del cajón o tarima, las piernas extendidas y los pies juntos como se ve en la ilustración. El objetivo es tratar de alcanzar con los dedos la mayor distancia posible sin adelantar más una mano que otra. Debes efectuar la flexión del tronco con suavidad, sin doblar las rodillas ni mover los pies, así como, aguantar al menos 3 segundos en el punto máximo de estiramiento.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. El cero corresponderá al borde del cajón, donde van colocados los pies del ejecutante. El resultado será negativo si el sujeto no es capaz de alcanzar el punto de apoyo de los pies, y positivo cuando lo sobrepase.",
+        "description_english": "Created in 1952, the Kraus and Hirshland test is used to evaluate trunk flexion ability from a standing position with legs together and extended.",
+        "instruction_english": "Created in 1952, the Kraus and Hirshland test is used to evaluate trunk flexion ability from a standing position with legs together and extended.",
+        "material_english": "Wooden box with a distance scale or a measuring tape.",
+        "procedure_english": "The subject will start the test from the standing position, barefoot with both feet together resting on the edge of the box or platform and legs extended as shown in the illustration. The goal of this test is to try to reach as far as possible with both hands without taking one over other. The subject must perform the trunk flexion smoothly, without bending his/her knees or moving his/her feet, and hold at least 3 seconds at the maximum stretch point.",
+        "evaluation_english": "Measured in centimeters (cm). The subject will have a maximum of 3 attempts, and all attempts where any rule is broken will be considered null and discarded. The zero will be set at the upper edge of the plyo box where the subject's feet are placed. The result will be negative if the subject is not able to reach that point, and positive when he/she exceeds it. (En fisicalcoach,) The longest distance, as well as the median and the mean can be registered.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "019_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    }
+]

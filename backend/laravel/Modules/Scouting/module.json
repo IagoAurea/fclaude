@@ -1,0 +1,13 @@
+{
+    "name": "Scouting",
+    "alias": "scouting",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Scouting\\Providers\\ScoutingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

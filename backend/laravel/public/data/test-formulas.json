@@ -1,0 +1,36 @@
+[
+    {
+        "test_code": "gacon_test",
+        "formulas": [
+            {
+                "params": [
+                    { "param": 1, "code": "distance", "type": "calculate" }
+                ],
+                "formula": {
+                    "code": "vo2max", 
+                    "name": "VO2 máx",
+                    "description": "VO2 máx: Calcula la capacidad cardio-respiratoria",
+                    "formula": "22.351 * ( $1/1000 ) - 11.288",
+                    "unit": "vo2max"
+                }
+            }
+        ]
+    },
+    {
+        "test_code": "cooper_test",
+        "formulas": [
+            {
+                "params": [
+                    { "param": 1, "code": "distance", "type": "input", "question": "022_mark_reached" }
+                ],
+                "formula": {
+                    "code": "vo2max",
+                    "name": "VO2 máx",
+                    "description": ": Calcula la capacidad cardio-respiratoria",
+                    "formula": "22.351 * ( $1/1000 ) - 11.288",
+                    "unit": "vo2max"
+                }
+            }
+        ]
+    }
+]

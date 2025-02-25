@@ -1,0 +1,446 @@
+[
+    {
+        "code": "gerber_test",
+        "name_spanish": "Test de Gerber (Despegue)",
+        "name_english": "Gerber test (Liftoff)",
+        "description_spanish": "El test de Gerber es una prueba muy útil para lesiones completas del subescapular, no siendo tan eficaz para lesiones parciales.",
+        "instruction_spanish": "El test de Gerber es una prueba muy útil para lesiones completas del subescapular, no siendo tan eficaz para lesiones parciales.",
+        "material_spanish": "No se requiere ningún material específico.",
+        "procedure_spanish": "Con el hombro en completa rotación interna y la mano colocada en la espalda tal y como se muestra en la ilustración, se pide al sujeto que separe la mano de la espalda y la mantenga separada durante unos segundos.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto no es capaz de separar la mano de la espalda. En cambio, si el sujeto logra separar la mano de la espalda la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "yocum_test",
+        "name_spanish": "Test de Yocum",
+        "name_english": "Yocum test",
+        "description_spanish": "El test de Yocum es una prueba muy útil para la exploración de lesiones del subescapular.",
+        "instruction_spanish": "El test de Yocum es una prueba muy útil para la exploración de lesiones del subescapular.",
+        "material_spanish": "Una camilla de fisioterapia o una silla.",
+        "procedure_spanish": "El sujeto se coloca sentado en la camilla con el codo en flexión de 90º y rotación interna de hombro, apoyando la mano en el hombro contrario tal y como se observa en la ilustración. El evaluador se coloca a un lado del sujeto y le pide que eleve el codo sin variar la posición.",
+        "evaluation_spanish": " La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra, indicando que existe un compromiso del espacio subacromial. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "neer_test",
+        "name_spanish": "Test de Neer",
+        "name_english": "Neer test",
+        "description_spanish": "El test de Neer es una prueba muy útil para evaluar la existencia de un conflito subacromial (pinzamiento o impigement).",
+        "instruction_spanish": "El test de Neer es una prueba muy útil para evaluar la existencia de un conflito subacromial (pinzamiento o impigement).",
+        "material_spanish": "Una camilla de fisioterapia o una silla.",
+        "procedure_spanish": "El sujeto podrá situarse en posición de bipedestación o sedestación (preferiblemente en esta útima). El evaluador se situará detrás del participante e intentará bloquear la movilidad de la escápula del hombro evaluado, mientras que con la otra mano tomará el codo del lado evaluado. Se elevará al máximo el brazo evaluado ralizando una addución, flexión y rotación interna, empujando el codo hasta alcanzar la mayor amplitud posible.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra, sobre todo al final del recorrido. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "hawkins_kennedy",
+        "name_spanish": "Test de Hawkins Kennedy",
+        "name_english": "Hawkins Kennedy test",
+        "description_spanish": "El test de Hawkings Keneddy es una prueba que tiene por objetivo valorar la posibilidad de lesión del espacio subacomial (bolsa subacomial y/o manguito rotador).",
+        "instruction_spanish": "El test de Hawkings Keneddy es una prueba que tiene por objetivo valorar la posibilidad de lesión del espacio subacomial (bolsa subacomial y/o manguito rotador).",
+        "material_spanish": "No se requiere ningún material si la prueba se realiza de pie. En cambio, si el test se hace en sedestación se necesita una camilla de fisioterapia o una silla.",
+        "procedure_spanish": "El evaluador en bipedestación homolateral del lado afectado, sujeta el hombro y el codo del sujeto en flexión 90 º y realiza una rotación interna máxima pasiva.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra, indicando que existe el atrapamiento o impigement acromioclavicular. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "patte_test",
+        "name_spanish": "Test de Patte",
+        "name_english": "Patte test",
+        "description_spanish": "El test de Patte es una prueba muy útil para valorar selectivamente los rotadores externos de hombro (infraespinoso y redondo menor).",
+        "instruction_spanish": "El test de Patte es una prueba muy útil para valorar selectivamente los rotadores externos de hombro (infraespinoso y redondo menor).",
+        "material_spanish": "No se requiere de ningún recurso material específico.",
+        "procedure_spanish": "Con el hombro en addución de 90º, anteversión-antepulsión de 30º y el codo a 90º, el evaluador le pide al sujeto que realice una rotación externa activa contra resistencia.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "external_ratation_lagsign",
+        "name_spanish": "Rotación externa de hombro",
+        "name_english": "Shoulder external rotation",
+        "description_spanish": "El test de rotación externa de hombro es una prueba muy útil para lesiones del músculo infraespinoso.",
+        "instruction_spanish": "El test de rotación externa de hombro es una prueba muy útil para lesiones del músculo infraespinoso.",
+        "material_spanish": "Una camilla de fisioterapia o una silla.",
+        "procedure_spanish": "El evaluador se situará delante del sujeto y le pide a este que flexione los codos a 90º manteniéndolos junto a su cuerpo. El sujeto debe realizar una rotación externa activa contra resistencia.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra. Si no hay presencia de dolor la prueba se considera normal o negativa. Tambíen se debe valorar si existe pérdida de fuerza o no durante la maniobra que podría ser indicativo de inflamación, rotura parcial o total del tendón.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "left_shoulder",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "right_shoulder",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

@@ -1,0 +1,50 @@
+<div class="mx-auto">
+  <table class="table" style="border: 1px solid #d3d3d3; margin-top: 10px; ">
+    <tr class="bg-white">
+      <th class="text-left" style="border: 1px solid #dddbdb; padding: 20px; color: #050c44;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+          <div class="plan-text">
+            <img src="assets/img/icons/houses.png" alt="Icono de casa" style="margin-right: 5px; width: 15px; position: relative; top: -2px;">
+            <span class="plan-list">{{ 'NAV.LISTAPLANES' | translate }}</span>
+          </div>
+          <!-- Componente de selección de idioma colocado al final de la celda -->
+          <app-language-selector></app-language-selector>
+        </div>
+      </th>
+      <!-- Componente admin-dropdown colocado en una nueva celda -->
+      <th style="border: 1px solid #dddbdb; padding: 20px; color: #050c44; width: 100px;">
+        <app-admin-dropdown></app-admin-dropdown>
+      </th>
+    </tr>
+  </table>
+  <div id="profile_nav" style="background-color: #fff; position: relative;">
+    <p-tabMenu [model]="items" [activeItem]="activeItem" [style]="{'padding-top': '10px', 'padding-bottom': '10px' }">
+
+      <ng-template let-i="index" let-item pTemplate="item">
+        <div (click)="handleTab(item)" style="display: flex; align-items: center;">
+          <img
+            [src]="getIcon(item)"
+            class="d-none d-sm-block"
+            width="20"
+            style="margin-right: 5px"
+          />
+          {{ item.label | translate }}
+        </div>
+      </ng-template>
+
+    </p-tabMenu>
+
+    <div style="position: absolute; top: 10px; left: 30px; right: 30px; border-top: 1px solid rgb(230, 228, 228);"></div>
+    <div style="position: absolute; bottom: 10px; left: 30px; right: 30px; border-bottom: 1px solid rgb(233, 232, 232);"></div>
+  </div>
+</div>
+
+<div class="mx-auto profile-width container">
+  <button class="btn btn-primary create-plan-button" (click)="opennewEditModal()">
+    {{ 'NAV.CREARPLAN' | translate }} <span class="plus-symbol">+</span>
+  </button>
+</div>
+<div class="mx-auto profile-width" [class.full-height]="!otherComponentVisible" style="background-color: #fff;">
+  <router-outlet></router-outlet>
+</div>
+

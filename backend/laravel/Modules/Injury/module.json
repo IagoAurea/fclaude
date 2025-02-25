@@ -1,0 +1,13 @@
+{
+    "name": "Injury",
+    "alias": "injury",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Injury\\Providers\\InjuryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

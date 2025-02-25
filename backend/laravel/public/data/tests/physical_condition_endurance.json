@@ -1,0 +1,913 @@
+[  
+    {
+        "code": "cooper_test",
+        "name_spanish": "Test de Cooper",
+        "name_english": "Cooper test",
+        "description_spanish": "Creado en 1968 por Kenneth H.Cooper, esta prueba sirve para evaluar el nivel de resistencia aeróbica de una forma rápida, barata y eficaz, razón por cual este test se aplica mucho en colegios, institutos o centros deportivos. El Test de Cooper es una de las pruebas indirectas más utilizadas para calcular el VO2 máx (el volumen máximo de oxígeno), aunque este dato es solo una estimación ya que la manera más precisa de calcular el VO2 máx es mediante una espirometría y una prueba de esfuerzo específica.",
+        "instruction_spanish": "Creado en 1968 por Kenneth H.Cooper, esta prueba sirve para evaluar el nivel de resistencia aeróbica de una forma rápida, barata y eficaz, razón por cual este test se aplica mucho en colegios, institutos o centros deportivos. El Test de Cooper es una de las pruebas indirectas más utilizadas para calcular el VO2 máx (el volumen máximo de oxígeno), aunque este dato es solo una estimación ya que la manera más precisa de calcular el VO2 máx es mediante una espirometría y una prueba de esfuerzo específica.",
+        "material_spanish": "Una superficie plana y un cronómetro. El recorrido debe estar previamente medido para poder cuantificar las distancias alcanzadas por los participantes al finalizar el test. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "Recorrer la mayor distancia posible en un periodo de 12 minutos. Antiguamente se necesitaba saber la distancia por vuelta para poder calcular la distancia total alcanzada, hoy en día gracias a los relojes GPS es mucho más fácil medir este dato.",
+        "tooltip_spanish":"Este dato es estimativo ya que si queremos obtener un dato fiable este se obtiene realizando una prueba de esfuerzo con medición de gases.",
+        "evaluation_spanish": "Se mide en metros (m) y el sujeto dispone de un solo intento.",
+        "description_english": "Created in 1968 by Kenneth H. Cooper, this test is used to evaluate the level of aerobic endurance in a fast, simple and effective way. That's why it is widely applied in schools, colleges and sports centers. The Cooper test is one of the most frequently used indirect tests to calculate VO2 max (the maximal oxygen uptake), although this is only an estimate, since the most accurate way to calculate VO2 max is through a spirometry and a specific stress test.",
+        "instruction_english": "Created in 1968 by Kenneth H. Cooper, this test is used to evaluate the level of aerobic endurance in a fast, simple and effective way. That's why it is widely applied in schools, colleges and sports centers. The Cooper test is one of the most frequently used indirect tests to calculate VO2 max (the maximal oxygen uptake), although this is only an estimate, since the most accurate way to calculate VO2 max is through a spirometry and a specific stress test.",
+        "material_english": "A flat surface and a stopwatch (better if a GPS watch). The route must be previously measured to assess the distances reached by the subject at the end of the test. If the subject's heart rate (HR) must be measured, a heart rate monitor will be needed.",
+        "procedure_english": "The subject must cover the greatest possible distance in a period of 12 minutes. In the past it was necessary to know the distance of each lap to calculate the total distance achieved, nowadays thanks to GPS devices it is much easier to measure this data.",
+        "evaluation_english": "Measured in meters (m). The subject has only one attempt. ",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{    
+                "question_code": "022_mark_reached",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_observations",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "gacon_test",
+        "name_spanish": "Test de Gacon 45/15",
+        "name_english": "Gacon 45/15 test",
+        "description_spanish": "Gacon es una test intermitente, es decir, una prueba que alterna un tramo de carrera (45 segundos) y un tramo caminando (15 segundos), de ahí su nombre de 45/15. Esta prueba sirve para medir la capacidad de carrera intermitente y la capacidad aeróbica. El objetivo de este test es identificar la velocidad máxima alcanzada en el último periodo completo, velocidad estándar o de referencia para la elaboración de las cargas de entrenamiento en forma intermitente.",
+        "instruction_spanish": "Gacon es una test intermitente, es decir, una prueba que alterna un tramo de carrera (45 segundos) y un tramo caminando (15 segundos), de ahí su nombre de 45/15. Esta prueba sirve para medir la capacidad de carrera intermitente y la capacidad aeróbica. El objetivo de este test es identificar la velocidad máxima alcanzada en el último periodo completo, velocidad estándar o de referencia para la elaboración de las cargas de entrenamiento en forma intermitente.",
+        "material_spanish": "Una superficie plana y ovalada donde correr, conos y marcas para delimitar el recorrido del circuito, una cinta métrica y un cronómetro. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "Todos los participantes se alinean en el cono/línea de salida (A) y deben correr 125 metros en 45 segundos hasta llegar al cono 1. Al finalizar, se les da 15 segundos para descansar (caminando). Cuando terminan los 15 segundos, repiten la carrera en la dirección opuesta de regreso al cono de inicio. Por cada repetición, la distancia se incrementa en 6,25 metros mientras que la carrera y el tiempo de descanso se mantienen constantes (45/15). El objetivo es alcanzar tantos periodos o niveles como sea posible. Cuando el evaluado no puede alcanzar un periodo (cono) después de 45 segundos de carrera, se toma como marca el último periodo que alcanzó.",
+        "evaluation_spanish": "Se mide el número de periodos o niveles que el sujeto es capaz de cubrir disponiendo de un solo intento. Cada periodo viene especificado por una velocidad y su equivalencia en distancia a recorrer en 45 segundos (8km/h = 100 metros).",
+        "description_english": "Gacon is a two-mode test, i.e. a test that alternates a running mode (45 seconds) and a walking mode (15 seconds), hence the name 45/15. It is used to measure intermittent running ability and aerobic capacity. The goal of this test is to measure the maximum speed reached in the last stage completed by the subject, to take it as a reference speed for the design of intermittent training loads.",
+        "instruction_english": "Gacon is a two-mode test, i.e. a test that alternates a running mode (45 seconds) and a walking mode (15 seconds), hence the name 45/15. It is used to measure intermittent running ability and aerobic capacity. The goal of this test is to measure the maximum speed reached in the last stage completed by the subject, to take it as a reference speed for the design of intermittent training loads.",
+        "material_english": "A flat quarter-mile oval track, marking cones to delimit the course of the circuit, a tape measure and a stopwatch. If the subjects' heart rate (HR) must be measured, a heart rate monitor will be needed.",
+        "procedure_english": "All participants must line up at the starting cone/mark (A) and run 125 meters in 45 seconds to reach cone 1. At that point, they are given 15 seconds to rest (they must continue walking). When they finish the 15 seconds walk, they repeat the run in the opposite direction back to the starting cone. For each repetition, the distance is increased by 6.25 meters while the run and rest times remain constant (45/15). The goal is to reach as many periods or stages as possible.  When the subject cannot reach a mark (cone) after 45 seconds of running, the last stage he/she reached is taken as the result.",
+        "evaluation_english": "The number of stages the subject is able to cover in a single attempt is measured. Each stage is specified by a speed and its equivalence in distance covered in 45 seconds (8km/h = 100 meters).",
+         "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "chart"],
+        "table": {
+            "name_english": "speed / distance",
+            "name_spanish": "Velocidad / Distancia",
+            "description_english": "Calculate the speed distance relationship per period",
+            "description_spanish": "Calcula la relación velocidad distancia por periodo",
+            "details": [{
+                    "name_english": "Period",
+                    "name_spanish": "Periodo",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "code": "period",
+                    "is_index": true,
+                    "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+                },
+                {
+                    "name_english": "Speed",
+                    "name_spanish": "Velocidad",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "code": "speed",
+                    "is_index": false,
+                    "values": [10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5, 18, 18.5, 19, 19.5, 20]
+                },
+                {
+                    "name_english": "Distance",
+                    "name_spanish": "Distancia",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "code": "distance",
+                    "is_index": false,
+                    "values": [125, 131.25, 137.50, 143.75, 150, 156.25, 162.75, 168.75, 175, 181.25, 187.50, 193.75, 200, 206.25, 212.50, 218.75, 225, 231.25, 237.50, 243.75, 250]
+                }
+            ]
+
+        },
+        "associate_questions": [{
+                "question_code": "period_reached",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observation",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+
+        ]
+    },
+    {
+        "code": "yard_shuttle_test",
+        "name_spanish": "60 Yard Shuttle test",
+        "name_english": "60 Yard Shuttle test",
+        "description_spanish": "60-Yard Shuttle Test es una prueba de resistencia anaeróbica, en la que los participantes corren 5, 10 y 15 yardas (yd), en recorrido de ida y vuelta, para hacer un total de 60 yd. Si el test se mide en metros (m) las distancias serían de 4.5, 9 y 13,5 metros que hacen un total de 54 m. Este test forma parte de la batería de pruebas de aptitud para la NFL Combine y también ha sido una de las pruebas de aptitud del ejército de EE. UU.",
+        "instruction_spanish": "60-Yard Shuttle Test es una prueba de resistencia anaeróbica, en la que los participantes corren 5, 10 y 15 yardas (yd), en recorrido de ida y vuelta, para hacer un total de 60 yd. Si el test se mide en metros (m) las distancias serían de 4.5, 9 y 13,5 metros que hacen un total de 54 m. Este test forma parte de la batería de pruebas de aptitud para la NFL Combine y también ha sido una de las pruebas de aptitud del ejército de EE. UU.",
+        "material_spanish": "Una superficie plana antideslizante, 8 conos y marcas para delimitar el recorrido del circuito, una cinta métrica y un cronómetro. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "La prueba consiste en realizar el recorrido en el menor tiempo posible, tocando las líneas, con la mano o con el pie (dependiendo la variante de la prueba seleccionada), cada vez que el sujeto cambia de dirección. Los participantes deben correr desde la línea de salida (A) hasta el primer cono (B), regresar al cono de de salida e ir hasta el segundo cono (C), volver nuevamente al cono de salida e ir hasta el último cono (D). Una vez que el sujeto alzanza el cono D, este debe realizar un último sprint hasta la línea de salida (A) que ahora representa la línea meta. La prueba se da por finalizada cuando el sujeto cruza la línea de meta (A), pudiendo hacerlo con cualquier parte del cuerpo, momento en que se detendrá el cronómetro y anotaremos la marca alcanzada. Se considerará como nulo y no se contabilizará, todo intento en el que el participante no toque alguna de las líneas del recorrido.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The 60-Yard Shuttle Test is an anaerobic endurance test, in which the subjects run 5, 10 and 15 yards, round trip, for a total of 60 yd. If the test is measured in meters (m) the distances must be 4.5, 9 and 13.5 meters for a total of 54 m. This test is part of the NFL Combine Aptitude Test suite and has also been one of the U.S. Army's aptitude tests.",
+        "instruction_english": "The 60-Yard Shuttle Test is an anaerobic endurance test, in which the subjects run 5, 10 and 15 yards, round trip, for a total of 60 yd. If the test is measured in meters (m) the distances must be 4.5, 9 and 13.5 meters for a total of 54 m. This test is part of the NFL Combine Aptitude Test suite and has also been one of the U.S. Army's aptitude tests.",
+        "material_english": "A flat non-slip surface, 8 cones to delimit the circuit course, a tape measure and a stopwatch. If the subjects' heart rate (HR) must be measured, a heart rate monitor will be needed.",
+        "procedure_english": "In this test the subjects must run the course in the shortest time possible, touching the lines with their hand or foot (depending on the variant selected), each time the subject changes direction. They must run from the starting line (A) to the first cone (B), return to the starting line and run to the second cone (C), return to the starting line again and run to the last cone (D). Once the subject reaches cone D, he/she must make a final sprint to the start line (A) which now represents the finish line. The test is finished when the subject crosses the finish line (A) with any part of the body. At that point the stopwatch will be stopped and the time elapsed will be recorded. Any attempt in which the participant does not touch any of the lines of the course will be considered null and will not be counted.",
+        "evaluation_english": "Measured in seconds (s). The subject have a maximum of 3 attempts. ",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [          
+            {
+                "question_code": "variant_test",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "hand",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "foot",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {      
+                "question_code": "seg_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {   
+                "question_code": "seg_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {   
+                "question_code": "seg_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_observations",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },  
+    {
+        "code": "running_endurance",
+        "name_spanish": "Resistencia de carrera",
+        "name_english": "Running endurance",
+        "description_spanish": "El objetivo principal de las pruebas de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto.",
+        "instruction_spanish": "El objetivo principal de las pruebas de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto.",
+        "material_spanish": "Una pista de atletismo estándar cuyo recorrido completo es de 400 metros, pudiendo también hacerse en otro tipo de terreno siempre y cuando la medición de la distancia del test sea precisa. Será necesario disponer de un sistema de cronometraje deportivo ultra preciso si queremos disponer de registro fiable, aunque también podremos utilizar un cronómetro estándar si la ocasión no requiere de alta precisión. También podemos llegar a necesitar de tacos de salida si optamos por realizar la salida baja. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "El test consiste en que recorrer la distancia establecida en el menor tiempo posible. Aspectos como el tipo de salida (baja o alta), el tipo de carrera o las condiciones climáticas serán factores a tener en cuenta a la hora de analizar los registros.",
+        "evaluation_spanish": "Se mide en minutos (min) y segundos (sg) y el sujeto dispone de un solo intento.",
+        "description_english": "The main goal of cardiorespiratory endurance tests is to evaluate the subject's aerobic capacity.",
+        "instruction_english": "The main goal of cardiorespiratory endurance tests is to evaluate the subject's aerobic capacity.",
+        "material_english": "A standard quarter-mile track. Other types of terrain can be used as long as the distance measurements are accurate. A high precission sports timing system will be necessary to get a reliable record, although a standard stopwatch can be used if not too high precision timing is admissible. If a four-point sprint start is decided, sarting blocks will be needed as well.  If the subjects' heart rate (HR) must be measured, a heart rate monitor will be needed.",
+        "procedure_english": "The subject must cover the established distance in the shortest possible time. Some factors such as the type of start (four-point or standing), the type of race or the weather conditions must be taken into account when analyzing the records.",
+        "evaluation_english": "Measured in minutes (min) and seconds (s). The subject will have only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [          
+            {      
+                "question_code": "test_distance",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {  
+                "question_code": "run_type",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "indoor_track",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "outdoor_track",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "start_type",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "Four_point_start",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "standing_start",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {          
+                "question_code": "min_mark_reached",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_observations",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "swimming_endurance",
+        "name_spanish": "Resistencia de natación",
+        "name_english": "Swimming endurance",
+        "description_spanish": "El objetivo principal de esta prueba de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto.",
+        "instruction_spanish": "El objetivo principal de esta prueba de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto.",
+        "material_spanish": "Una piscina olímpica o de competición cuya dimensión estándar son 50 metros de largo y 25 metros de ancho. Será necesario disponer de un sistema de cronometraje deportivo ultra preciso si queremos disponer de regsitro fiable, aunque también podremos utilizar un cronómetro estándar si la ocasión no requiere de alta precisión. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "El test consiste en que recorrer la distancia establecida en el menor tiempo posible. Aspectos como el tipo de salida (baja o alta), el tipo de carrera o las condiciones climáticas serán factores a tener en cuenta a la hora de analizar los registros.",
+        "evaluation_spanish": "Se mide en minutos (min) y segundos (sg) y el sujeto dispone de un solo intento.",
+        "description_english": "The main goal of this cardiorespiratory endurance test is to evaluate the subject's aerobic capacity.",
+        "instruction_english": "The main goal of this cardiorespiratory endurance test is to evaluate the subject's aerobic capacity.",
+        "material_english": "An Olympic-size swimming pool whose standard dimensions are 50 meters long and 25 meters wide. A high precission sports timing system will be necessary to get a reliable record, although a standard stopwatch can be used if not too high precision timing is admissible.  If the subjects' heart rate (HR) must be measured, a heart rate monitor will be needed.",
+        "procedure_english": "The subject must swim the established distance in the shortest possible time. Aspects such as the type of start (low or high), the type of race or the weather conditions will be factors to be taken into account when analyzing the records.",
+        "evaluation_english": "Measured in minutes (min) and seconds (s). The subject will have only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [          
+            {      
+                "question_code": "test_distance",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {  
+                "question_code": "style",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "freestyle",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "backstroke",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "breaststroke",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "butterfly",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "environment",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "indoor_pool",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "outdoor_pool",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "open_water",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {          
+                "question_code": "min_mark_reached",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_observations",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "burpees",
+        "name_spanish": "Burpees",
+        "name_english": "Burpees",
+        "description_spanish": "El test de Burpee es un de los ejercicios cardiovasculares más duros que existen dentro del mundo del fitness. Así se puede medir tu resistencia anaeróbica láctica, es decir, cuánto tardas en llegar a tu umbral de fatiga, por déficit de oxígeno y acumulación de lactato.  El objetivo principal de esta prueba de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto. ",
+        "instruction_spanish": "El test de Burpee es un de los ejercicios cardiovasculares más duros que existen dentro del mundo del fitness. Así se puede medir tu resistencia anaeróbica láctica, es decir, cuánto tardas en llegar a tu umbral de fatiga, por déficit de oxígeno y acumulación de lactato.  El objetivo principal de esta prueba de resistencia cardiorrespiratoria consiste en evaluar la capacidad aeróbica del sujeto. ",
+        "material_spanish": "Se necesita de una superficie plana y de un cronómetro. También se puede llegar a utilizar una colchoneta rígida para evitar hacer la prueba directamente en el suelo.",
+        "procedure_spanish": "El test de Burpee consiste en calcular el número “burpees” que un sujeto es capaz de realizar en un determinado tiempo (previamente establecido) o hasta que este no pueda más.",
+        "evaluation_spanish": "Se registran el número total de burpees bien ejecutadas, descartando aquellas que se consideren nulas debido a una mala ejecución y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The Burpee test is one of the hardest cardiovascular exercises in the world of fitness. It is used to measure the subject's lactic anaerobic endurance, i.e. how long his/her body takes to reach the fatigue threshold due to oxygen deficiency and lactate accumulation.  The main goal of this cardiorespiratory endurance test is to assess the aerobic capacity of the subject. ",
+        "instruction_english": "The Burpee test is one of the hardest cardiovascular exercises in the world of fitness. It is used to measure the subject's lactic anaerobic endurance, i.e. how long his/her body takes to reach the fatigue threshold due to oxygen deficiency and lactate accumulation.  The main goal of this cardiorespiratory endurance test is to assess the aerobic capacity of the subject. ",
+        "material_english": "A flat surface and a stopwatch. A rigid mat can also be used to avoid testing directly on the floor.",
+        "procedure_english": "This test counts the number of burpees that a subject is able to perform in a certain time (previously established) or until he/she can no longer do them. The burpee is a classic crossfit exercise that must be performed as follows: A) The subject begins standing, with legs slightly apart and arms alongside the body. B) Next, the subject should bend the knees to a squat position and rest his/her hands on the floor. Then, he/she should extend and open the arms to shoulder width while stretching the legs to a plank position and perform a push-up. C) The subject then bends his/her legs again, stands up and jumps vigorously upwards with outstretched arms to end in the starting position (A).",
+        "evaluation_english": "he total number of well-executed burpees is recorded, discarding those considered null due to poor execution. The subject has a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [          
+            {
+                "question_code": "006_time",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "text_response",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {      
+                "question_code": "num_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {   
+                "question_code": "num_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {   
+                "question_code": "num_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observations",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                 "value": 0,
+                "field_type": "number",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                 "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    }
+]

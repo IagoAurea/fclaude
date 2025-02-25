@@ -1,0 +1,13 @@
+{
+    "name": "SchoolCenter",
+    "alias": "schoolcenter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SchoolCenter\\Providers\\SchoolCenterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

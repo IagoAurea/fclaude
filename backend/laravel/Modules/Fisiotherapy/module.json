@@ -1,0 +1,13 @@
+{
+    "name": "Fisiotherapy",
+    "alias": "fisiotherapy",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Fisiotherapy\\Providers\\FisiotherapyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

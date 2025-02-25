@@ -1,0 +1,10 @@
+.env
+.idea/
+nohup.out
+scripts/nohup.out
+/docker/minio
+/docker/postgresql/data-postgresql
+/docker/postgresql/data
+/docker/nginx/logs
+/docker/redis/data
+.vscode/

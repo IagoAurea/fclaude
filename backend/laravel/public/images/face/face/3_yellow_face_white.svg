@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="meh"
+   width="86.352"
+   height="86.352"
+   viewBox="0 0 86.352 86.352"
+   version="1.1"
+   sodipodi:docname="3_yellow_face_white.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2012" />
+  <sodipodi:namedview
+     id="namedview2010"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="9.6928852"
+     inkscape:cx="43.124414"
+     inkscape:cy="43.227583"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="meh" />
+  <g
+     id="Grupo_1821"
+     data-name="Grupo 1821"
+     style="fill:#ffffff">
+    <g
+       id="Grupo_1820"
+       data-name="Grupo 1820"
+       style="fill:#ffffff">
+      <path
+         id="Trazado_1840"
+         data-name="Trazado 1840"
+         d="M43.176,0A43.176,43.176,0,1,0,86.352,43.176,43.225,43.225,0,0,0,43.176,0Zm0,82.6A39.421,39.421,0,1,1,82.6,43.176,39.465,39.465,0,0,1,43.176,82.6Z"
+         fill="#d9f10a"
+         style="fill:#ffffff" />
+      <path
+         id="Trazado_1841"
+         data-name="Trazado 1841"
+         d="M101.632,139.263A5.632,5.632,0,1,0,96,133.632,5.638,5.638,0,0,0,101.632,139.263Zm0-7.509a1.877,1.877,0,1,1-1.877,1.877A1.88,1.88,0,0,1,101.632,131.754Z"
+         transform="translate(-73.474 -97.965)"
+         fill="#d9f10a"
+         style="fill:#ffffff" />
+      <path
+         id="Trazado_1842"
+         data-name="Trazado 1842"
+         d="M229.632,128a5.632,5.632,0,1,0,5.632,5.632A5.639,5.639,0,0,0,229.632,128Zm0,7.509a1.877,1.877,0,1,1,1.877-1.877A1.88,1.88,0,0,1,229.632,135.509Z"
+         transform="translate(-171.438 -97.965)"
+         fill="#d9f10a"
+         style="fill:#ffffff" />
+      <path
+         id="Trazado_1843"
+         data-name="Trazado 1843"
+         d="M135.421,224H97.877a1.877,1.877,0,1,0,0,3.754h37.544a1.877,1.877,0,0,0,0-3.754Z"
+         transform="translate(-73.474 -171.438)"
+         fill="#d9f10a"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+</svg>

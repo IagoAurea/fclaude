@@ -1,0 +1,77 @@
+[
+    {
+        "code": "gastrocnemius_muscle",
+        "name_spanish": "Fuerza muscular gastrocnemio",
+        "name_english": "Gastrocnemio muscular strength",
+        "description_spanish": "Esta prueba sirve para para evaluar el balance muscular del gastrocnemio de forma activa.",
+        "instruction_spanish": "Esta prueba sirve para para evaluar el balance muscular del gastrocnemio de forma activa.",
+        "material_spanish": "Una camilla de fisioterapia y un dinamómetro manual. Con el apoyo de un asistente, se podría utilizar un goniómetro.",
+        "procedure_spanish": "A) Prueba para la exploración de la flexión dorsal: El sujeto se coloca tumbado en posición decúbito supino (boca arriba) y el evaluador realiza una toma a nivel de la rodilla y otra a nivel de la cara dorsal del antepié (Ilustración A). B) Prueba para la exploración de la flexión plantar: El sujeto se coloca tumbado en posición decúbito prono (boca abajo) y el evaluador realiza una toma a nivel de la rodilla y otra a nivel de la cara plantar del tobillo a valorar (Ilustración B). En ambas pruebas, el sujeto debe realizar la máxima fuerza que pueda desarrollar. Se deben valorar ambos lados.",
+        "evaluation_spanish": "Se evalua la fuerza muscular desarrollada en tensión isométrica máxima utilizando el dinamómetro y el ángulo articular alcanzado con el goniómetro. La prueba se considera normal o positiva cuando el sujeto alcanza los valores de flexión plantar (30º-50º) y de flexión dorsal (20º-30º). En cambio, la prueba se considera anormal o negativa cuando los resultados obtenidos estan fuera de los rangos anteriores.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "calf",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "017_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

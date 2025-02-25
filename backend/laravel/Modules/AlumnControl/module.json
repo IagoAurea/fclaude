@@ -1,0 +1,13 @@
+{
+    "name": "AlumnControl",
+    "alias": "alumncontrol",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AlumnControl\\Providers\\AlumnControlServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

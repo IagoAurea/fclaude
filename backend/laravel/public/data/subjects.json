@@ -1,0 +1,51 @@
+[{
+        "name_spanish": "Matemática",
+        "name_english": "Math",
+        "code": "math"
+    },
+    {
+        "name_spanish": "Lengua y literatura",
+        "name_english": "Spanish",
+        "code": "spanish"
+    },
+    {
+        "name_spanish": "Inglés",
+        "name_english": "English",
+        "code": "english"
+    },
+    {
+        "name_spanish": "Biología",
+        "name_english": "Biology",
+        "code": "biology"
+    },
+    {
+        "name_spanish": "Historía Universal",
+        "name_english": "Universal History",
+        "code": "universal_history"
+    },
+    {
+        "name_spanish": "Arte",
+        "name_english": "Art",
+        "code": "art"
+    },
+    {
+        "name_spanish": "Geografía",
+        "name_english": "Geography",
+        "code": "geography"
+    },
+    {
+        "name_spanish": "Informática",
+        "name_english": "Informatic",
+        "code": "informatic"
+    },
+    {
+        "name_spanish": "Música",
+        "name_english": "Music Theory",
+        "code": "music_theory"
+    },
+    {
+        "name_spanish": "Educación Física",
+        "name_english": "Physical Education",
+        "code": "physical_education"
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "name": "EffortRecovery",
+    "alias": "effortrecovery",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\EffortRecovery\\Providers\\EffortRecoveryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

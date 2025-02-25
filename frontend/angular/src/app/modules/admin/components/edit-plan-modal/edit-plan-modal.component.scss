@@ -1,0 +1,240 @@
+.table_labels {
+  padding-right: 8px;
+  margin-top: 81px;
+}
+
+.labels {
+  width: 100%;
+  background-color: #d3d3d30a;
+  padding: 5px;
+  border: 1px solid #e6e4e4c2;
+  height: 31px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #050c44;
+  font-size: 13px;
+}
+
+:host ::ng-deep {
+  .specs {
+    padding-top: 130px;
+
+    table {
+      background-color: rgba($color: #050c44, $alpha: 0.02);
+
+      tr {
+        td {
+          font-size: 0.83rem;
+          font-weight: 600;
+          color: #050c44;
+          height: 20px;
+          text-transform: uppercase;
+          line-height: 20px;
+          padding: 15px;
+          border-top: 0;
+          border-bottom: 1px solid rgba($color: #050c44, $alpha: 0.12);
+        }
+      }
+    }
+  }
+  .p-dialog .row:last-child {
+    margin-bottom: 13px;
+  }
+  .suscription_pack {
+    box-shadow: 0px 0px 6px #00000017;
+    border: 1px solid #050c441f;
+    border-radius: 13px;
+
+    table {
+      margin-bottom: 0;
+      border-bottom: 1px solid rgba($color: #050c44, $alpha: 0.12);
+    }
+
+    th {
+      border-top: 0;
+      // background-color: salmon;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      padding: 0px 20px;
+      border-bottom: 1px solid rgba($color: #050c44, $alpha: 0.12);
+
+
+      .suscription_pack_header {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .suscription_pack_caption {
+          font-size: 0.9rem;
+          color: rgba($color: #050c44, $alpha: 0.71);
+          margin-bottom: 10px;
+          font-weight: 600;
+        }
+
+        .suscription_pack_name {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 0.9rem;
+          color: #050c44;
+        }
+      }
+    }
+
+    tr {
+      td {
+        text-align: center;
+        color: #024cac;
+        font-weight: 600;
+        font-size: 0.9rem;
+        height: 10px;
+        line-height: 20px;
+        padding: 5px;
+        border-top: 0;
+        border-bottom: 1px solid rgba($color: #050c44, $alpha: 0.12);
+
+        // Aplica los mismos estilos a los inputs y selects dentro de td
+        input, select {
+          font-size: 0.9rem;
+          font-weight: 600;
+          color: #024cac;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .suscription_pack_footer {
+      padding: 1.5rem;
+
+      h6 {
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        color: #050c44;
+      }
+
+      button {
+        border: 1px solid #024cac;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #024cac;
+        height: 50px;
+      }
+    }
+  }
+  .p-dialog .p-dialog-footer button {
+    margin: 0 0.5rem 0 0;
+    width: 200px;
+    border-radius: 13px;
+    height: 55px;
+  }
+}
+
+.p-button {
+  color: #ffffff;
+  background: #014cac;
+  border: 1px solid #014cac;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+:host ::ng-deep {
+  .editar {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #050c44;
+  }
+}
+::ng-deep .p-dialog {
+  border-radius: 15px !important; /* Ajusta este valor para cambiar cuánto quieres que se redondeen los bordes */
+  overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+.button-container {
+  display: flex; // convierte el contenedor en un contenedor flex
+  justify-content: center; // centra el botón horizontalmente
+  align-items: center; // centra el botón verticalmente
+  padding: 20px; // agrega un margen alrededor del botón
+}
+input {
+  height: 15px; // Ajusta este valor según tus necesidades
+  // Resto del código...
+
+  &:focus {
+    outline: none;
+    border-color: #ccc; // Cambia esto al color que prefieras
+    box-shadow: none;
+  }
+}
+.custom-checkbox {
+  margin-right: 10px; /* Alinea mejor los checkboxes con los números */
+}
+
+.container-fluid {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-label {
+  color: #333;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+  height: 45px;
+    /* Incrementar la altura */
+    padding: 0 15px;
+    /* Espaciado interno */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    border: 1px solid #ccc;
+    /* Borde gris claro */
+    font-size: 14px;
+    /* Tamaño de fuente legible */
+    color: #333;
+    /* Color del texto */
+    background-color: #fff;
+    /* Fondo blanco */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Animaciones suaves */
+    margin-bottom: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+h4 {
+  font-weight: 700;
+  color: #444;
+}
+
+.shadow-sm {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+

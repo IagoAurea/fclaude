@@ -1,0 +1,128 @@
+<p-dialog [(visible)]="visible" [closable]="true" (onHide)="close()" [modal]="true" class="custom_dialog"
+  header="{{'adminUsers.Detalles_plan' | translate}}" id="subscriptiondetail" maskStyleClass="purple_mask">
+
+  <div *ngIf="subpackageData" class="container-fluid py-4">
+    <!-- Título del formulario -->
+    <h4 class="text-center mb-4">{{ 'adminUsers.Editar_Subpackage' | translate }}</h4>
+
+    <!-- Formulario de edición -->
+    <form #subpackageForm="ngForm">
+      <div class="row g-3">
+        <!-- Nombre y descripción en español -->
+        <div class="col-md-6">
+          <label for="name_es" class="form-label fw-bold">{{ 'adminUsers.Nombre_en_español' | translate }}</label>
+          <input type="text" id="name_es" [(ngModel)]="subpackageData.nameEs" name="name_es"
+            class="form-control shadow-sm" placeholder="{{ 'adminUsers.Nombre_en_español' | translate }}" required />
+        </div>
+        <div class="col-md-6">
+          <label for="description_es" class="form-label fw-bold">{{ 'adminUsers.Descripción_en_español' | translate
+            }}</label>
+          <textarea id="description_es" [(ngModel)]="subpackageData.descriptionEs" name="description_es"
+            class="form-control shadow-sm" placeholder="{{ 'adminUsers.Descripción_en_español' | translate }}" rows="3"
+            required style="border-radius: 10px;padding:10px;"></textarea>
+        </div>
+
+        <!-- Nombre y descripción en inglés -->
+        <div class="col-md-6">
+          <label for="name_en" class="form-label fw-bold">{{ 'adminUsers.Nombre_en_inglés' | translate }}</label>
+          <input type="text" id="name_en" [(ngModel)]="subpackageData.nameEn" name="name_en"
+            class="form-control shadow-sm" placeholder="{{ 'adminUsers.Nombre_en_inglés' | translate }}" required />
+        </div>
+        <div class="col-md-6">
+          <label for="description_en" class="form-label fw-bold">{{ 'adminUsers.Descripción_en_inglés' | translate
+            }}</label>
+          <textarea id="description_en" [(ngModel)]="subpackageData.descriptionEn" name="description_en"
+            class="form-control shadow-sm" placeholder="{{ 'adminUsers.Descripción_en_inglés' | translate }}" rows="3"
+            required></textarea>
+        </div>
+
+        <!-- Estado -->
+        <div class="col-md-4">
+          <label for="status" class="form-label fw-bold">{{ 'adminUsers.Estado' | translate }}</label>
+          <select id="status" [(ngModel)]="subpackageData.status" name="status" class="form-select shadow-sm">
+            <option [value]="0">{{ 'adminUsers.Inactivo' | translate }}</option>
+            <option [value]="1">{{ 'adminUsers.Activo' | translate }}</option>
+          </select>
+        </div>
+
+      <!-- Campo para seleccionar imagen -->
+      <div class="col-md-12 form-group">
+        <label>Seleccionar imagen</label>
+        <div (click)="imageInput.click()"
+          style="cursor: pointer; border: 1px dashed #ccc; padding: 10px; text-align: center;">
+          <!-- Muestra la imagen previa o un ícono si no hay imagen -->
+          <img *ngIf="teamImgPrev; else noImageTemplate" [src]="teamImgPrev" alt="Preview"
+            style="width:100%; max-height:200px;" />
+          <ng-template #noImageTemplate>
+            <i *ngIf="!subpackageData.image && !teamImgPrev" class="pi pi-image"></i>
+            <span *ngIf="!teamImgPrev && subpackageData.image">No image available. Click to upload a new one.</span>
+          </ng-template>
+        </div>
+        <!-- Input de tipo file oculto -->
+        <input type="file" accept="image/*" (change)="readURL($event)" hidden #imageInput />
+      </div>
+      </div>
+
+    </form>
+  </div>
+
+  <div *ngIf="subpackageData" class="row" style="margin: 10px">
+    <div class="table_labels">
+      <div *ngFor="let item of subpackageData.attributes" style="display: flex; flex-direction: row;">
+        <div class="labels">{{item.name}}</div>
+      </div>
+    </div>
+
+    <div class="row mx-lg-n2">
+      <div class="suscription_pack">
+        <table class="table text-center">
+          <thead style="height: 80px">
+            <tr>
+              <th class="text-center">{{ 'adminUsers.Detalles' | translate }}</th>
+              <th class="text-center">{{ 'adminUsers.Habilitar_Deshabilitar' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of subpackageData.attributes">
+              <ng-container *ngIf="data && data.pivot">
+                <td class="text-center">
+                  <ng-container
+                    *ngIf="data.name === 'Clubs' || data.name === 'Competición' || data.name === 'Scouting de partidos'">
+                    <input type="checkbox" [(ngModel)]="data.pivot.available" (change)="onToggleAvailable(data)"
+                      class="custom-checkbox align-left">
+                  </ng-container>
+
+
+                  <ng-container
+                    *ngIf="data.pivot.quantity !== undefined && data.name !== 'Clubs' && data.name !== 'Competición' && data.name !== 'Scouting de partidos'">
+                    <input type="number" [(ngModel)]="tempQuantity[data.id]" [disabled]="!data.pivot.available" min="0"
+                      (blur)="validateEmptyField(data.id)" step="1" class="text-center"
+                      style="width: 50px; border: none;">
+                  </ng-container>
+
+                </td>
+
+                <td class="text-center">
+                  <ng-container *ngIf="!data.pivot.quantity">
+                    <input type="checkbox" [(ngModel)]="data.pivot.available" (change)="onToggleAvailable(data)"
+                      class="custom-checkbox align-left">
+                  </ng-container>
+                  <ng-container *ngIf="data.pivot.quantity">
+                    <input type="checkbox" [(ngModel)]="data.pivot.available" (change)="onToggleAvailable(data)"
+                      class="custom-checkbox align-left">
+                  </ng-container>
+                </td>
+              </ng-container>
+            </tr>
+          </tbody>
+        </table>
+        <div class="button-container text-center">
+          <button class="btn btn-primary p-button" (click)="saveData()" [disabled]="hasEmptyFields()">
+            {{ 'adminUsers.Actualizar_plan' | translate }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</p-dialog>

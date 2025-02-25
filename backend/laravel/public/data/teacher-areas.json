@@ -1,0 +1,36 @@
+[{
+        "name_spanish": "Directiva",
+        "name_english": "Directive",
+        "code": "directive"
+    },
+    {
+        "name_spanish": "Económica y administrativa",
+        "name_english": "Administrative and financial",
+        "code": "administrative_and_financial"
+    },
+    {
+        "name_spanish": "Departamento Educación Fisica",
+        "name_english": "Physical Education department",
+        "code": "physical_education_department"
+    },
+    {
+        "name_spanish": "Departamento de Orientación",
+        "name_english": "Orientation department",
+        "code": "orientation_department"
+    },
+    {
+        "name_spanish": "Coordinación / Proyectos",
+        "name_english": "Coordination / Projects",
+        "code": "coordination_projects"
+    },
+    {
+        "name_spanish": "Mantenimiento e instalaciones",
+        "name_english": "Maintenance and facilities",
+        "code": "maintenance_and_facilities"
+    },
+    {
+        "name_spanish": "Otro departamento",
+        "name_english": "Other department",
+        "code": "other_department"
+    }
+]

@@ -1,0 +1,458 @@
+[
+    {
+       "code": "recovery_fisiotherapy",
+       "name_spanish": "Recuperación Funcional",
+       "name_english": "Functional Recovery",
+       "description_spanish":"Valoración sobre la recuperación funcional del jugador",
+       "description_english":"Assessment of the player functional recovery",
+       "value": 100,
+       "test_type_code": "fisiotherapy",
+       "test_sub_type_code": null,
+       "type_valoration_code":"points",
+       "sport_code": null,
+       "configurations": null,
+       "table": null,
+       "associate_questions":[
+              {
+                     "question_code" : "joint_balance",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_3",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_3",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_3",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "muscular_balance",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_3",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 5,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_3",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_3",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "stability_degree",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_3",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_3",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_3",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "body_burden",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_pc",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_pc",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular_pc",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_pc",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_pc",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "pain",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"pain_absence",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"mild",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"moderate",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"intense",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_intense",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "inflammation",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"inflammation_absence",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"mild",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"moderate_2",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"intense_2",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_intense_2",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "edema",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"grade_0",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"grade_1",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"grade_2",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"grade_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"grade_4",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "basic_motor_skills",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_3",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_3",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_3",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "basic_physical_abilities",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad_3",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad_3",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good_3",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good_3",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              },
+              {
+                     "question_code" : "functional_capacity",
+                     "name_spanish":null	,
+                     "name_english":null	,
+                     "question_category_code":null,
+                     "value": 10,
+                     "associate_responses":[
+                            {
+                                   "response_code":"very_bad",
+                                   "value": 2,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"bad",
+                                   "value": 4,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"regular",
+                                   "value": 6,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"good",
+                                   "value": 8,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            },
+                            {
+                                   "response_code":"very_good",
+                                   "value": 10,
+                                   "cal_value":true,
+                                   "is_index":false,
+                                   "laterality":""
+                            }
+                     ]
+              }
+       ]
+    }
+]

@@ -1,0 +1,3077 @@
+[
+    {
+        "code": "weight_control",
+        "name_spanish": "Control de peso",
+        "name_english": "Weight Control",
+        "description_spanish": "El control del peso corporal constituye en la actualidad un aspecto de gran relevancia que debe estar presente en todo momento para evaluar el rendimiento del deportista.",
+        "instruction_spanish": "El control del peso corporal constituye en la actualidad un aspecto de gran relevancia que debe estar presente en todo momento para evaluar el rendimiento del deportista.",
+        "material_spanish": "Se necesita de una báscula de alta precisión.",
+        "procedure_spanish": "La medición es aconsejable realizarla a primera hora de la mañana. Conviene indicar la hora del día y las condiciones del momento, como ingesta de alimentos o entrenamiento previo.",
+        "evaluation_spanish": "Se mide en kilogramos o libras.",
+        "description_english": "Today body weight control is a very important aspect that must always be present in order to evaluate the athlete's performance.",
+        "instruction_english": "Today body weight control is a very important aspect that must always be present in order to evaluate the athlete's performance.",
+        "material_english": "A high precission scale is needed.",
+        "procedure_english": "It is advisable to take the measurement early in the morning, indicating time and body condition at that moment, i.e., food intake or previous training.",
+        "evaluation_english": "Weight measurements in kg or lb.",
+        "value": null,
+        "test_type_code": "anthropometric",
+        "test_sub_type_code": null,
+        "type_valoration_code": "weight",
+        "sport_code": null,
+        "configurations": ["score_positive", "average", "median"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "001_weight",
+                "name_spanish": "Peso",
+                "name_english": "Weight",
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "001_observation",
+                "name_spanish": "Observacion",
+                "name_english": "Observation",
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "001_measuring",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "radio",
+                "configuration_question_index": 0,
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "kilogram",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "pound",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "001_time",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "date",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "body_perimeters",
+        "name_spanish": "Perímetros corporales",
+        "name_english": "BODY CIRCUMFERENCES",
+        "description_spanish": "Los perímetros corporales nos permiten conocer la evolución de la masa muscular, así como tener referencias del sujeto.",
+        "instruction_spanish": "Los perímetros corporales nos permiten conocer la evolución de la masa muscular, así como tener referencias del sujeto.",
+        "material_spanish": "Cinta métrica o cinta antropométrica y esta debe de ser flexible pero no elástica. La precisión debe de ser de 1 milímetro y es recomendable que las unidades de lectura estén en centrímetros exclusivamente.",
+        "procedure_spanish": "El sujeto debe permanecer quieto en la misma posición y la cinta debe pasarse por las zonas que queremos medir pero sin oprimir el tejido. Siempre antes tomaremos suficiente cinta métrica para no tener que estirar de ella una vez colocada y evitar así el desplazamiento. Las mediciones deben hacerse siguiendo un orden, desde arriba hasta abajo tal y como se muestra en la figura.",
+        "evaluation_spanish": "Se mide en centrímetros (cm) y registraremos una única marca aunque siempre es aconsejable realizar varias mediciones para obtener un valor más fiable.",
+        "description_english": "Body circumferences allow to learn about muscle mass evolution as well as having a subject body reference.",
+        "instruction_english": "Body circumferences allow to learn about muscle mass evolution as well as having a subject body reference.",
+        "material_english": "Millimetric precission measuring tape or anthropometric tape. It must be flexible but not elastic. It is advisable that the measurement units to be in centimeters only.",
+        "procedure_english": "The subject must stand still in the same position and the measuring tape must be naturally wrapped around the body parts without any pressure. A good length of tape must be unrolled before wrapping any part of the subject body in order not to stretch nor displace it once it has been placed on the measuring point. Measurements must be taken following a top-down sequence as shown in the picture.",
+        "evaluation_english": "Measurements must be taken in centimeters (cm) only and, although taking a series of measurements is recommendable for reliability reasons, only one will be recorded.",
+        "value": null,
+        "test_type_code": "anthropometric",
+        "test_sub_type_code": null,
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "002_shoulder_circumference",
+                "name_spanish": "Perímetro hombros",
+                "name_english": "Shoulder Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "unit": "cm",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_chest_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro pecho",
+                "name_english": "Chest Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_relaxed_bicep_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro bíceps relajado",
+                "name_english": "Relaxed Bicep Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_contracted_bicep_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro bíceps contraido",
+                "name_english": "Contracted Bicep Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_forearm_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro antebrazo",
+                "name_english": "Forearm Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_wrist_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro muñeca",
+                "name_english": "Wrist Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_abdomen_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro abdomen",
+                "name_english": "Abdomen Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_waist_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro cintura",
+                "name_english": "Waist Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_hips_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro cadera",
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_proximal_thigh_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro muslo proximal",
+                "name_english": "Proximal Thigh Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_medial_thigh_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro muslo medial",
+                "name_english": "Medial Thigh Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_knee_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro rodilla",
+                "name_english": "Knee Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_calf_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro gemelo",
+                "name_english": "Calf Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_ankle_circumference",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "name_spanish": "Perímetro tobillo",
+                "name_english": "Ankle Circumference",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "002_observation",
+                "field_type": "textarea",
+                "is_configuration_question": false,
+                "name_spanish": "Observación",
+                "name_english": "Observation",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "body_diameters",
+        "name_spanish": "Diametros Corporales",
+        "name_english": "Body Diameters",
+        "description_spanish": "Los diámetros corporales expresan la distancia entre 2 puntos anatómicos y nos permiten estimar la masa ósea.",
+        "description_english": "Body circumferences show the distance between two body points and allow to estimate the bone mass.",
+        "instruction_spanish": "Los diámetros corporales expresan la distancia entre 2 puntos anatómicos y nos permiten estimar la masa ósea.",
+        "instruction_english": "Body circumferences show the distance between two body points and allow to estimate the bone mass.",
+        "material_spanish": "Un antropómetro o paquímetro (compás de pequeños diámetros). Para las medidas señaladas sólo se usará el paquímetro, ya que el antropómetro suele usarse para medir segmentos corporales más grandes.",
+        "material_english": "Anthropometer or pachymeter (small diameter caliper). For this set of measurements only the pachymeter will be used, since the anthropometer is intended for measuring larger body segments.",
+        "procedure_spanish": "El sujeto debe permanecer quieto en la misma posición y el evaluador coloca el paquímetro firmemente hasta que este llegue a tocar el segmento óseo. Las mediciones deben hacerse siguiendo un orden, desde arriba hasta abajo tal y como se muestra en la figura.",
+        "procedure_english": "He subject must stand still in the same position and and the tester should put the pachymeter firmly against the skin until it finds the bone segment.  Measurements must be taken following a top-down sequence as shown in the picture.",
+        "evaluation_spanish": "Se mide en centrímetros (cm) y registramos una única marca aunque siempre es aconsejable realizar varias mediciones para obtener un valor más fiable.",
+        "evaluation_english": "Measurements must be taken in centimeters (cm) only and, although taking a series of measurements is recommendable for reliability reasons, only one will be recorded.",      
+        "value": null,
+        "test_type_code": "anthropometric",
+        "test_sub_type_code": null,
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "003_biacromial_diameter",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_chest_diameter",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_biepicondylar_diameter_of_the_humerus",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_biileocrestal_diameter",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_wrist_bistyloid_diameter",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_bicondylar_femur_diameter",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "003_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "ski_folds",
+        "name_spanish": "Pliegues Cutáneos",
+        "name_english": "Skin Folds",
+        "description_spanish": "Este test nos permite medir la cantidad de tejido adiposo subcutáneo del sujeto.",
+        "description_english": "This test allows to measure the amount of subcutaneous fat of the subject.",
+        "instruction_spanish": "Este test nos permite medir la cantidad de tejido adiposo subcutáneo del sujeto.",
+        "instruction_english": "This test allows to measure the amount of subcutaneous fat of the subject.",
+        "material_spanish": "Plicómetro o compás de pliegues cutáneos, también llamado espesímetro. Mide el espesor del tejido adiposo en determinados puntos de la superficie corporal.",
+        "material_english": "Skinfold caliper, also known as fat caliper. It measures the thickness of the adipose tissue on certain points of the body.",
+        "procedure_spanish": "Los pliegues cutáneos se medirán en lado derecho del sujeto. El evaluador deberá coger el pliegue con el dedo índice y pulgar de la mano izquierda y realizará la medición con la mano derecha que es donde tendrá el plicómetro, colocándolo  a 1 centímetro (cm) del punto de pliegue, perpendicular al sentido de este y en su base. Se evitará en todo momento coger el músculo en la toma del pliegue y una buena técnica para comprobarlo, es indicarle al sujeto que realice una contracción voluntaria de los músculos de la zona. Las mediciones deben hacerse siguiendo un orden, desde arriba hasta abajo tal y como se muestra en la ilustración.",
+        "procedure_english": "Skinfold measurements will be taken on the right side of the subject. The tester should hold the skinfold between the index finger and thumb of his/her left hand and take the measurement holding the skinfold caliper with his/her right hand, placing it 1 centimeter from the fold point, perpendicular to the direction of the fold and to its base. The tester should avoid grasping the muscle when doing the skinfold, and a good way to assure this is asking the subject to make a voluntary contraction of the muscles in the area. Measurements must be taken following a top-down sequence as shown in the picture.",
+        "evaluation_spanish": "La medición se hará en milímetros (mm).  Registraremos una única marca aunque siempre es aconsejable realizar varias mediciones para obtener un valor más fiable, pudiendo descartar las claramente erróneas. Las repeticiones no se harán pliegue a pliegue, sino cuando acabemos de medir todos los pliegues, para así evitar comprimir la zona.",
+        "evaluation_english": "Measurement will be taken in millimeters (mm). Only one measurement will be recorded, although it is advisable to take several for reliability reasons, and discard those clearly wrong. Repetitions should not be done immediately in the same point, but after completing the whole sequence, to avoid compressing subcutaneous fat.",
+        "value": null,
+        "test_type_code": "anthropometric",
+        "test_sub_type_code": null,
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "004_pectoral_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_bicipital_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_abdominal_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_suprailiac_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_thigh_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_subscapularis_pc",
+                "name_spanish": "PC subescapular",
+                "name_english": "Subscapularis PC",
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_tricipital_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_axillary_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_calf_pc",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "004_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "mm",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "strength",
+        "name_spanish": "Lanzamiento del balón medicinal",
+        "name_english": "Medicine ball throw",
+        "description_spanish": "La aplicación del test de lanzamiento de balón medicinal se utiliza para valorar la potencia muscular del tren superior.",
+        "description_english": "The medicine ball throw test is used to assess the upper body muscular power.",
+        "instruction_spanish": "La aplicación del test de lanzamiento de balón medicinal se utiliza para valorar la potencia muscular del tren superior.",
+        "instruction_english": "The medicine ball throw test is used to assess the upper body muscular power.",
+        "material_spanish": "Una cinta métrica, marcas para indicar la línea de lanzamiento y un balón medicinal, cuyo peso varía en función de la edad, el sexo y el nivel del sujeto.",
+        "material_english": "A measuring tape, throw line markers and a medicine ball, whose weight varies according to the subject's age, gender and strength level.",
+        "procedure_spanish": "Antes de la realización del test el sujeto debe colocarse en la posición inicial: de pie, detrás de la línea de lanzamiento, con las piernas separadas y sujetando el balón con ambas manos por encima y por detrás de la cabeza (ver ilustración). La prueba consiste en lanzar el balón hacia adelante con la mayor fuerza posible y sin impulso previo, de forma que el balón caiga dentro de la zona de lanzamiento. En ningún caso podrán separarse totalmente los pies del suelo ni sobrepasar la línea de lanzamiento, de hacerlo el intento será considerado nulo.",
+        "procedure_english": "Before performing the test, the subject should be in the starting position: standing behind the throw line, legs apart and holding the ball with both hands above and behind the head (see illustration). The test consists of throwing the medicine ball forward with as much force as possible and without taking impulse, so that it falls inside the landing zone. The subject must not lift his/her feet completely from the ground nor step over beyond the throw line, otherwise the attempt will be considered null and void.",
+        "evaluation_spanish": "Se mide la longitud del lanzamiento en metros (m) y centímetros (cm), desde la línea de lanzamiento hasta el punto de impacto del balón en el suelo y el sujeto dispone de un máximo de 3 intentos. (En fisicalcoach) Podrás obtener la mejor marca, así como la media o la mediana.",
+        "evaluation_english": "The subject will have a maximum of 3 throw attempts. The length of the throw is measured in meters (m) and centimeters (cm), from the throw line to the point where the ball landed on the ground.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "005_metric_system",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "radio",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "kilogram",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "pound",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "005_medicine_ball_weight",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "unit": "m",
+                "is_configuration_question": false,
+                "required": true,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "unit": "m",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "unit": "m",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "pushups_test",
+        "name_spanish": "Test de Flexiones",
+        "name_english": "Push-ups test",
+        "description_spanish": "Las flexiones son uno de los ejercicios de fuerza más famosos y completos del mundo del fitness ya que nos permite trabajar varios grupos musculares de una forma práctica, sencilla y sin requerir de un equipamiento específico. Antes de la realización de la prueba se deberá determinar la duración de la misma pudiendo esta variar en función del nivel del sujeto.",
+        "description_english": "Push-ups are one of the most famous and complete strength exercises in the fitness world since they allow us to work several muscle groups in a practical and simple way, without requiring specific equipment. Before starting, the test duration should be determined, which may vary according to the subject's strength level.",
+        "instruction_spanish": "Las flexiones son uno de los ejercicios de fuerza más famosos y completos del mundo del fitness ya que nos permite trabajar varios grupos musculares de una forma práctica, sencilla y sin requerir de un equipamiento específico. Antes de la realización de la prueba se deberá determinar la duración de la misma pudiendo esta variar en función del nivel del sujeto.",
+        "instruction_english": "Push-ups are one of the most famous and complete strength exercises in the fitness world since they allow us to work several muscle groups in a practical and simple way, without requiring specific equipment. Before starting, the test duration should be determined, which may vary according to the subject's strength level.",
+        "material_spanish": "Una superficie plana y un cronómetro.",
+        "material_english": "A flat surface and a stopwatch.",
+        "procedure_spanish": "El test comienza con el sujeto acostado boca abajo en el suelo con las manos separadas a la anchura de los hombros y extendidas completamente (A). A la señal de inicio, el sujeto debe bajar el cuerpo hasta que los codos alcancen un ángulo 90 grados (B) y volver a la posición inicial con los brazos toralmente extendidos (A), completando así una flexión. La prueba consiste en intentar completar el mayor número de flexiones en el tiempo prestablecido.",
+        "procedure_english": "The test begins with the subject lying face down on the floor with hands shoulder-width apart and arms fully extended (A). At the start signal, the subject must lower the body until elbows reach a 90 degree angle (B) and return to the starting position with arms fully extended (A), this will be counted as one push-up. The test consists of trying to perform the highest number of push-ups in the preset time.",
+        "evaluation_spanish": "Se contabiliza el número de flexiones bien ejecutadas, descartando aquellas que se consideren nulas debido a una mala ejecución técnica. El sujeto dispone de un máximo de 3 intentos. En fisicalcoach podrás obtener la mejor marca, así como, la media si se realizan 2 intentos o la mediana si se hacen 3.",
+        "evaluation_english": "The number of well executed push-ups will be counted, discarding those considered void due to poor technical execution. The subject will have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "006_time",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "Segundos(sg)",
+                "field_type": "number",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "Num_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "required": true,
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "Num_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "Num_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "Observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_suspension_in_bar",
+        "name_spanish": "Suspensíon Isométrica en barra",
+        "name_english": "Chin-up isometric Hold",
+        "description_spanish": "El test de suspensión isométrica en barra es bastante complicado y exigente. No solo te hace enfrentarte a una experiencia mentalmente muy dura sino que se trata de desafío muy poco habitual donde la contracción muscular es de tipo isométrica y máxima.",
+        "instruction_spanish": "El test de suspensión isométrica en barra es bastante complicado y exigente. No solo te hace enfrentarte a una experiencia mentalmente muy dura sino que se trata de desafío muy poco habitual donde la contracción muscular es de tipo isométrica y máxima.",
+        "material_spanish": "Una barra fija y un cronómetro. Se aconseja el uso de un cajón para facilitar la suspensión del sujeto.",
+        "procedure_spanish": "La prueba consiste en mantener el mayor tiempo posible la posición reflejada en las ilustraciones, brazos flexionados y barbilla situada por encima de la barra evitando su contacto . El test finalizará cuando la barbilla del sujeto toque la barra o se sitúe por debajo de ella. En cuanto a los tipos de agarre que podrán utilizarse tenemos el agarre prono-abierto, el agarre supino-cerrado, el agarre neutro-cerrado y el agarre alterno o mixto. Con respecto a la colocación de las piernas, estas deberán estar completamente extendidas en todo momento, aunque en ocasiones existen pruebas en las que se permiten tenerlas flexionadas. Tanto el tipo de agarre como la posición de las manos y de las piernas deberán fijarse antes de la realización del test.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispondrá de un solo intento.",
+        "description_english": "The isometric hold test is quite complicated and demanding. Not only does it make you face a mentally tough experience, but it is also a very unusual challenge where the isometric muscle contraction is maximum.  Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "instruction_english": "The isometric hold test is quite complicated and demanding. Not only does it make you face a mentally tough experience, but it is also a very unusual challenge where the isometric muscle contraction is maximum.  Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "material_english": "A pull-up bar and a stopwatch. Using a plyo box to help the subject's suspension is recommended.",
+        "procedure_english": "The subject must cling and maintain as long as possible suspended on the bar, as shown in the illustrations, arms bent and chin placed above the bar level without touching it. The test will end when the subject's chin touches the bar or gets below it. ",
+        "evaluation_english": "Measured in seconds (s). The subject has only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_positive"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "007_time",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "unit": "Segundos(sg)",
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "textarea",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_grip_type",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "007_overhand_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_supine_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_neutral_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_alternate_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "007_hand_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "007_hands_apart",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_hands_together",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_crossed_hands",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "007_leg_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "007_legs_extended",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_flexed_legs",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "code": "pullup_test",
+        "name_spanish": "Test de dominadas",
+        "name_english": "Pull-ups test",
+        "description_spanish": "Con la realización de esta prueba podremos medir la fuerza-resistencia del grupo flexor de los brazos, así como de todos los músculos que integran la cintura escapular.",
+        "instruction_spanish": "Con la realización de esta prueba podremos medir la fuerza-resistencia del grupo flexor de los brazos, así como de todos los músculos que integran la cintura escapular.",
+        "material_spanish": "Una barra fija y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en realizar el mayor número de dominadas en un tiempo preestablecido, el cual deberá fijarse previamente. Cada dominada debe partir de la posición inicial, con los brazos totalmente extendidos y la barbilla debe superar claramente la barra en todo momento, a una altura del tercio inferior del cuello aproximadamente. Durante la realización del test el cuerpo deberá estar totalmente extendido y no se permitirá ningun tipo de balanceos ni movimientos de impulso con el cuerpo. Está totalmente prohibido extender la cabeza hacia atrás y el sujero deberá hacer una breve pausa entre cada repetición para evitar el ciclo estiramiento-acortamiento. El sujeto no podrá soltar ninguna de las manos de la barra durante el test ni permanecer más de 5 segundos suspendido entre cada repetición. En cuanto a los tipos de agarre que podrán utilizarse tenemos el agarre prono-abierto, el agarre supino-cerrado, el agarre neutro-cerrado y el agarre alterno o mixto. Con respecto a la colocación de las piernas, estas deberán estar completamente extendidas en todo momento, aunque en ocasiones existen pruebas en las que se permiten tenerlas flexionadas. Tanto el tiempo de la prueba como el tipo de agarre, la posición de las manos y de las piernas deberán fijarse previamente.",
+        "evaluation_spanish": "Se registra el número de dominadas que el sujeto es capaz de realizar en el tiempo establecido, descartando y considerando nulas todas aquellas dominadas que no se ejecuten correctamente. El sujeto dispone de un solo intento.",
+        "description_english": "With this test the strength-endurance of the upper arms group, as well as all the shoulder girdle muscles can be measured.",
+        "instruction_english": "With this test the strength-endurance of the upper arms group, as well as all the shoulder girdle muscles can be measured.",
+        "material_english": "A pull-up bar and a stopwatch. Using a plyo box to help the subject's suspension is recommended.",
+        "procedure_english": "The subject must perform the highest number of pull-ups in a pre-established time, which must be set in advance. Each pull-up should start from the starting position, with the arms fully extended. The chin must be clearly above the bar level in each movement, so the subject must pull him/herself until the lower third of the neck approaches the bar. During the test the body must be fully extended and no swinging or thrusting movements are allowed. It is strictly forbidden to extend the head backwards and the subject must pause briefly between each repetition to avoid the stretch-shortening cycle. The subject should not release either hand from the bar during the test nor remain suspended for more than 5 seconds between repetitions.",
+        "evaluation_english": "The number of pull-ups that the subject is capable to perform in the established time is recorded. All those pull-ups that are not performed correctly are considered null and discarded. The subject has only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "008_test",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "008_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "textarea",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "008_duration",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "unit":"Segundos(sg)",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_grip_type",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "007_overhand_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_supine_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_neutral_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_alternate_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "008_hand_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "008_hands_apart",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_hands_together",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_crossed_hands",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "008_leg_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "008_legs_extended",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_flexed_legs",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "code": "glute_bridge",
+        "name_spanish": "Puente de Glúteos",
+        "name_english": "Glute bridge",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Mediante la realización de este test podremos evaluar el grado de estabilidad de la pelvis, así como el funcionamiento de los músculos de la región glútea.",
+        "material_spanish": "Una superficie plana, un cronómetro y material inestable (variantes 2 y 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "El sujeto se tumba boca arriba con las rodillas flexionadas, la cadera apoyada y los pies planos en el suelo. A la señal del evaluardor (comienzo de la medición del test), el evaluado deberá levantar la pelvis del suelo tal y como se muestra en las ilustraciones y manteniendo en todo momento los pies planos en el suelo. Esta prueba podemos realizarla de dos formas: Una primera para medir cuanto es capaz de aguantar el sujeto en esa posición mediante una contracción isométrica máxima y una segunda para analizar el comportamiento de los músculos glúteos para la cual debemos fijar un tiempo determinado. En este caso, si la pelvis baja del lado derecho o la pierna izquierda está temblando, se determina una inestabilidad del glúteo izquierdo. Si los isquiotibiales o la parte inferior de la espalda comienza a contraerse, esto indica que el glúteo izquierdo no está actuando correctamente y que otros músculos actuan de forma sinergista haciendo su trabajo.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispondrá de un solo intento. En las variantes 3 y 4 se repetirá el mismo protocolo con cada una de las piernas. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "009_glute_bridge",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_left_leg_extension",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_right_leg_extension",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_left_leg_extension_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_right_leg_extension_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "plank_test",
+        "name_spanish": "Plancha Isométrica",
+        "name_english": "Plank test",
+        "description_spanish": "Un Core fuerte y estable es la base para todo movimiento, en cambio un Core débil significará un riesgo para las estructuras pasivas de la columna, donde disco vertebral puede verse muy comprometido ante ejercicios de alto impacto.",
+        "description_english": "",
+        "instruction_spanish": "Mediante la realización de este test podemos evaluar el grado de estabilidad lumbo-pélvica (Core).",
+        "material_spanish": "Se necesita de una superficie plana, un cronómetro y material inestable (variantes 2 y 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "Para la preparación del test, el sujeto debe situarse en posición de plancha prono con los antebrazos apoyados en el suelo, las piernas extendidas alineadas con la columna y la cadera en posición neutra. Los brazos forman un ángulo de 90º en la articulación del codo. El test valora el tiempo que el sujeto es capaz de mantenerse en posición estable y sin compensaciones. La prueba finaliza cuando la cadera desciende o esta en anteversión, acentuándose la curva lumbar (hiperlordosis). Como puede verse en la ilustración A, tenemos 4 variantes para la realización de este test en las que vamos aumentando progresivamente el nivel de dificultad. 1) Plancha isométrica 2) Plancha isométrica sobre superficie inestable 3) Plancha isométrica con extensión de pierna 4) Plancha isométrica con extensión de pierna sobre superficie inestable.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un solo intento. En las variantes 3 y 4 se repetirá el mismo protocolo con cada una de las piernas. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "010_isometric_plank",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_left_leg_extension",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_right_leg_extension",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_left_leg_extension_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_right_leg_extension_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "side_plank_test",
+        "name_spanish": "Plancha Isométrica Lateral",
+        "name_english": "Side Plank test",
+        "description_spanish": "Un Core fuerte y estable es la base para todo movimiento, en cambio un Core débil significará un riesgo para las estructuras pasivas de la columna, donde disco vertebral puede verse muy comprometido ante ejercicios de alto impacto.",
+        "description_english": "",
+        "instruction_spanish": "Mediante la realización de este test podremos valorar la capacidad de resistencia en su función estabilizadora de la musculatura del Core lateral. Existe una correlación entre la resistencia en esta prueba y la fuerza de la rotación externa de la cadera y la incidencia de lesiones. Esta prueba genera aproximadamente el 50% de la máxima activación del cuadrado lumbar.",
+        "material_spanish": "Una superficie plana, un cronómetro y material inestable (variante 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "Para la preparación del test, el sujeto debe situarse en posición de plancha lateral con el antebrazo apoyado en el suelo, quedando el codo alineado verticalmente con el hombro y las piernas totalmente extendidas apoyando un pie sobre el suelo. Los brazos forman un ángulo de 90º en la articulación del codo. El test valora el tiempo que el sujeto es capaz de mantenerse en posición estable y sin compensaciones. La prueba finaliza cuando la cadera desciende o el evaluado pierda el equilibrio. Como puede verse en la ilustración A, tenemos 4 variantes para la realización de este test en las que vamos aumentando progresivamente el nivel de dificultad. 1) Plancha isométrica lateral 2) Plancha isométrica lateral con elevación de pierna 3) Plancha isométrica lateral con elevación de pierna y brazo 4) Plancha isométrica lateral con elevación de pierna y brazo sobre superficie inestable.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un solo intento. No hay que olvidar hacer el test por ambos lados. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "011_isometric_side_plank",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_raise",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_and_arm_raise",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_and_arm_raise_on_unstable_surface",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "rope_climb",
+        "name_spanish": "Trepa de cuerda",
+        "name_english": "Rope climb",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Este test nos sirve para medir y valorar la fuerza explosiva (potencia anaeróbica aláctica) de la musculatura flexora de los brazos, dorsales y hombros. La trepa de cuerda es la prueba reina de las pruebas físicas que se deben superar para poder entrar a formar parte del cuerpo de bomberos en muchos lugares del mundo. Se trata de una prueba que requiere de fuerza, coordinación y técnica, si uno de los eslabones falla será muy difícil obtener una buen registro.",
+        "material_spanish": "Una cuerda, una campana y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en trepar por una cuerda lisa mediante la acción de los miembros superiores del cuerpo, sin apoyo de piernas, partiendo desde la posición de sentado como puede verse en la ilustración. A la señal del juez, el participante inicia la trepa a tocar con la mano la campana situada a la altura fijada o bien sobrepasar una línea marcada en la propia cuerda. Desde el inicio hasta el final del test el participante no podrá utilizar la acción de piernas y pies para ayudarse en la ejecución de la prueba considerándose nula la prueba en tal caso.",
+        "evaluation_spanish": "Se mide en segundos y el sujeto dispone de un máximo de 3 intentos. En fisicalcoach podrás obtener la mejor marca, así como, la media si se realizan 2 intentos o la mediana si se hacen 3",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "012_rope_height",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "012_5_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_5_5_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_6_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_6_5_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_7_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_7_5_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_8_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_8_5_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_9_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_9_5_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_10_0_meters",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "012_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_wall_squat",
+        "name_spanish": "Sentadilla isometrica de la pared",
+        "name_english": "Isometric wall squat",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+        "material_spanish": "Pared lisa, superficie antideslizante para evitar resbalones y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en mantener la posición de sentadilla isométrica sin separar la espalda de la pared durante el mayor tiempo posible. Los pies deben estar separados a unos 2 pies de la pared, colocados a la anchura de los hombros y los brazos extendidos a ambos lados, aunque en ocasiones se permite tener los brazos extendidos al frente. Durante la realización de la prueba es importante que el sujeto en todo momento tenga activado el Core, así como evitar colocar las manos sobre las piernas para no encorvar la columna. Las piernas paralelas al suelo, formando un ángulo de 90º y las rodillas sobre los tobillos (ver ilustración). La prueba se puede realizar con zapatillas o bien descalzos para evitar el deslizamiento.",
+        "evaluation_spanish": "Se mide en segundos y el sujeto dispone de un máximo de 3 intentos. En fisicalcoach podrás obtener la mejor marca, así como, la media si se realizan 2 intentos o la mediana si se hacen 3.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "013_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_wall_squat_with_one_leg",
+        "name_spanish": "Sentadilla isometrica de la pared con una pierna",
+        "name_english": "Isometric wall squat with one leg",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+        "material_spanish": "Pared lisa, superficie antideslizante para evitar resbalones y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en mantener la posición de sentadilla isométrica con una pierna sin separar la espalda de la pared durante el mayor tiempo posible. Un pie separado a unos 2 pies de la pared a la anchura del hombro correspondiente, formando un ángulo de 90º y las rodillas sobre los tobillos. La otra pierna se colocará totalmente extendida como puede verse en la ilustración. Los brazos extendidos a ambos lados, aunque en ocasiones se permite tener los brazos extendidos al frente. Durante la realización de la prueba es importante que el sujeto en todo momento tenga activado el Core, así como evitar colocar las manos sobre las piernas para no encorvar la columna. La prueba se puede realizar con zapatillas o bien descalzos para evitar el deslizamiento.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos. En fisicalcoach podrás obtener la mejor marca, así como, la media si se realizan 2 intentos o la mediana si se hacen 3.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "014_test_1_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_test_2_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_test_3_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_test_1_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_test_2_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_test_3_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "014_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "forceframe",
+        "name_spanish": "Test Forceframe",
+        "name_english": "Forceframe test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "El ForceFrame es un sistema portátil patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio muscular, así como prescribir y realizar entrenamiento isométrico de una forma rápida y versátil. El ForceFrame se puede ajustar fácilmente para medir la fuerza isométrica en la parte superior e inferior del cuerpo, incluidos los grupos musculares de la cadera, la rodilla, el hombro, el tobillo y el cuello, así como pruebas personalizadas si se quiere ser creativo.",
+        "material_spanish": "Aparato ForceFrame y un ordenador o tablet para visualizar los datos en tiempo real.",
+        "procedure_spanish": "En sujeto se coloca correctamente en la máquina ForceFrame y ejecuta el ejercicio a monitorizar aplicando una buena técnica.",
+        "evaluation_spanish": "Gracias al software del producto podremos evaluar la fuerza y el desequilibrio muscular en newtons (N) para la pierna izquierda y derecha. Obtendremos valores de la fuerza máxima para cada repetición, así como de la fuerza promedio de todas las repeticiones",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "015_exercise_to_evaluate_in_the_test",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_1_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_2_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_3_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_1_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_2_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_3_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "nordbord",
+        "name_spanish": "Test Nordbord (ISQUIOTIBIALES)",
+        "name_english": "Nordbord test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "El NordBord es un sistema patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio de los isquiotibiales en una variedad de posiciones y ejercicios de una forma rápida, fácil, precisa y confiable.",
+        "material_spanish": "Aparato NordBord y un ordenador o tablet para visualizar los datos en tiempo real.",
+        "procedure_spanish": "En sujeto se coloca correctamente en la máquina NordBord y ejecuta el ejercicio a monitorizar aplicando una buena técnica.",
+        "evaluation_spanish": "Gracias al software del producto podremos evaluar la fuerza de los isquiotibiales en newtons (N) para la pierna izquierda y derecha. Obtendremos valores de la fuerza máxima para cada repetición, así como de la fuerza promedio de todas las repeticiones",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "016_exercise_to_evaluate_in_the_test",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_1_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_2_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_3_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_1_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_2_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_3_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "single_pod_deep_squad",
+        "name_spanish": "Sentadilla profunda monopodal",
+        "name_english": "Single pod deep squad",
+        "description_spanish": "Este test funcional es utilizado como test de control dentro del proceso de RDF de lesiones para conocer la progresión de la recuperación del sujeto, especialmente en lesiones de rodilla de ligamentos cruzados, así como también del síndrome fémoro-patelar. Se ha observado que se manifiesta un incremento de la addcuión de cadera y valgo de rodilla debido a una debilidad muscular de cuádriceps y glúteos.",
+        "description_english": "",
+        "instruction_spanish": "El test de sentadilla profunda monopodal (a una sola pierna), o también conocido como Single Leg Squat, es una prueba funcional de uso común en el mundo del deporte y del alto rendimiento cuyo objetivo es medir la fuerza del tren inferior del sujeto, especialmente la del cuádriceps, músculos isquiotibilales, glúteos y los estabilizadores de cadera. En ocasiones, esta prueba también recibe el nombre de Sentadilla Pistola o Pistol Squat Test debido a la posición que adopta el sujeto durante la realiazación de la prueba.",
+        "material_spanish": "Superficie antideslizante para evitar resbalones.",
+        "procedure_spanish": "La prueba comienza con el sujeto en posición de pie con con los brazos completamente extendidos hacia delante y las manos juntas (A), tal y como puede observarse en la ilustración. A continuación, el participante deberá colocar el peso sobre la pierna que deseamos evaluar, mientras despega del suelo la otra pierna, flexionando ligeramente la cadera y manteniendo la rodilla en extensión (B). Desde esa posición, el sujeto deberá ponersede cuclillas, flexionando la rodilla al máximo (sentadilla profunda), sin despegar el talón del suelo y sin modificar la posición de los brazos (C). Seguidamente el sujeto deberá volver a la posición inicial (A), realizando una extensión de cadera (D), completando así la primera repetición de las 5 que tendrá que realizar. Los brazos deberán formar un ángulo de 90º respecto al tronco durante toda la prueba.",
+        "evaluation_spanish": "El participante debe realizar 5 sentadillas sucesivas con cada pierna. Si el sujeto logra hacer 3 o más sentadillas sin problema la prueba se considera normal o negativa. En cambio, si el sujeto no es capaz de hacer al menos 3 sentadillas correctamente, la prueba se considera anormal o positiva. Como norma general, la observación clínica implica la evaluación de la estabilidad de la rodilla y la cadera del sujeto.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "017_left",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_right",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "deep_trunk_flexion_test",
+        "name_spanish": "Test de Flexión tronco profunda",
+        "name_english": "Deep Trunk Flexion Test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Con la realización de esta prueba podremos medir la flexibilidad global del tronco, miembro superior e inferior.",
+        "material_spanish": "Un cajón o un banco, un taco de madera y una cinta métrica.",
+        "procedure_spanish": "Comenzamos el test de pie, con las piernas semiflexionadas, separadas a la distancia marcada por la tabla (máximo 76 cm) y toda la planta del pie apoyada en el tope del cajón o banco, que coincide con el punto cero de la escala o metro. Realizando una flexión del tronco, el objetivo de la pueba es tratar de llegar lo más lejos posible el taco de madera (ver ilustración), empujándolo de forma suave y progresiva con la punta de los dedos de ambas manos, evitando en todo momento dar tirones. Las manos deberán deslizarse hacia atrás, sin apoyar los dedos en la tabla para hacer fuerza y poder llegar más lejos. Tampoco estará permitido realizar movimientos bruscos, adelantar una mano a la otra ni levantar la planta de los pies del suelo durante la realización del test. Registraremos la distancia comprendida entre la marca de los talones (tope del cajón o banco) y el taco de madera. En el caso de no disponer de taco, cogeremos como referencia la marca de los dedos hasta donde es capaz de llegar el sujeto.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. Registraremos la mejor marca, así como, la media si realiza 2 intentos o la mediana en el caso de hace 3 intentos.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "019_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "sit_and_reach_test",
+        "name_spanish": "Test de flexión tronco sentado",
+        "name_english": "Sit and reach test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Creado en 1952, el test de Wells y Dillon o Seat and Reach sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de sentado con piernas juntas y extendidas.",
+        "material_spanish": "Una tarima de madera con escala de graduación numérica o en su defecto un banco sueco y una cinta métrica.",
+        "procedure_spanish": "Comenzaremos la prueba desde la posición de sentado, descalzos con los pies apoyados en el pie del banco, las piernas extendidas y los pies juntos. Si la longitud de los pies supera la altura del banco, se colocarán los talones en contacto con la pata del banco, abriendo las punteras y manteniendo éstas en contacto con los bordes laterales superiores del mismo. El objetivo es tratar de alcanzar con los dedos la mayor distancia posible sin adelantar más una mano que otra. Debes efectuar la flexión del tronco con suavidad, sin doblar las rodillas ni mover los pies, así como, aguantar al menos 3 segundos en el punto máximo de estiramiento.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. El cero corresponderá al pie del banco, donde van colocados los pies del ejecutante. El resultado será negativo si el sujeto no es capaz de alcanzar el punto de apoyo de los pies, y positivo cuando lo sobrepase. (En fisicalcoach,) Podrás obtener la mejor marca, así como la media o la mediana.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "020_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "tou_touch_test",
+        "name_spanish": "Tou touch test",
+        "name_english": "Tou touch test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Creado en 1952, el test de Kraus y Hirshland sirve para evaluar la flexibilidad de la flexión de tronco desde la posición de pie con piernas juntas y extendidas.",
+        "material_spanish": "Tarima o cajón de madera con escala de graduación numérica y una cinta métrica.",
+        "procedure_spanish": "Comenzaremos la prueba desde la posición de pie, descalzos con los pies apoyados en el extremo del cajón o tarima, las piernas extendidas y los pies juntos como se ve en la ilustración. El objetivo es tratar de alcanzar con los dedos la mayor distancia posible sin adelantar más una mano que otra. Debes efectuar la flexión del tronco con suavidad, sin doblar las rodillas ni mover los pies, así como, aguantar al menos 3 segundos en el punto máximo de estiramiento.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone un máximo de 3 intentos, descartando y considerando nulos todos intentos donde se incumpla alguna regla. El cero corresponderá al borde del cajón, donde van colocados los pies del ejecutante. El resultado será negativo si el sujeto no es capaz de alcanzar el punto de apoyo de los pies, y positivo cuando lo sobrepase. (En fisicalcoach,) Podrás obtener la mejor marca, así como la media o la mediana.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "flexibility",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "020_test_1",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_test_2",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_test_3",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "020_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "cooper_test",
+        "name_spanish": "Test de cooper",
+        "name_english": "Cooper Test",
+        "description_spanish": "",
+        "description_english": "",
+        "instruction_spanish": "Creado en 1968 por Kenneth H.Cooper, esta prueba sirve para evaluar el nivel de resistencia aeróbica de una forma rápida, barata y eficaz, razón por cual este test se aplica mucho en colegios, institutos o centros deportivos. El Test de Cooper es una de las pruebas indirectas más utilizadas para calcular el VO2 máx (el volumen máximo de oxígeno), aunque este dato es solo una estimación ya que la manera más precisa de calcular el VO2 máx es mediante una espirometría y una prueba de esfuerzo específica.",
+        "material_spanish": "Una superficie plana y un cronómetro. El recorrido debe estar previamente medido para poder cuantificar las distancias alcanzadas por los participantes al finalizar el test. Si queremos hacer medición de la frecuencia cardiaca (FC) del sujeto necesitaremos disponer de un pulsómetro.",
+        "procedure_spanish": "Recorrer la mayor distancia posible en un periodo de 12 minutos. Antiguamente se necesitaba saber la distancia por vuelta para poder calcular la distancia total alcanzada, hoy en día gracias a los relojes GPS es mucho más fácil medir este dato.",
+        "evaluation_spanish": "Se mide en metros (m) y el sujeto dispone de un solo intento.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_positive", "chart", "new_score", "average", "median"],
+        "table": null,
+        "associate_questions": [{      
+                "question_code": "022_mark_reached",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "alphanumber",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_minimum_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_mean_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_maximum_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_post_test_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "022_recovery_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            } ,
+            {
+                "question_code": "022_time_recovery_hr",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "number",
+                "is_configuration_question": false,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "gacon_test",
+        "name_spanish": "Test de Gacon 45/15",
+        "name_english": "Gacon 45/15 test",
+        "description_spanish": "Introducción: Gacon es una test intermitente, es decir, una pruebe que alterna una parte de carrera (45 segundos) y una parte de caminata (15 segundos) de ahí su nombre de 45/15. Esta prueba sirve para medir la capacidad de carrera intermitente y la capacidad aeróbica. El objetivo de este test es identificar la velocidad máxima más alta alcanzada en el último periodo completo, velocidad estándar o de referencia para la elaboración de las cargas de entrenamiento en forma intermitente, Material necesario: Una pista redondeada o de atletismo de unos 300 metros aproximadamente, o todo un campo de fútbol, ​​recortando los ángulos de las esquinas (porque no pueden haber ángulos rectos). También necesitaremos conos marcadores, cinta métrica, cronómetro y un silbato. Colocamos un cono de salida y luego otro cono a 125 metros del inicio (cono 1), seguidamente colocaremos conos separados cada 6.25 metros y estos determinarán los periodos o niveles como puede verse en la ilustración, Procedimiento: Todos los participantes se alinean en la línea de salida y deben correr 125 metros en 45 segundos hasta llegar al cono 1. Al finalizar, se les da 15 segundos para descansar (caminando). Cuando terminan los 15 segundos, repiten la carrera en la dirección opuesta de regreso al cono de inicio. Por cada repetición, la distancia se incrementa en 6,25 metros mientras que la carrera y el tiempo de descanso se mantienen constantes (45/15). El objetivo es alcanzar tantos periodos o niveles como sea posible. Cuando el evaluado no puede alcanzar un periodo (cono) después de 45 segundos de carrera, se toma como marca el último periodo que alcanzó.Evaluación: Se mide el número de periodos o niveles que el sujeto es capaz de cubrir y dispondrá de un solo intento. Cada periodo viene especificado por una velocidad y su equivalencia en distancia a recorrer en 45 segundos (8km/h = 100 metros).",
+        "description_english": "",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "endurance",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_positive", "chart"],
+        "table": {
+            "name_english": "speed / distance",
+            "name_spanish": "Velocidad / Distancia",
+            "description_english": "Calculate the speed distance relationship per period",
+            "description_spanish": "Calcula la relación velocidad distancia por periodo",
+            "details": [{
+                    "name_english": "Period",
+                    "name_spanish": "Periodo",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "is_index": true,
+                    "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+                },
+                {
+                    "name_english": "Speed",
+                    "name_spanish": "Velocidad",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "is_index": false,
+                    "values": [10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5, 18, 18.5, 19, 19.5, 20]
+                },
+                {
+                    "name_english": "Distance",
+                    "name_spanish": "Distancia",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "is_index": false,
+                    "values": [125, 131.25, 137.50, 143.75, 150, 156.25, 162.75, 168.75, 175, 181.25, 187.50, 193.75, 200, 206.25, 212.50, 218.75, 225, 231.25, 237.50, 243.75, 250]
+                }
+            ]
+
+        },
+        "associate_questions": [{
+                "question_code": "period_reached",
+                "name_spanish": "Periodo alcanzado",
+                "name_english": "Period Reached",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observation",
+                "name_spanish": "Observación",
+                "name_english": "Observation",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+
+        ]
+    },
+    {
+        "code": "star_balance",
+        "name_spanish": "Star Excursion Balance (SEBT)",
+        "name_english": "Star Excursion Balance (SEBT)",
+        "description_spanish": "Introducción: El Star Excursion Balance Test (SEBT), es una prueba muy utilizada para asesorar y/o detectar deficiencias en el control postural dinámico derivado de asimetrías, descompensaciones o lesiones músculoesqueléticas, como inestabilidad de tobillo, rodilla, cadera o falta de fuerza en el CORE. Este test nos permitirá discriminar sujetos en riesgo de sufrir una lesión en miembro inferior, debido a los requerimientos de fuerza, flexibilidad y propiocepción que posee la prueba.   Material necesario: Para la realización de esta prueba necesitaremos 4 tiras de cinta (material adhesivo al suelo), entre 1,8 y 2,5 m de longitud aproximádamente. Tendremos que dibujar en el suelo una 'estrella de 8 puntas', con un arco de 45º entre cada una de ellas, junto con una cinta métrica. Dicho esto, para llevar a cabo este test necesitaremos, una superficie plana y antideslizante, instrumentos de medición de superficie y herramientas para el marcaje de las líneas. Procedimiento: El sujeto se coloca descalzo en la parte central de la 'estrella de 8 puntas', tal y como puede observarse en la ilustración, manteniendo el equilibrio con una de sus piernas. El sujeto con la otra pierna (pierna libre), tratará de llegar con la punta del pie lo más lejos posible en cada una de las 8 ramas de la 'estrella' y mediremos las 8 distancias alcanzadas. PONDREMOS LOS CAMPOS DE ABAJO CON AMBAS PIERNAS CON SUS RESPECTIVAS LETRAS. La dirección anterior, posteromedial y posterolateral serán las más importantes a la hora de detectar inestabilidad y serán señal de un mayor riesgo de lesión. Realizaremos el test con ambas piernas y analizaremos los resultados obtenidos. Evaluación: Se mide en centrímetros (cm) y se dispondrá de un máximo de 3 intentos con cada pierna. Obtendremos (En fisicalcoach podrás obtener) la mejor marca, así como, la media si realizamos 2 intentos o la mediana si se hacen 3. Cuando el sujeto muestra una gran diferencia entre una pierna y la otra, existe una descompensación. Observaciones: El SEBT es una prueba muy utilizada para la prevención del riesgo de lesiones. Este test se ha propuesto como una forma de visualización de la simetría muscular en deportistas de diferentes disciplinas. Se ha demostrado que los resultados del test mejoran después de la prescripción de un entrenamiento adecuado. Existe una variante muy similar a este test, denominado Y Balance Test (YBT), y que en fisicalcoach tenemos incorporado, que simplifica el trabajo puesto que se ha demostrado que la dirección posteromedial es la mayor indicativa de riesgo de lesión.",
+        "description_english": "",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "balance",
+        "type_valoration_code": "symmetric_difference",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "previous",
+                "name_spanish": "Anterior",
+                "name_english": "Previous",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "previous",
+                "name_spanish": "Anterior",
+                "name_english": "Previous",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "anterolateral",
+                "name_spanish": "Anterolateral",
+                "name_english": "Anterolateral",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "anterolateral",
+                "name_spanish": "Anterolateral",
+                "name_english": "Anterolateral",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "side",
+                "name_spanish": "Lateral",
+                "name_english": "Side",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "side",
+                "name_spanish": "Lateral",
+                "name_english": "Side",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "posterolateral",
+                "name_spanish": "Posterolateral",
+                "name_english": "Posterolateral",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "posterolateral",
+                "name_spanish": "Posterolateral",
+                "name_english": "Posterolateral",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "later",
+                "name_spanish": "Posterior",
+                "name_english": "Later",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "later",
+                "name_spanish": "Posterior",
+                "name_english": "Later",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "posteromedial",
+                "name_spanish": "Posteromedial",
+                "name_english": "Posteromedial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "posteromedial",
+                "name_spanish": "Posteromedial",
+                "name_english": "Posteromedial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "medial",
+                "name_spanish": "Medial",
+                "name_english": "Medial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "medial",
+                "name_spanish": "Medial",
+                "name_english": "Medial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "anteromedial",
+                "name_spanish": "Anteromedial",
+                "name_english": "Anteromedial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "anteromedial",
+                "name_spanish": "Anteromedial",
+                "name_english": "Anteromedial",
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            }
+        ]
+    },
+    {
+        "code": "gerber",
+        "name_spanish": "Test de despegue / Test de Gerber",
+        "name_english": "Gerber test",
+        "description_spanish": "",
+        "description_english": "",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "affected_side",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "left",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "right",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "assessment",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "observation",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "gerber",
+        "name_spanish": "Test de despegue / Test de Gerber",
+        "name_english": "Gerber test",
+        "description_spanish": "",
+        "description_english": "",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "shoulder",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": null,
+        "table": null,
+        "associate_questions": [{
+                "question_code": "affected_side",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "left",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "right",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "assessment",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "observation",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    }
+]

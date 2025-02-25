@@ -1,0 +1,276 @@
+[
+   {
+       "code": "exercise_session_frecuency_cardiac",
+       "name_spanish": "FC - Frecuencia cardiaca",
+       "name_english": "FC - Heart rate",
+       "description_spanish": "",
+       "instruction_spanish": "",
+       "material_spanish": "",
+       "procedure_spanish": "",
+       "evaluation_spanish": "",
+       "tooltip_spanish":"",
+       "description_english": "",
+       "instruction_english": "",
+       "material_english": "",
+       "procedure_english": "",
+       "evaluation_english": "",
+       "tooltip_english":"",
+       "value": 10,
+       "test_type_code": "exercise_session",
+       "test_sub_type_code": "heart_rate",
+       "type_valoration_code": "points",
+       "sport_code": null,
+       "configurations":  null,
+       "table": null,
+       "associate_questions": [
+           {
+               "question_code": "maximum_heart_rate",
+               "value": 1,
+               "associate_responses": [{
+                   "response_code": "response_number_fisio",
+                   "value": 1,
+                   "cal_value": true,
+                   "is_index": false,
+                   "laterality":""
+               }]
+           },
+           {
+                "question_code": "training_zone_1",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "average_heart_rate",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality":""
+                }]
+            },
+            {
+                "question_code": "training_zone_2",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "minimum_heart_rate",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "training_zone_3",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "heart_rate_reserve",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "training_zone_4",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "heart_rate_variability",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },            
+            {
+                "question_code": "training_zone_5",
+                "value": 1,
+                "associate_responses": [{
+                    "response_code": "response_number_fisio",
+                    "value": 1,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+           
+       ]
+   },
+   {
+    "code": "exercise_session_gps",
+    "name_spanish": "GPS",
+    "name_english": "GPS",
+    "description_spanish": "",
+    "instruction_spanish": "",
+    "material_spanish": "",
+    "procedure_spanish": "",
+    "evaluation_spanish": "",
+    "tooltip_spanish":"",
+    "description_english": "",
+    "instruction_english": "",
+    "material_english": "",
+    "procedure_english": "",
+    "evaluation_english": "",
+    "tooltip_english":"",
+    "value": 10,
+    "test_type_code": "exercise_session",
+    "test_sub_type_code": "gps",
+    "type_valoration_code": "points",
+    "sport_code": null,
+    "configurations":  null,
+    "table": null,
+    "associate_questions": [
+        {
+            "question_code": "distance_total",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "maximum_speed",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "distance_15_20",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "equivalent_distance_index",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "distance_20_25",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "metabolic_power",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "distance_25",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "accelerations",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },
+        {
+            "question_code": "relative_distance",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        },     
+        {
+            "question_code": "slowdowns",
+            "value": 1,
+            "associate_responses": [{
+                "response_code": "response_number_fisio",
+                "value": 1,
+                "cal_value": true,
+                "is_index": false,
+                "laterality": ""
+            }]
+        }
+        
+    ]
+   }
+]

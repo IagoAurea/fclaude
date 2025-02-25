@@ -1,0 +1,95 @@
+version: "3"
+services:
+  api-fisco-php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: api_fisco_php
+    restart: unless-stopped
+    user: root
+    environment:
+      PHP_OPCACHE_VALIDATE_TIMESTAMPS: 1
+    volumes:
+      - ./laravel:/usr/src/app:delegated
+    ports:
+      - ${DOCKER_PHP_PORTS}
+    command: php artisan octane:start --watch --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}
+    depends_on:
+      - api-fisco-postgres
+    networks:
+      - fisicalcoach-network
+
+  api-fisco-postgres:
+    image: postgres
+    container_name: api_fisco_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DOCKER_POSTGRES_USER}
+      POSTGRES_PASSWORD: ${DOCKER_POSTGRES_PASSWORD}
+      POSTGRES_DB: ${DOCKER_POSTGRES_DB}
+    volumes:
+      - ./docker/postgresql/data:/var/lib/postgresql/data
+      - ./docker/postgresql/conf:/etc/postgresql/
+    ports:
+      - ${DOCKER_POSTGRES_PORTS}
+    networks:
+      - fisicalcoach-network
+
+  api-fisco-mailcatcher:
+    image: dockage/mailcatcher:0.7.1
+    container_name: api_fisco_mailcatcher
+    restart: unless-stopped
+    ports:
+      - ${DOCKER_MAILCATCHER_WEB_PORTS}
+      - ${DOCKER_MAILCATCHER_SMTP_PORTS}
+    networks:
+      - fisicalcoach-network
+
+  api-fisco-minio:
+    image: minio/minio
+    container_name: api_fisco_minio
+    command: server /data --console-address ":${DOCKER_MINIO_PORT}"
+    volumes:
+      - ./docker/minio:/data
+    ports:
+      - ${DOCKER_MINIO_PORTS}
+      - ${DOCKER_MINIO_PORTS_CONSOLE}
+    environment:
+      MINIO_ROOT_USER: ${DOCKER_MINIO_USER}
+      MINIO_ROOT_PASSWORD: ${DOCKER_MINIO_PASSWORD}
+    networks:
+      - fisicalcoach-network
+
+  api-fisco-redis:
+    image: redis:6.2.3-alpine
+    container_name: api_fisco_redis
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - ./docker/redis/data:/data
+    expose:
+      - ${DOCKER_REDIS_PORT_EXPOSE}
+    ports:
+      - ${DOCKER_REDIS_PORTS}
+    networks:
+      - fisicalcoach-network
+
+  websocket-fisco-php:
+    build:
+      context: .
+      dockerfile: docker/websocket/Dockerfile
+    container_name: api_fisco_websocket
+    volumes:
+      - ./laravel:/usr/src/app
+    restart: unless-stopped
+    ports:
+      - ${DOCKER_WEBSOCKET_PORTS}
+    command: bash -c 'composer install && php artisan websockets:serve --host 0.0.0.0'
+    depends_on:
+      - api-fisco-redis
+      - api-fisco-postgres
+    networks:
+      - fisicalcoach-network
+
+networks:
+  fisicalcoach-network:
+    driver: bridge

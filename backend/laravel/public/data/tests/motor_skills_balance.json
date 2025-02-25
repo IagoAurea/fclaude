@@ -1,0 +1,531 @@
+[
+    {
+        "code": "flamingo_balance",
+        "name_spanish": "Equilibrio flamenco",
+        "name_english": "Flamingo balance test",
+        "description_spanish": "El objetivo principal de este test es medir el equilibrio estático del sujeto.",
+        "instruction_spanish": "El objetivo principal de este test es medir el equilibrio estático del sujeto.",
+        "material_spanish": "Una cinta métrica, un cronómetro y una  barra metálica de 50 centímetros (cm) de largo, 4 cm de alto y 3 cmde ancho, que se recomienda cubrir con una moqueta antideslizante para evitar resbalones. La barra debe permanecer estable en todo momento y para ello utilizaremos 2 soportes de 15 cm de largo y 3 de ancho.",
+        "procedure_spanish": "El sujeto se coloca en posición erguida, con un pie en el suelo y el otro apoyado sobre la barra. A la señal del evaluador, el ejecutante pasará el peso del cuerpo a la pierna sobre la barra, flexionando la pierna libre hasta poder ser agarrada por la mano del mismo lado del cuerpo tal y como se observa en la ilustración. El test comienza en el momento que se deja de apoyar el pie en el suelo y se coge con la mano el pie del mismo lado. Se tiene que mantener el equilibrio durante 1 minuto, cada vez que se pierde el equilibrio se interrumpe el test. Después de cada interrupción se repite el mismo protocolo de inicio hasta completar el tiempo restante de la prueba que es de 1 minuto.",
+        "evaluation_spanish": "Se contabiliza el número de veces que ha necesitado el ejecutante para lograr mantener el equilibrio el minuto que dura la prueba. Se recomienza hacer la prueba con ambas piernas. El sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda hacer el test con ambas piernas",
+        "description_english": "The main purpose of this test is to measure the static balance of the subject.",
+        "instruction_english": "The main purpose of this test is to measure the static balance of the subject.",
+        "material_english": "A tape measure, a stopwatch and a metal bar 50 cm long, 4 cm high and 3 cm wide, which it is recommended to cover with a non-slip surface to prevent slipping. The bar must remain stable at all times so using two rigid supports 15 cm long and 3 cm wide is recommended.",
+        "procedure_english": "The subject stands in an upright position, with one foot on the floor and the other on the bar. On the evaluator's signal, he/she transfers the full body weight to the leg on the bar, bending the free leg until it can be grasped by hand on the same side as shown in the illustration. The test starts as soon as the subject's foot is off the ground, and he/she has to maintain balance for 1 minute. Each time he/she loses balance, the stopwatch is paused. After each interruption, the same starting protocol is repeated until the remaining test time of 1 minute is completed.",
+        "evaluation_english": "The number of times the subject needed to maintain balance during the minute of the test is counted. It is recommended to perform the test with both legs. The subject has a maximum of 3 attempts. The lowest time, as well as the mean and the median can be recorded.",
+        "tooltip_english":"It is recommended to make the test with both legs",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "balance",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations":  ["score_negative"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "int_leg_test_1_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "int_leg_test_2_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "int_leg_test_3_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "int_leg_test_1_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "int_leg_test_2_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "int_leg_test_3_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "observation",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    },
+    {
+        "code": "star_balance",
+        "name_spanish": "Star excursion balance test (SEBT)",
+        "name_english": "Star excursion balance test (SEBT)",
+        "description_spanish": "El Star Excursion Balance Test (SEBT), es una prueba muy utilizada para asesorar y/o detectar deficiencias en el control postural dinámico derivado de asimetrías, descompensaciones o lesiones músculoesqueléticas, como inestabilidad de tobillo, rodilla, cadera o falta de fuerza en el CORE. Este test nos permitirá discriminar sujetos en riesgo de sufrir una lesión en miembro inferior, debido a los requerimientos de fuerza, flexibilidad y propiocepción que posee la prueba.",
+        "instruction_spanish": "El Star Excursion Balance Test (SEBT), es una prueba muy utilizada para asesorar y/o detectar deficiencias en el control postural dinámico derivado de asimetrías, descompensaciones o lesiones músculoesqueléticas, como inestabilidad de tobillo, rodilla, cadera o falta de fuerza en el CORE. Este test nos permitirá discriminar sujetos en riesgo de sufrir una lesión en miembro inferior, debido a los requerimientos de fuerza, flexibilidad y propiocepción que posee la prueba.",
+        "material_spanish": "Una superficie plana y antideslizante, una cinta métrica y 4 tiras de cinta (material adhesivo al suelo), entre 1,8 y 2,5 metros (m) de longitud aproximádamente. Se dibuja en el suelo una estrella de 8 puntas, con un arco de 45º entre cada una de ellas, junto con una cinta métrica (ver ilustración).",
+        "procedure_spanish": "El sujeto se coloca descalzo en la parte central de la estrella de 8 puntas, tal y como puede observarse en la ilustración, manteniendo el equilibrio con una de sus piernas. El sujeto con la otra pierna (pierna libre), tratará de llegar con la punta del pie lo más lejos posible en cada una de las 8 ramas de la estrella y mediremos las 8 distancias alcanzadas.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y registramos una única marca aunque siempre es aconsejable realizar varias mediciones para obtener un valor más fiable. Cuando el sujeto muestra una gran diferencia entre una pierna y la otra, existe una descompensación.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The Star Excursion Balance Test (SEBT) is a widely used test to assess and/or detect deficiencies in dynamic postural control due to asymmetries, decompensations or musculoskeletal injuries, such as instability of the ankle, knee, hip or lack of strength in the core. This test allows to detect individuals at risk of suffering a lower limb injury thanks to its requirements in terms of strength, flexibility and proprioception.",
+        "instruction_english": "The Star Excursion Balance Test (SEBT) is a widely used test to assess and/or detect deficiencies in dynamic postural control due to asymmetries, decompensations or musculoskeletal injuries, such as instability of the ankle, knee, hip or lack of strength in the core. This test allows to detect individuals at risk of suffering a lower limb injury thanks to its requirements in terms of strength, flexibility and proprioception.",
+        "material_english": "A flat, non-slip surface, a tape measure and 4 strips of adhesive tape of approximately 1.8 and 2.5 metres long. An 8-pointed star will be drawn on the floor, with lines separated 45° from each other (see illustration).",
+        "procedure_english": "The subject stands barefoot in the middle of the 8-pointed star, as shown in the illustration, keeping balance on one leg. With his/her other leg, the subject will try to reach as far as possible with the tip of his/her toes on each of the 8 branches of the star. Then the distances reached will be measured. The anterior, posteromedial and posterolateral directions will be the most important in detecting instability and will indicate an increased risk of injury. The test should be performed on both legs and the results will be analysed.",
+        "evaluation_english": "It is measured in centimetres (cm) and a single result will be registered although it is always advisable to take several measurements to obtain a more reliable value. When the subject shows a large difference between one leg and the other, there is a decompensation. Remarks: The SEBT is a widely used test for injury risk prevention. This test has been proposed as a way of analysing muscle symmetry/asymmetry in athletes of different disciplines. Test results have been shown to improve after the prescription of appropriate training.There is a very similar variant of this test, called the Y Balance Test (YBT), also available from fisicalcoach, which simplifies the work as it has been shown that the posteromedial direction is the most indicative of injury risk.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "balance",
+        "type_valoration_code": "symmetric_difference",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "previous_left_l",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "anterolateral_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "side_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "posterolateral_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "later_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "posteromedial_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "medial_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "anteromedial_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "previous_right_r",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "anteromedial_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "medial_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "posteromedial_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "later_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "posterolateral_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "side_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "anterolateral_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": "RIGHT"
+                }]
+            }
+        ]
+    },
+    {
+        "code": "y_balance",
+        "name_spanish": "Y balance test (YBT)",
+        "name_english": "Y balance test (YBT)",
+        "description_spanish": "La prueba de equilibrio Y Balance Test (YBT), es una alternativa al Star Excursion Balance Test (SEBT) como indicador de riesgo de lesiones relacionadas con el complejo cadera-rodilla-tobillo. Este test nos permitirá discriminar sujetos en riesgo de sufrir una lesión en miembro inferior, debido a los requerimientos de fuerza, flexibilidad y propiocepción que posee la prueba.",
+        "instruction_spanish": "La prueba de equilibrio Y Balance Test (YBT), es una alternativa al Star Excursion Balance Test (SEBT) como indicador de riesgo de lesiones relacionadas con el complejo cadera-rodilla-tobillo. Este test nos permitirá discriminar sujetos en riesgo de sufrir una lesión en miembro inferior, debido a los requerimientos de fuerza, flexibilidad y propiocepción que posee la prueba.",
+        "material_spanish": "Una superficie plana y antideslizante, una cinta métrica y herramientas para el marcaje de las líneas. A la hora de realizar esta prueba tenemos la opción de adquirir el material específico para realizar el Y Balance Test, o dibujar en el suelo la Y junto con una cinta métrica.",
+        "procedure_spanish": "El sujeto se coloca descalzo en la parte central de la Y, tal y como puede observarse en la ilustración, manteniendo el equilibrio con una de sus piernas. El sujeto con la otra pierna (pierna libre), tratará de llegar con la punta del pie lo más lejos posible en cada una de las 3 ramas de la Y (anterior, posteromedial y posterolateral) y mediremos las 3 distancias alcanzadas.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos con cada pierna. Cuando el sujeto muestra una gran diferencia entre una pierna y la otra, existe una asimetría.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The Y Balance Test (YBT) is an alternative to the Star Excursion Balance Test (SEBT) as an indicator of risk for injuries related to the hip-knee-ankle system. Thanks to the strength, flexibility and proprioception demands of this test, it will allow the evaluator to detect subjects at risk of suffering a lower limb injury.",
+        "instruction_english": "The Y Balance Test (YBT) is an alternative to the Star Excursion Balance Test (SEBT) as an indicator of risk for injuries related to the hip-knee-ankle system. Thanks to the strength, flexibility and proprioception demands of this test, it will allow the evaluator to detect subjects at risk of suffering a lower limb injury.",
+        "material_english": "A flat, non-slip surface, a tape measure and any kind of tools for marking lines on the ground.",
+        "procedure_english": "hree lines should be marked with tape or other material on the ground in a Y-shape with the rear segments forming a 90-degree angle, as shown in the illustration. The subject stands barefoot in the central part of the Y, balancing on one leg. With the other leg he/she will try to reach with the toe as far as possible in each of the 3 branches of the Y (anterior, posteromedial and posterolateral) and then the 3 distances reached will be measured.",
+        "evaluation_english": "It is measured in centimetres (cm) and the subject has a maximum of 3 attempts with each leg. The longest distance reached by the subject can be recorded, as well as the mean and the median. When the subject shows a large difference between one leg and the other, there is an asymmetry.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "balance",
+        "type_valoration_code": "symmetric_difference",
+        "sport_code": null,
+        "configurations":  ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+        {
+            "question_code": "previous_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "previous_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "previous_left_2",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "previous_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "previous_left_3",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_left",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "LEFT"
+            }]
+        },
+        {
+            "question_code": "previous_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posterolateral_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        },
+        {
+            "question_code": "posteromedial_right",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": "RIGHT"
+            }]
+        }
+        ]
+    }
+]

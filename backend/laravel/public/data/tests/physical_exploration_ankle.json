@@ -1,0 +1,340 @@
+[
+    {
+        "code": "ankle_eversion",
+        "name_spanish": "Inclinación astragalina de tobillo",
+        "name_english": "Talar tilt test",
+        "description_spanish": "Esta prueba sirve para valorar la estabilidad del fascículo peroneocalcáneo del ligamento lateral externo del tobillo.",
+        "instruction_spanish": "Esta prueba sirve para valorar la estabilidad del fascículo peroneocalcáneo del ligamento lateral externo del tobillo.",
+        "material_spanish": "Una camilla de fisioterapia.",
+        "procedure_spanish": "El sujeto se coloca tumbado sobre la camilla en posición decúbito lateral, con la rodiila en ligera flexión y el tobillo en posición neutra fuera de la camilla. El evaluador se sitúa detrás del sujeto a la altura del tobillo. Desde esta posición, el evaluador sujeta con ambas manos el tobillo, situando los pulgares a nivel del ligamento que se desea explorar ejerciendo una presión hacia la supinación de la articulación (ver ilustración),",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto manifiesta excesiva supinación o si manifiesta algún tipo de dolor o disconfort. De lo contrario, la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "ankle",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "right_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "left_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "inner_outer_ankle",
+        "name_spanish": "Ligamento lateral interno y externo de tobillo",
+        "name_english": "Internal and external lateral ankle ligament",
+        "description_spanish": "Son pruebas cuyo objetivo es determinar si existe algún tipo de lesión sobre el ligamento lateral externo (LLE) y el ligamento lateral interno (LLI) del tobillo.",
+        "instruction_spanish": "Son pruebas cuyo objetivo es determinar si existe algún tipo de lesión sobre el ligamento lateral externo (LLE) y el ligamento lateral interno (LLI) del tobillo.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitamos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "Prueba para el ligamento lateral (LLE): El sujeto se coloca tumbado en posición de decúbito supino (boca arriba). El evaluador se sitúa de pie frente al tobillo que quiere examinar colocando una mano en la pierna y la otra abarcando el antepié. Desde esa posición se realiza una inversión forzada del tobillo (ilustración A). Prueba para el ligamento medial o deltoideo (LLI): El evaluador mantiene la misma la posición frente al tobillo del sujeto y efectúa una abducción y pronación sobre el antepié (ilustración B). ",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto manifiesta algún tipo de dolor o disconfort en la maniobra. De lo contrario, la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "ankle",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "right_internal_ligament",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "right_external_ligament",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "left_internal_ligament",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "left_external_ligament",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "ankle_syndesmosis",
+        "name_spanish": "Sindesmosis de tobillo",
+        "name_english": "Ankle syndesmosis",
+        "description_spanish": "Esta prueba sirve para valorar la integridad de la sindesmosis tibioperonea.",
+        "instruction_spanish": "Esta prueba sirve para valorar la integridad de la sindesmosis tibioperonea.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto se tumba en la camilla en posición de decúbito supino (boca arriba). El evaluador, se sitúa a los pies de sujeto colocando sus manos ahuecadas sobre los maleolos del tobillo y entrelazando los dedos en la cara posterior (ver ilustración). El evaluador, debe realizar una maniobra de compresión entre la tibia y el peroné.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto manifiesta algún tipo de dolor o disconfort en la maniobra a nivel intermaleolar. De lo contrario, la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "ankle",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "right_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "left_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "lunge_test",
+        "name_spanish": "Test de Lunge", 
+        "name_english": "Lunge test",
+        "description_spanish": "Esta prueba sirve para valorar el grado de flexibilidad del tobillo, así como el acortamiento del músculo gastrocnemio en carga.",
+        "instruction_spanish": "Esta prueba sirve para valorar el grado de flexibilidad del tobillo, así como el acortamiento del músculo gastrocnemio en carga.",
+        "material_spanish": "Una superficie plana antideslizante, una pared, una cinta adhesiva y una cinta métrica.",
+        "procedure_spanish": "Se situan dos cintas adhesivas conformando un ángulo de 90º entre ambas, de tal modo que, una cinta adhesiva de 60 centímetros (cm) sobre la longitud de una pared y otra de 50 cm sobre la longitud del suelo. Se hacen dos marcas sobre la cinta del suelo a 5 y a 10 cm de distancia desde la pared. Se le pedirá al sujeto que sitúe el pie descalzo sobre la línea del suelo, colocando el dedo más largo (1º o 2º dedo) sobre la línea situada a 10 cm de la pared (Ilustración A). A partir de esta posición, se le pide al sujeto que lleve la rodilla hacia la pared (Ilustración B) sin levantar el talón del suelo. Si durante la prueba el sujeto levanta el talón deberá ir acercando el pie hasta que consiga realizar el test sin elevarlo. Se deberán valorar ambos lados.",
+        "evaluation_spanish": "Si el sujeto logra tocar la pared con la rodilla sin levantar el talón del suelo, desde la posición de referencia (10 cm), la prueba se considerará normal o negativa. Por el contrario, si el sujeto levanta el talón o necesita acercarse a la marca de 5 cm e incluso sobrepasarla, significa que existe limitación en el movimiento articular del tobillo por acortamiento del gastronemio, considerando el resultado de la prueba anormal o positiva.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "ankle",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "right_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "left_ankle",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

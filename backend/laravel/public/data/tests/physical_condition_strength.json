@@ -1,0 +1,1343 @@
+[
+    {
+        "code": "strength",
+        "name_spanish": "Lanzamiento de balón medicinal",
+        "name_english": "Medicine ball throw",
+        "description_spanish": "La aplicación del test de lanzamiento de balón medicinal se utiliza para valorar la potencia muscular del tren superior.",
+        "description_english": "The medicine ball throw test is used to assess the upper body muscular power.",
+        "instruction_spanish": "La aplicación del test de lanzamiento de balón medicinal se utiliza para valorar la potencia muscular del tren superior.",
+        "instruction_english": "The medicine ball throw test is used to assess the upper body muscular power.",
+        "material_spanish": "Una cinta métrica, marcas para indicar la línea de lanzamiento y un balón medicinal, cuyo peso varía en función de la edad, el sexo y el nivel del sujeto.",
+        "material_english": "A measuring tape, throw line markers and a medicine ball, whose weight varies according to the subject's age, gender and strength level.",
+        "procedure_spanish": "Antes de la realización del test el sujeto debe colocarse en la posición inicial: de pie, detrás de la línea de lanzamiento, con las piernas separadas y sujetando el balón con ambas manos por encima y por detrás de la cabeza (ver ilustración). La prueba consiste en lanzar el balón hacia adelante con la mayor fuerza posible y sin impulso previo, de forma que el balón caiga dentro de la zona de lanzamiento. En ningún caso podrán separarse totalmente los pies del suelo ni sobrepasar la línea de lanzamiento, de hacerlo el intento será considerado nulo.",
+        "procedure_english": "Before performing the test, the subject should be in the starting position: standing behind the throw line, legs apart and holding the ball with both hands above and behind the head (see illustration). The test consists of throwing the medicine ball forward with as much force as possible and without taking impulse, so that it falls inside the landing zone. The subject must not lift his/her feet completely from the ground nor step over beyond the throw line, otherwise the attempt will be considered null and void.",
+        "evaluation_spanish": "Se mide la longitud del lanzamiento en metros (m) y centímetros (cm), desde la línea de lanzamiento hasta el punto de impacto del balón en el suelo y el sujeto dispone de un máximo de 3 intentos.",
+        "evaluation_english": "The subject will have a maximum of 3 throw attempts. The length of the throw is measured in meters (m) and centimeters (cm), from the throw line to the point where the ball landed on the ground.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "005_metric_system",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "kilogram",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "pound",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "005_medicine_ball_weight",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "005_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "pushups_test",
+        "name_spanish": "Flexiones",
+        "name_english": "Push ups",
+        "description_spanish": "Las flexiones son uno de los ejercicios de fuerza más famosos y completos del mundo del fitness ya que nos permite trabajar varios grupos musculares de una forma práctica, sencilla y sin requerir de un equipamiento específico. Antes de la realización de la prueba se deberá determinar la duración de la misma pudiendo esta variar en función del nivel del sujeto.",
+        "description_english": "Push-ups are one of the most famous and complete strength exercises in the fitness world since they allow us to work several muscle groups in a practical and simple way, without requiring specific equipment. Before starting, the test duration should be determined, which may vary according to the subject's strength level.",
+        "instruction_spanish": "Las flexiones son uno de los ejercicios de fuerza más famosos y completos del mundo del fitness ya que nos permite trabajar varios grupos musculares de una forma práctica, sencilla y sin requerir de un equipamiento específico. Antes de la realización de la prueba se deberá determinar la duración de la misma pudiendo esta variar en función del nivel del sujeto.",
+        "instruction_english": "Push-ups are one of the most famous and complete strength exercises in the fitness world since they allow us to work several muscle groups in a practical and simple way, without requiring specific equipment. Before starting, the test duration should be determined, which may vary according to the subject's strength level.",
+        "material_spanish": "Una superficie plana y un cronómetro.",
+        "material_english": "A flat surface and a stopwatch.",
+        "procedure_spanish": "El test comienza con el sujeto acostado boca abajo en el suelo con las manos separadas a la anchura de los hombros y extendidas completamente (A). A la señal de inicio, el sujeto debe bajar el cuerpo hasta que los codos alcancen un ángulo 90 grados (B) y volver a la posición inicial con los brazos toralmente extendidos (A), completando así una flexión. La prueba consiste en intentar completar el mayor número de flexiones en el tiempo prestablecido.",
+        "procedure_english": "The test begins with the subject lying face down on the floor with hands shoulder-width apart and arms fully extended (A). At the start signal, the subject must lower the body until elbows reach a 90 degree angle (B) and return to the starting position with arms fully extended (A), this will be counted as one push-up. The test consists of trying to perform the highest number of push-ups in the preset time.",
+        "evaluation_spanish": "Se contabiliza el número de flexiones bien ejecutadas, descartando aquellas que se consideren nulas debido a una mala ejecución técnica. El sujeto dispone de un máximo de 3 intentos.",
+        "evaluation_english": "The number of well executed push-ups will be counted, discarding those considered void due to poor technical execution. The subject will have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "006_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "test_flex1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "test_flex2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "test_flex3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_suspension_in_bar",
+        "name_spanish": "Suspensión isométrica en barra",
+        "name_english": "Bent-arm hang",
+        "description_spanish": "El test de suspensión isométrica en barra es bastante complicado y exigente. No solo te hace enfrentarte a una experiencia mentalmente muy dura sino que se trata de desafío muy poco habitual donde la contracción muscular es de tipo isométrica y máxima.",
+        "instruction_spanish": "El test de suspensión isométrica en barra es bastante complicado y exigente. No solo te hace enfrentarte a una experiencia mentalmente muy dura sino que se trata de desafío muy poco habitual donde la contracción muscular es de tipo isométrica y máxima.",
+        "material_spanish": "Una barra fija y un cronómetro. Se aconseja el uso de un cajón para facilitar la suspensión del sujeto.",
+        "procedure_spanish": "La prueba consiste en mantener el mayor tiempo posible la posición reflejada en las ilustraciones, brazos flexionados y barbilla situada por encima de la barra evitando su contacto . El test finalizará cuando la barbilla del sujeto toque la barra o se sitúe por debajo de ella. En cuanto a los tipos de agarre que podrán utilizarse tenemos el agarre prono-abierto, el agarre supino-cerrado, el agarre neutro-cerrado y el agarre alterno o mixto. Con respecto a la colocación de las piernas, estas deberán estar completamente extendidas en todo momento, aunque en ocasiones existen pruebas en las que se permiten tenerlas flexionadas. Tanto el tipo de agarre como la posición de las manos y de las piernas deberán fijarse antes de la realización del test.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispondrá de un solo intento.",
+        "description_english": "The isometric hold test is quite complicated and demanding. Not only does it make you face a mentally tough experience, but it is also a very unusual challenge where the isometric muscle contraction is maximum.  Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "instruction_english": "The isometric hold test is quite complicated and demanding. Not only does it make you face a mentally tough experience, but it is also a very unusual challenge where the isometric muscle contraction is maximum.  Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "material_english": "A pull-up bar and a stopwatch. Using a plyo box to help the subject's suspension is recommended.",
+        "procedure_english": "The subject must cling and maintain as long as possible suspended on the bar, as shown in the illustrations, arms bent and chin placed above the bar level without touching it. The test will end when the subject's chin touches the bar or gets below it. ",
+        "evaluation_english": "Measured in seconds (s). The subject has only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_positive"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "007_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_grip_type",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "007_overhand_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_supine_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_neutral_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_alternate_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "007_hand_position",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "007_hands_apart",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_hands_together",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_crossed_hands",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "007_leg_position",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "007_legs_extended",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_flexed_legs",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "code": "pullup_test",
+        "name_spanish": "Dominadas",
+        "name_english": "Pull ups",
+        "description_spanish": "Con la realización de esta prueba podremos medir la fuerza-resistencia del grupo flexor de los brazos, así como de todos los músculos que integran la cintura escapular.",
+        "instruction_spanish": "Con la realización de esta prueba podremos medir la fuerza-resistencia del grupo flexor de los brazos, así como de todos los músculos que integran la cintura escapular.",
+        "material_spanish": "Una barra fija y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en realizar el mayor número de dominadas en un tiempo preestablecido, el cual deberá fijarse previamente. Cada dominada debe partir de la posición inicial, con los brazos totalmente extendidos y la barbilla debe superar claramente la barra en todo momento, a una altura del tercio inferior del cuello aproximadamente. Durante la realización del test el cuerpo deberá estar totalmente extendido y no se permitirá ningun tipo de balanceos ni movimientos de impulso con el cuerpo. Está totalmente prohibido extender la cabeza hacia atrás y el sujero deberá hacer una breve pausa entre cada repetición para evitar el ciclo estiramiento-acortamiento. El sujeto no podrá soltar ninguna de las manos de la barra durante el test ni permanecer más de 5 segundos suspendido entre cada repetición. En cuanto a los tipos de agarre que podrán utilizarse tenemos el agarre prono-abierto, el agarre supino-cerrado, el agarre neutro-cerrado y el agarre alterno o mixto. Con respecto a la colocación de las piernas, estas deberán estar completamente extendidas en todo momento, aunque en ocasiones existen pruebas en las que se permiten tenerlas flexionadas. Tanto el tiempo de la prueba como el tipo de agarre, la posición de las manos y de las piernas deberán fijarse previamente.",
+        "evaluation_spanish": "Se registra el número de dominadas que el sujeto es capaz de realizar en el tiempo establecido, descartando y considerando nulas todas aquellas dominadas que no se ejecuten correctamente. El sujeto dispone de un solo intento.",
+        "description_english": "With this test the strength-endurance of the upper arms group, as well as all the shoulder girdle muscles can be measured.",
+        "instruction_english": "With this test the strength-endurance of the upper arms group, as well as all the shoulder girdle muscles can be measured.",
+        "material_english": "A pull-up bar and a stopwatch. Using a plyo box to help the subject's suspension is recommended.",
+        "procedure_english": "The subject must perform the highest number of pull-ups in a pre-established time, which must be set in advance. Each pull-up should start from the starting position, with the arms fully extended. The chin must be clearly above the bar level in each movement, so the subject must pull him/herself until the lower third of the neck approaches the bar. During the test the body must be fully extended and no swinging or thrusting movements are allowed. It is strictly forbidden to extend the head backwards and the subject must pause briefly between each repetition to avoid the stretch-shortening cycle. The subject should not release either hand from the bar during the test nor remain suspended for more than 5 seconds between repetitions.",
+        "evaluation_english": "The number of pull-ups that the subject is capable to perform in the established time is recorded. All those pull-ups that are not performed correctly are considered null and discarded. The subject has only one attempt.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "008_test",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "008_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "008_duration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "007_grip_type",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "007_overhand_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_supine_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_neutral_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "007_alternate_grip",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "008_hand_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "008_hands_apart",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_hands_together",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_crossed_hands",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "008_leg_position",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "field_type": "checkbox",
+                "is_configuration_question": true,
+                "associate_responses": [{
+                        "response_code": "008_legs_extended",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "008_flexed_legs",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "code": "glute_bridge",
+        "name_spanish": "Puente de glúteos",
+        "name_english": "Glute bridge",
+        "description_spanish": "Mediante la realización de este test podremos evaluar el grado de estabilidad de la pelvis, así como el funcionamiento de los músculos de la región glútea.",
+        "instruction_spanish": "Mediante la realización de este test podremos evaluar el grado de estabilidad de la pelvis, así como el funcionamiento de los músculos de la región glútea.",
+        "material_spanish": "Una superficie plana, un cronómetro y material inestable (variantes 2 y 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "El sujeto se tumba boca arriba con las rodillas flexionadas, la cadera apoyada y los pies planos en el suelo. A la señal del evaluardor (comienzo de la medición del test), el evaluado deberá levantar la pelvis del suelo tal y como se muestra en las ilustraciones y manteniendo en todo momento los pies planos en el suelo. Esta prueba podemos realizarla de dos formas: Una primera para medir cuanto es capaz de aguantar el sujeto en esa posición mediante una contracción isométrica máxima y una segunda para analizar el comportamiento de los músculos glúteos para la cual debemos fijar un tiempo determinado. En este caso, si la pelvis baja del lado derecho o la pierna izquierda está temblando, se determina una inestabilidad del glúteo izquierdo. Si los isquiotibiales o la parte inferior de la espalda comienza a contraerse, esto indica que el glúteo izquierdo no está actuando correctamente y que otros músculos actuan de forma sinergista haciendo su trabajo.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispondrá de un solo intento. En las variantes 3 y 4 se repetirá el mismo protocolo con cada una de las piernas. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test",
+        "description_english": "With this test the degree of lumbo-pelvic stability (core), particularly the gluteal region can be evaluated.",
+        "instruction_english": "With this test the degree of lumbo-pelvic stability (core), particularly the gluteal region can be evaluated.",
+        "material_english": "A flat surface, a stopwatch and some soft, unstable material (variants 2 and 4). The use of a mat is recommended for greater subject comfort during the test. To help the evaluator work a physiotherapy table can be used, as shown in illustration B.",
+        "procedure_english": "The subject must be lying supine (face up) with knees bent, hips supported and feet flat on the floor. On the evaluator's signal (start of the test measurement), the subject should lift the pelvis off the ground as shown in the illustrations, keeping the feet flat on the surface at all times. This test can be performed in two ways:  first to measure how long the subject is able to hold in that position with a maximum isometric contraction and a second one to analyze the behavior of the gluteal muscles for a predefined period of time. In this case, if the subject lowers the pelvis on the right side or the left leg is trembling, an instability of the left gluteus is determined. If the hamstrings or lower back begins to contract, that's an indication that the left gluteus is not acting correctly and other muscles in synergy are doing their job.",
+        "evaluation_english": "Measured in seconds (s). The subject has only one attempt. In variants 3 and 4, the same exercise will be repeated with each leg. The evaluator must be highly trained to identify changes or loss of control in the lumbo-pelvic region and terminate the test. Remarks: A strong and stable Core is the basis for all movement. On the other hand, a weak Core will pose a risk for the passive structures of the spine, and the vertebral discs can be greatly compromised by high impact exercises.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "009_glute_bridge",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_left_leg_extension",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_right_leg_extension",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_left_leg_extension_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_glute_bridge_with_right_leg_extension_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "009_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "plank_test",
+        "name_spanish": "Plancha",
+        "name_english": "Plank",
+        "description_spanish": "Un Core fuerte y estable es la base para todo movimiento, en cambio un Core débil significará un riesgo para las estructuras pasivas de la columna, donde disco vertebral puede verse muy comprometido ante ejercicios de alto impacto.",
+       "instruction_spanish": "Mediante la realización de este test podemos evaluar el grado de estabilidad lumbo-pélvica (Core).",
+        "material_spanish": "Se necesita de una superficie plana, un cronómetro y material inestable (variantes 2 y 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "Para la preparación del test, el sujeto debe situarse en posición de plancha prono con los antebrazos apoyados en el suelo, las piernas extendidas alineadas con la columna y la cadera en posición neutra. Los brazos forman un ángulo de 90º en la articulación del codo. El test valora el tiempo que el sujeto es capaz de mantenerse en posición estable y sin compensaciones. La prueba finaliza cuando la cadera desciende o esta en anteversión, acentuándose la curva lumbar (hiperlordosis). Como puede verse en la ilustración A, tenemos 4 variantes para la realización de este test en las que vamos aumentando progresivamente el nivel de dificultad. 1) Plancha isométrica 2) Plancha isométrica sobre superficie inestable 3) Plancha isométrica con extensión de pierna 4) Plancha isométrica con extensión de pierna sobre superficie inestable.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un solo intento. En las variantes 3 y 4 se repetirá el mismo protocolo con cada una de las piernas. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test.",
+        "description_english": "By performing this test the degree of lumbo-pelvic stability (Core) can be evaluated.",
+        "instruction_english": "By performing this test the degree of lumbo-pelvic stability (Core) can be evaluated.",
+        "material_english": "A flat surface, a stopwatch and some soft, unstable material (variants 2 and 4). The use of a mat is recommended for greater subject comfort during the test.",
+        "procedure_english": "The subject should be in a prone plank position with both forearms resting on the floor, both legs extended in line with the spine and the hips in a neutral position. The arms must form a 90º angle at the elbow joint. This test measures the time the subject is able to remain in a stable position without compensations. The test ends when the hip descends or becomes in anteversion, accentuating the lumbar curve (hyperlordosis).",
+        "evaluation_english": "Measured in seconds (s). The subject has only one attempt. In variants 3 and 4, the same exercise will be repeated with each leg. The evaluator must be highly trained to identify changes or loss of control in the spine-pelvic region and terminate the test. Remarks: A strong and stable Core is the basis for all movement. On the other hand, a weak Core will pose a risk for the passive structures of the spine, and the vertebral discs can be greatly compromised by high impact exercises.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "010_isometric_plank",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_left_leg_extension",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_right_leg_extension",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_left_leg_extension_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_isometric_plank_with_right_leg_extension_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "010_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "side_plank_test",
+        "name_spanish": "Plancha lateral",
+        "name_english": "Side plank",
+        "description_spanish": "Un Core fuerte y estable es la base para todo movimiento, en cambio un Core débil significará un riesgo para las estructuras pasivas de la columna, donde disco vertebral puede verse muy comprometido ante ejercicios de alto impacto.",
+        "instruction_spanish": "Mediante la realización de este test podremos valorar la capacidad de resistencia en su función estabilizadora de la musculatura del Core lateral. Existe una correlación entre la resistencia en esta prueba y la fuerza de la rotación externa de la cadera y la incidencia de lesiones. Esta prueba genera aproximadamente el 50% de la máxima activación del cuadrado lumbar.",
+        "material_spanish": "Una superficie plana, un cronómetro y material inestable (variante 4). Se aconseja el uso de una colchoneta o esterilla para mayor comodidad a la hora de realizar el test.",
+        "procedure_spanish": "Para la preparación del test, el sujeto debe situarse en posición de plancha lateral con el antebrazo apoyado en el suelo, quedando el codo alineado verticalmente con el hombro y las piernas totalmente extendidas apoyando un pie sobre el suelo. Los brazos forman un ángulo de 90º en la articulación del codo. El test valora el tiempo que el sujeto es capaz de mantenerse en posición estable y sin compensaciones. La prueba finaliza cuando la cadera desciende o el evaluado pierda el equilibrio. Como puede verse en la ilustración A, tenemos 4 variantes para la realización de este test en las que vamos aumentando progresivamente el nivel de dificultad. 1) Plancha isométrica lateral 2) Plancha isométrica lateral con elevación de pierna 3) Plancha isométrica lateral con elevación de pierna y brazo 4) Plancha isométrica lateral con elevación de pierna y brazo sobre superficie inestable.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un solo intento. No hay que olvidar hacer el test por ambos lados. El evaluador debe estar muy entrenado para poder identificar los cambios o perdida de grados en la zona neutra columna-pelvis y dar por terminado el test.",
+        "description_english": "This test is performed to assess the ability and endurance of the lateral core musculature in its stabilizing function. There is a correlation between the endurance measured in this test and the hip external rotation strength and the incidence of injuries. This test requires approximately 50% of the maximum activation of the lumbar quadratus lumborum.",
+        "instruction_english": "This test is performed to assess the ability and endurance of the lateral core musculature in its stabilizing function. There is a correlation between the endurance measured in this test and the hip external rotation strength and the incidence of injuries. This test requires approximately 50% of the maximum activation of the lumbar quadratus lumborum.",
+        "material_english": "A flat surface, a stopwatch and some soft, unstable material (variant 4). The use of a mat is recommended for greater subject comfort during the test.",
+        "procedure_english": "The subject should be in a lateral plank position with the forearm resting on the floor, elbow aligned vertically with the shoulder and the legs fully extended with one foot resting on the floor. The arm on the ground must form a 90º angle at the elbow joint. This test measures the time that the subject is able to maintain a stable position without compensations. The test ends when the hip descends or the subject loses balance.",
+        "evaluation_english": "Measured in seconds (s). The subject has only one attempt to perform the test on each side of his/her body. The evaluator must be highly trained to identify changes or loss of control in the spine-pelvs neutral zone and terminate the test. Remarks: A strong and stable Core is the basis for all movement. On the other hand, a weak Core will pose a risk for the passive structures of the spine, and the vertebral discs can be greatly compromised by high impact exercises.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "011_isometric_side_plank",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_raise",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_and_arm_raise",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_isometric_side_plank_with_leg_and_arm_raise_on_unstable_surface",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "011_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "rope_climb",
+        "name_spanish": "Trepa de cuerda",
+        "name_english": "Rope climb",
+        "description_spanish": "Este test nos sirve para medir y valorar la fuerza explosiva (potencia anaeróbica aláctica) de la musculatura flexora de los brazos, dorsales y hombros. La trepa de cuerda es la prueba reina de las pruebas físicas que se deben superar para poder entrar a formar parte del cuerpo de bomberos en muchos lugares del mundo. Se trata de una prueba que requiere de fuerza, coordinación y técnica, si uno de los eslabones falla será muy difícil obtener una buen registro.",
+        "instruction_spanish": "Este test nos sirve para medir y valorar la fuerza explosiva (potencia anaeróbica aláctica) de la musculatura flexora de los brazos, dorsales y hombros. La trepa de cuerda es la prueba reina de las pruebas físicas que se deben superar para poder entrar a formar parte del cuerpo de bomberos en muchos lugares del mundo. Se trata de una prueba que requiere de fuerza, coordinación y técnica, si uno de los eslabones falla será muy difícil obtener una buen registro.",
+        "material_spanish": "Una cuerda, una campana y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en trepar por una cuerda lisa mediante la acción de los miembros superiores del cuerpo, sin apoyo de piernas, partiendo desde la posición de sentado como puede verse en la ilustración. A la señal del juez, el participante inicia la trepa a tocar con la mano la campana situada a la altura fijada o bien sobrepasar una línea marcada en la propia cuerda. Desde el inicio hasta el final del test el participante no podrá utilizar la acción de piernas y pies para ayudarse en la ejecución de la prueba considerándose nula la prueba en tal caso.",
+        "evaluation_spanish": "Se mide en segundos y el sujeto dispone de un máximo de 3 intentos.", 
+        "description_english": "This test is used to measure and evaluate the explosive strength (alactic anaerobic power) of the flexor muscles of the arms, dorsals and shoulders. Rope climbing is the ultimate physical test that must be passed in order to join the fire department in many countries. This is a test that requires strength, coordination and proper technique; if one of the links fails, it will be very difficult to obtain a good result.",
+        "instruction_english": "This test is used to measure and evaluate the explosive strength (alactic anaerobic power) of the flexor muscles of the arms, dorsals and shoulders. Rope climbing is the ultimate physical test that must be passed in order to join the fire department in many countries. This is a test that requires strength, coordination and proper technique; if one of the links fails, it will be very difficult to obtain a good result.",
+        "material_english": "A rope, a bell and a stopwatch.",
+        "procedure_english": "The test consists of climbing a smooth rope by means of the action of the upper limbs of the body, without leg support, starting from the sitting position as shown in the illustration. At the evaluator's signal, the participant starts climbing until he/she sounds the bell located at a certain height with his/her hand or goes over a line marked on the rope. From the beginning to the end of the test the subject must not use his/her legs or feet to help in the execution of the test, otherwise the test is considered null.",
+        "evaluation_english": "Measured in seconds. The subject have a maximum of 3 attempts.",
+        "value": null,
+  
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "012_rope_height",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "012_5_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_5_5_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_6_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_6_5_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_7_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_7_5_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_8_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_8_5_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_9_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_9_5_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "012_10_0_meters",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "012_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_wall_squat",
+        "name_spanish": "Sentadilla en pared",
+        "name_english": "Wall squat",
+        "description_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+       "instruction_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+        "material_spanish": "Pared lisa, superficie antideslizante para evitar resbalones y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en mantener la posición de sentadilla isométrica sin separar la espalda de la pared durante el mayor tiempo posible. Los pies deben estar separados a unos 2 pies de la pared, colocados a la anchura de los hombros y los brazos extendidos a ambos lados, aunque en ocasiones se permite tener los brazos extendidos al frente. Durante la realización de la prueba es importante que el sujeto en todo momento tenga activado el Core, así como evitar colocar las manos sobre las piernas para no encorvar la columna. Las piernas paralelas al suelo, formando un ángulo de 90º y las rodillas sobre los tobillos (ver ilustración). La prueba se puede realizar con zapatillas o bien descalzos para evitar el deslizamiento.",
+        "evaluation_spanish": "Se mide en segundos y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The isometric squat is an excellent exercise for toning the entire lower body. Muscles involved are: the gluteus maximus, responsible for hip movement, the quadriceps and hamstrings that work together to flex and extend the legs. Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "instruction_english": "The isometric squat is an excellent exercise for toning the entire lower body. Muscles involved are: the gluteus maximus, responsible for hip movement, the quadriceps and hamstrings that work together to flex and extend the legs. Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "material_english": "A smooth wall, anti-slip surface to prevent slipping and a stopwatch.",
+        "procedure_english": "The test consists of holding the isometric squat position without separating the back from the wall for as long as possible. The subject's feet should be about 2 ft (60 cm) away from the wall, shoulder width apart and the arms extended to both sides. Sometimes it is allowed to have the arms extended up front. During the test it is important that the subject constantly keeps the core active and avoids placing the hands on the legs so as not to bend the spine. Legs must be parallel to the ground, forming a 90º angle and knees over the ankles (see illustration). The test can be performed in sport shoes or barefoot to avoid slipping.",
+        "evaluation_english": "Measured in seconds. The subject have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "013_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "013_observations",
+                "name_spanish": null,
+                "name_english": null,
+                "question_category_code": null,
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "isometric_wall_squat_with_one_leg",
+        "name_spanish": "Sentadilla en pared monopodal",
+        "name_english": "Single leg wall squat",
+        "description_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+        "instruction_spanish": "La sentadilla isométrica es un movimiento excelente para tonificar todo tu tren inferior. Los músculos implicados son: el glúteo mayor, responsable del movimiento de la cadera, y los cuádriceps e isquiotibiales que trabajan conjuntamente para extender y flexionar las piernas La isometría es una técnica basada en ejercer tensión en los músculos en ausencia de ningún tipo de movimiento.",
+        "material_spanish": "Pared lisa, superficie antideslizante para evitar resbalones y un cronómetro.",
+        "procedure_spanish": "La prueba consiste en mantener la posición de sentadilla isométrica con una pierna sin separar la espalda de la pared durante el mayor tiempo posible. Un pie separado a unos 2 pies de la pared a la anchura del hombro correspondiente, formando un ángulo de 90º y las rodillas sobre los tobillos. La otra pierna se colocará totalmente extendida como puede verse en la ilustración. Los brazos extendidos a ambos lados, aunque en ocasiones se permite tener los brazos extendidos al frente. Durante la realización de la prueba es importante que el sujeto en todo momento tenga activado el Core, así como evitar colocar las manos sobre las piernas para no encorvar la columna. La prueba se puede realizar con zapatillas o bien descalzos para evitar el deslizamiento.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The isometric squat is an excellent exercise for toning the entire lower body. Muscles involved are: the gluteus maximus, responsible for hip movement, the quadriceps and hamstrings that work together to flex and extend the legs. Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "instruction_english": "The isometric squat is an excellent exercise for toning the entire lower body. Muscles involved are: the gluteus maximus, responsible for hip movement, the quadriceps and hamstrings that work together to flex and extend the legs. Isometrics is a technique based on exerting tension on muscles without any movement.",
+        "material_english": "A smooth wall, anti-slip surface to prevent slipping and a stopwatch.",
+        "procedure_english": "The test consists of holding the isometric squat position with one leg without separating the back from the wall for as long as possible. One foot separated about 2 ft  (60 cm) from the wall at the corresponding shoulder width, forming a 90º angle and the knee over the ankle. The other leg will be fully extended as shown in the illustration. Arms must be outstretched on both sides, although sometimes it is allowed to have arms outstretched in front. During the test it is important that the subject constantly keeps the core active and avoids placing the hands on the legs so as not to bend the spine. The test can be performed in sport shoes or barefoot to avoid slipping.",
+        "evaluation_english": "MMeasured in seconds. The subject have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "average_symmetric",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "014_test_1_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "014_test_2_left",
+               "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "014_test_3_left",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "text_response",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }]
+                },
+            {
+                "question_code": "014_test_1_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "014_test_2_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "014_test_3_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "014_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "forceframe",
+        "name_spanish": "Forceframe test",
+        "name_english": "Forceframe test",
+        "description_spanish": "El ForceFrame es un sistema portátil patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio muscular, así como prescribir y realizar entrenamiento isométrico de una forma rápida y versátil. El ForceFrame se puede ajustar fácilmente para medir la fuerza isométrica en la parte superior e inferior del cuerpo, incluidos los grupos musculares de la cadera, la rodilla, el hombro, el tobillo y el cuello, así como pruebas personalizadas si se quiere ser creativo.",
+       "instruction_spanish": "El ForceFrame es un sistema portátil patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio muscular, así como prescribir y realizar entrenamiento isométrico de una forma rápida y versátil. El ForceFrame se puede ajustar fácilmente para medir la fuerza isométrica en la parte superior e inferior del cuerpo, incluidos los grupos musculares de la cadera, la rodilla, el hombro, el tobillo y el cuello, así como pruebas personalizadas si se quiere ser creativo.",
+        "material_spanish": "Aparato ForceFrame y un ordenador o tablet para visualizar los datos en tiempo real.",
+        "procedure_spanish": "En sujeto se coloca correctamente en la máquina ForceFrame y ejecuta el ejercicio a monitorizar aplicando una buena técnica.",
+        "evaluation_spanish": "Gracias al software del producto podremos evaluar la fuerza y el desequilibrio muscular en newtons (N) para la pierna izquierda y derecha. Obtendremos valores de la fuerza máxima para cada repetición, así como de la fuerza promedio de todas las repeticiones",
+        "description_english": "ForceFrame is a patented portable system used to monitor strength and muscle imbalance, as well as prescribe and perform isometric training in a fast and versatile way. It can be easily adjusted to measure isometric strength in the upper and lower body, including the hip, knee, shoulder, ankle and neck muscle groups. It can be configured for other creative custom testing.",
+        "instruction_english": "ForceFrame is a patented portable system used to monitor strength and muscle imbalance, as well as prescribe and perform isometric training in a fast and versatile way. It can be easily adjusted to measure isometric strength in the upper and lower body, including the hip, knee, shoulder, ankle and neck muscle groups. It can be configured for other creative custom testing.",
+        "material_english": "A ForceFrame and a laptop or tablet to display results in real time.",
+        "procedure_english": "The subject must be correctly positioned on the ForceFrame machine and perform the exercise to be monitored using the proper technique.",
+        "evaluation_english": "The ForceFrame software will allow the evaluator to measure the strength and muscle imbalance in newtons (N) for the left and right leg. Values of the maximum force for each repetition, as well as the average force of all repetitions can be registered.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "015_exercise_to_evaluate_in_the_test",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "015_test_1_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "015_test_2_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "015_test_3_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "LEFT"
+                }]
+            },
+            {
+                "question_code": "015_test_1_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "015_test_2_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "015_test_3_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": "RIGHT"
+                }]
+            },
+            {
+                "question_code": "015_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "nordbord",
+        "name_spanish": "Nordboard test",
+        "name_english": "Nordboard test",
+        "description_spanish": "El NordBord es un sistema patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio de los isquiotibiales en una variedad de posiciones y ejercicios de una forma rápida, fácil, precisa y confiable.",
+        "instruction_spanish": "El NordBord es un sistema patentado con el que podemos monitorizar la fuerza y ​​el desequilibrio de los isquiotibiales en una variedad de posiciones y ejercicios de una forma rápida, fácil, precisa y confiable.",
+        "material_spanish": "Aparato NordBord y un ordenador o tablet para visualizar los datos en tiempo real.",
+        "procedure_spanish": "En sujeto se coloca correctamente en la máquina NordBord y ejecuta el ejercicio a monitorizar aplicando una buena técnica.",
+        "evaluation_spanish": "Gracias al software del producto podremos evaluar la fuerza de los isquiotibiales en newtons (N) para la pierna izquierda y derecha. Obtendremos valores de la fuerza máxima para cada repetición, así como de la fuerza promedio de todas las repeticiones",
+        "description_english": "The NordBord is a patented system that can be used to monitor hamstring strength and imbalance in a variety of positions and exercises in a quick, easy, accurate and reliable way.",
+        "instruction_english": "The NordBord is a patented system that can be used to monitor hamstring strength and imbalance in a variety of positions and exercises in a quick, easy, accurate and reliable way.",
+        "material_english": "A NordBord testing system and a laptop or tablet to display results in real time.",
+        "procedure_english": "The subject must be correctly positioned on the Nordbord machine and perform the exercise to be monitored using the proper technique.",
+        "evaluation_english": "The ForceFrame software will allow the evaluator to measure the hamstrings strength in newtons (N) for the left and right leg. Values of the maximum force for each repetition, as well as the average force of all repetitions can be registered.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "measurement",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "016_exercise_to_evaluate_in_the_test",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_1_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_2_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_3_left",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_1_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_2_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_test_3_right",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "016_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "single_pod_deep_squad",
+        "name_spanish": "Sentadilla monopodal",
+        "name_english": "Single leg squat",
+        "description_spanish": "Este test funcional es utilizado como test de control dentro del proceso de RDF de lesiones para conocer la progresión de la recuperación del sujeto, especialmente en lesiones de rodilla de ligamentos cruzados, así como también del síndrome fémoro-patelar. Se ha observado que se manifiesta un incremento de la addcuión de cadera y valgo de rodilla debido a una debilidad muscular de cuádriceps y glúteos.",
+        "instruction_spanish": "El test de sentadilla profunda monopodal (a una sola pierna), o también conocido como Single Leg Squat, es una prueba funcional de uso común en el mundo del deporte y del alto rendimiento cuyo objetivo es medir la fuerza del tren inferior del sujeto, especialmente la del cuádriceps, músculos isquiotibilales, glúteos y los estabilizadores de cadera. En ocasiones, esta prueba también recibe el nombre de Sentadilla Pistola o Pistol Squat Test debido a la posición que adopta el sujeto durante la realiazación de la prueba.",
+        "material_spanish": "Superficie antideslizante para evitar resbalones.",
+        "procedure_spanish": "La prueba comienza con el sujeto en posición de pie con con los brazos completamente extendidos hacia delante y las manos juntas (A), tal y como puede observarse en la ilustración. A continuación, el participante deberá colocar el peso sobre la pierna que deseamos evaluar, mientras despega del suelo la otra pierna, flexionando ligeramente la cadera y manteniendo la rodilla en extensión (B). Desde esa posición, el sujeto deberá ponersede cuclillas, flexionando la rodilla al máximo (sentadilla profunda), sin despegar el talón del suelo y sin modificar la posición de los brazos (C). Seguidamente el sujeto deberá volver a la posición inicial (A), realizando una extensión de cadera (D), completando así la primera repetición de las 5 que tendrá que realizar. Los brazos deberán formar un ángulo de 90º respecto al tronco durante toda la prueba.",
+        "evaluation_spanish": "El participante debe realizar 5 sentadillas sucesivas con cada pierna. Si el sujeto logra hacer 3 o más sentadillas sin problema la prueba se considera normal o negativa. En cambio, si el sujeto no es capaz de hacer al menos 3 sentadillas correctamente, la prueba se considera anormal o positiva. Como norma general, la observación clínica implica la evaluación de la estabilidad de la rodilla y la cadera del sujeto.",
+        "description_english": "The Single Leg Squat is a functional test commonly used in high performance sports whose objective is to measure the strength of the subject's lower body, especially the quadriceps, hamstrings, gluteus and hip stabilizer muscles. Sometimes this test is also called the Pistol Squat Test due to the position the subject adopts during the test.",
+        "instruction_english": "The Single Leg Squat is a functional test commonly used in high performance sports whose objective is to measure the strength of the subject's lower body, especially the quadriceps, hamstrings, gluteus and hip stabilizer muscles. Sometimes this test is also called the Pistol Squat Test due to the position the subject adopts during the test.",
+        "material_english": "Anti-slip surface.",
+        "procedure_english": "The test begins with the subject in a standing position with arms fully extended forward and hands together, as shown in the illustration A. Next, the subject should place his/her weight on the leg to be evaluated, while taking the other leg off the ground, slightly flexing the hip and keeping the other leg extended (B). From that position, the subject should squat down, flexing the knee to the maximum (deep squat), without taking the heel off the ground and without changing the position of the arms (C). The subject must then return to the starting position (A), performing a hip extension (D), thus completing the first of the 5 repetitions to be performed. The arms should form a 90º angle with the torso during the entire test.",
+        "evaluation_english": "The subject must perform 5 successive squats with each leg. If he/she manages to perform 3 or more squats without any problem the test is considered normal or negative. However, if the subject is unable to perform at least 3 squats correctly, the test is considered abnormal or positive. As a general rule, clinical observation should evaluate the subject's knee and hip stability.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "strength",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "017_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_right",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]
+    }
+ 
+]

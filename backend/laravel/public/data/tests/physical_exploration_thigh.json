@@ -1,0 +1,271 @@
+[
+    {
+        "code": "straight_leg_test",
+        "name_spanish": "Elevación activa de pierna estirada (ASLR)",
+        "name_english": "Active straight leg raise (ASLR)",
+        "description_spanish": "Esta prueba pertenece a la batería de test FMS (Functional Movement Screen) de Gray Cook. Sirve para evaluar la movilidad articular de la cadera en flexión y extensión, así como la estabildad del Core (zona media del cuerpo) o núcleo.",
+        "instruction_spanish": "Esta prueba pertenece a la batería de test FMS (Functional Movement Screen) de Gray Cook. Sirve para evaluar la movilidad articular de la cadera en flexión y extensión, así como la estabildad del Core (zona media del cuerpo) o núcleo.",
+        "material_spanish": "Una colchoneta o esterilla y material para la medición de FMS (palo de referencia de la medida).",
+        "procedure_spanish": "El sujeto debe tumbarse boca arriba (tendido decúbito supino) con las brazos a los lados y con las palmas de la mano hacia arriba. Se le pedirá que eleve la extremidad inferior con la rodilla en extensión y en posición neutra al igual que el tobillo. La cadera, rodilla y tobillo de la pierna contralateral deberán permanecer en contacto con el suelo y en posición neutra. Tal y como puede observarse en la ilustración, el palo seguirá la referencia vertical que indique el talón de la extremidad elevada. Durante la evaluación la pierna que queda en el suelo no puede moverse y tampoco pueden manifestarse compensaciones a nivel de pelvis y columna vertebral.",
+        "evaluation_spanish": "Se valora siguiendo los criterios de la batería FMS: 0 = Si al realizar el test manifiesta dolor.  1 = Si el palo queda por debajo de la rodilla. 2 = Si el palo de referencia queda en la mitad inferior del muslo una vez que se eleva la extremidad. 3 = Si la pierna permanece elevada y supera la línea imaginaria entre la espina iliaca antero-superior y la rótula.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "thigh",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "017_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "1_stick_below",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "2_lower_half",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }, 
+                    {
+                        "response_code": "3_exceeds_line",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "1_stick_below",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "2_lower_half",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }, 
+                    {
+                        "response_code": "3_exceeds_line",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "ely_test",
+        "name_spanish": "Test de Ely",
+        "name_english": "Ely test",
+        "description_spanish": "El objetivo de este test es valorar la rigidez funcional (acortamiento) del músculo recto anterior del cuádriceps.",
+        "instruction_spanish": "El objetivo de este test es valorar la rigidez funcional (acortamiento) del músculo recto anterior del cuádriceps.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitamos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto debe situarse sobre la camilla en posición de tendido decúbito prono (boca a bajo) y relajado. El evaluador se situa de pie del lado del músculo a evaluar, colacando una mano sobre el talón y otra sobre la espalda a nivel sacroilíaco del lado evaluado. Este le pedirá al sujeto que realice una flexión de rodilla de forma rápida con el objetivo de que el talón toque región glútea (nalga). Se deben comparar ambos lados.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando el sujeto no puede tocar con el talón la región glútea (nalga), eleva la cadera del lado evaluado por activación del psoas ilíaco o manifiesta algún tipo de dolor, disconfort u hormigueo en la espalda y/o pelvis. Si no hay presencia de dolor y el sujeto logra tocar con el talón la región glútea, la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "thigh",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "017_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "pain_passive_knee",
+        "name_spanish": "Pain free passive knee extension test (PKET)",
+        "name_english": "Pain free passive knee extension test (PKET)",
+        "description_spanish": "Esta prueba pertenece a la batería de pruebas de isquitibiales de ASPETAR (Aspetar Hamstring Protocol). Sirve para valorar el rango de movimiento (ROM) de extensión de la rodilla de forma pasiva y el grado de acortamiento del grupo muscular isquiotibial.",
+        "instruction_spanish": "Esta prueba pertenece a la batería de pruebas de isquitibiales de ASPETAR (Aspetar Hamstring Protocol). Sirve para valorar el rango de movimiento (ROM) de extensión de la rodilla de forma pasiva y el grado de acortamiento del grupo muscular isquiotibial.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla. La medición del ángulo del ROM se aconseja que se realice con un inclinómetro.",
+        "procedure_spanish": "El sujeto se coloca tumbado en posición decúbito supino (boca arriba) con la cadera y rodilla en flexión de 90º (Ilustración A). El evaluador debe fijar la extremidad que se evalua e ir extendiendo de forma gradual la rodilla hasta el punto donde exista una restricción por acortamiento del grupo muscular. El test deberá finalizar si se manifiesta dolor o se inicia la retroversión pélvica.",
+        "evaluation_spanish": "Teniendo en consideracion que la extensión máxima de rodilla indica el grado 0 de referencia articular (Ilustración B). Se consideran como rangos normales los valores entre 0º-15º, rangos moderados entre 16º-34º y valores mayores o igual a 35º como rangos de limitación, que podría indicar riesgo lesional.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "thigh",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "rom_left",
+               "value": 0,
+                "associate_responses": [
+                    {
+                        "response_code": "3_normal_range",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "2_moderate_range",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "1_limited_range",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "rom_right",
+               "value": 0,
+                "associate_responses": [
+                {
+                    "response_code": "3_normal_range",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                },
+                {
+                    "response_code": "2_moderate_range",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                },
+                {
+                    "response_code": "1_limited_range",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": true,
+                    "laterality": ""
+                }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

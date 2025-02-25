@@ -1,0 +1,41 @@
+<div class="container">
+  <!-- Indicador de carga -->
+  <div *ngIf="isLoading" class="loading-indicator">
+    <div class="spinner"></div>
+    <span>Cargando paquetes...</span>
+  </div>
+
+  <ng-container *ngIf="!isLoading">
+    <ng-container *ngFor="let package of packages">
+      <div *ngIf="package.code === 'teacher'">
+        <div class="rectangle-container">
+          <ng-container *ngFor="let subpackage of package.subpackages">
+            <div class="rectangle">
+              <div class="icon-container">
+                <!-- Mostrar el ícono según el nombre o uno predeterminado -->
+                <img [src]="getIcon(subpackage.name)" alt="Icono" class="icono">
+              </div>
+
+              <div class="info-container">
+                <h2 class="small-text">{{ subpackage.name }}</h2>
+              </div>
+              <hr class="linea-horizontal">
+              <div class="button-container">
+                <button class="button" (click)="showDialog(subpackage)">
+                  {{ 'adminPlans.edit_plan_button' | translate }}
+                </button>
+                <button class="button button-danger" *ngIf="subpackage.id !== undefined"
+                  (click)="deleteSubpackage(subpackage.id!)">
+                  {{ 'adminPlans.ELIMINAR' | translate }}
+                </button>
+              </div>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </ng-container>
+  </ng-container>
+
+  <app-edit-plan-modal (close)="hideDialog($event)" *ngIf="dialogVisible" [(visible)]="dialogVisible"
+    [subpackageData]="subpackageData"></app-edit-plan-modal>
+</div>

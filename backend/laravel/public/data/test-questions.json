@@ -1,0 +1,2693 @@
+[
+    {
+        "code":"001_weight",
+        "field_type": "number",
+        "name_spanish":"Peso",
+	    "name_english":"Weight",
+        "is_configuration_question": false,
+	    "question_category_code":null
+    },
+    {
+        "code":"001_observation",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"001_measuring",
+        "field_type": "radio",
+        "name_spanish":"Sistema de medición",
+        "name_english":"Choose units system",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"001_time",
+        "field_type": "date",
+        "name_spanish":"Fecha y hora",
+        "name_english":"Date and time",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"002_shoulder_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro hombros (A)",
+        "name_english":"Shoulder circumference (A)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_chest_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro pecho (B)",
+        "name_english":"Chest circumference (B)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_relaxed_bicep_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro bíceps relajado (C1)",
+        "name_english":"Relaxed bicep circumference (C1)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_contracted_bicep_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro bíceps contraido (C2)",
+        "name_english":"Tight biceps curcumference (C2)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_forearm_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro antebrazo (D)",
+        "name_english":"Forearm circumferenc (D)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_wrist_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro muñeca (E)",
+        "name_english":"Wrist circumference (E)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_abdomen_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro abdomen (F)",
+        "name_english":"Abdominal girth (F)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_waist_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro cintura (G)",
+        "name_english":"Waist girth (G)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_hips_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro cadera (H)",
+        "name_english":"Hip circumference (H)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_proximal_thigh_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro muslo proximal (I)",
+        "name_english":"Proximal thigh circumference (I)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    }, 
+    {
+        "code":"002_medial_thigh_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro muslo medial (J)",
+        "name_english":"Mid thigh circumference (J)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_knee_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro rodilla (K)",
+        "name_english":"Knee circumference (K)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_calf_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro gemelo (L)",
+        "name_english":"Calf circumference (L)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_ankle_circumference",
+        "field_type": "number",
+        "name_spanish":"Perímetro tobillo (M)",
+        "name_english":"Ankle circumference (M)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"002_observation",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_biacromial_diameter",
+        "field_type": "number",
+        "name_spanish":"Diámetro biacromial (A)",
+        "name_english":"Biacromial breadth (A)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_chest_diameter",
+        "field_type": "number",
+        "name_spanish":"Diámetro de pecho (B)",
+        "name_english":"Chest circumference (B)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_biepicondylar_diameter_of_the_humerus",
+        "field_type": "number",
+        "name_spanish":"Diámetro biepicondíleo de húmero (C)",
+        "name_english":"Biepicondylar humerus breadth (C)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_biileocrestal_diameter",
+        "field_type": "number",
+        "name_spanish":"Diámetro biileocrestal (D)",
+        "name_english":"Biiliac breadth (D)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_wrist_bistyloid_diameter",
+        "field_type": "number",
+        "name_spanish":"Diámetro biestiloideo de muñeca (E)",
+        "name_english":"Bistiloid wrist breadth (E)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_bicondylar_femur_diameter",
+        "field_type": "number",
+        "name_spanish":"Diámetro bicondíleo de fémur (F)",
+        "name_english":"Biepicondylar femur breadth (F)",
+        "unit": "cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"003_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_pectoral_pc",
+        "field_type": "number",
+        "name_spanish":"PC pectoral (A)",
+        "name_english":"Chest skinfold thickness (A)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_bicipital_pc",
+        "field_type": "number",
+        "name_spanish":"PC bicipital (B)",
+        "name_english":"Biceps skinfold thickness (B)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_abdominal_pc",
+        "field_type": "number",
+        "name_spanish":"PC abdominal (C)",
+        "name_english":"Abdomen skinfold thickness (C)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_suprailiac_pc",
+        "field_type": "number",
+        "name_spanish":"PC suprailiaco (D)",
+        "name_english":"Suprailiac skinfold thickness (D)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_thigh_pc",
+        "field_type": "number",
+        "name_spanish":"PC muslo (E)",
+        "name_english":"Thigh skinfold thickness (E)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_subscapularis_pc",
+        "field_type": "number",
+        "name_spanish":"PC subescapular (F)",
+        "name_english":"Subscapula skinfold thickness (F)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_tricipital_pc",
+        "field_type": "number",
+        "name_spanish":"PC tricipital (G)",
+        "name_english":"Triceps skinfold thickness (G)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_axillary_pc",
+        "field_type": "number",
+        "name_spanish":"PC axilar (H)",
+        "name_english":"Axilla skinfold thickness (H)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_calf_pc",
+        "field_type": "number",
+        "name_spanish":"PC pantorrilla (I)",
+        "name_english":"Calf skinfold thickness (I)",
+        "unit": "mm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"004_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"005_metric_system",
+        "field_type": "radio",
+        "name_spanish": "Sistema métrico (balón medicinal)",
+        "name_english": "Metric system (medicine ball)",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"005_medicine_ball_weight",
+        "field_type": "number",
+        "name_spanish": "Peso balón medicinal",
+        "name_english": "Medicine ball weight",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"005_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "m",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"005_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit": "m",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"005_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "m",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"005_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"006_time",
+        "field_type": "number",
+        "name_spanish": "Tiempo del test",
+        "name_english": "Test time",
+        "value": 0,
+        "unit": "sg",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"capt_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "value": 0,
+        "unit": "captures",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"capt_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "value": 0,
+        "unit": "captures",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"capt_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "captures",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"num_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "value": 0,
+        "unit": "n",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"num_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "value": 0,
+        "unit": "n",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"num_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "n",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"test_flex1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "value": 0,
+        "unit": "flexiones",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"test_flex2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "value": 0,
+        "unit": "flexiones",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"test_flex3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "flexiones",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"007_time",
+        "field_type": "number",
+        "name_spanish": "Tiempo suspendido",
+        "name_english": "Suspended time / Hold time",
+        "unit": "sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"007_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"007_grip_type",
+        "field_type": "checkbox",
+        "name_spanish": "Tipo de agarre",
+        "name_english": "Grip type",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"007_hand_position",
+        "field_type": "checkbox",
+        "name_spanish": "Posición de las manos",
+        "name_english": "Hand position",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"007_leg_position",
+        "field_type": "checkbox",
+        "name_spanish": "Posición de las piernas",
+        "name_english": "Leg position",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"008_test",
+        "field_type": "numeric",
+        "name_spanish": "Número dominadas",
+        "name_english": "Pull-ups number",
+        "unit": "dominada",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"008_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"008_duration",
+        "field_type": "number",
+        "name_spanish": "Duración del test",
+        "name_english": "Test duration",
+        "value": 0,
+        "unit":"sg",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"008_grip_type",
+        "field_type": "checkbox",
+        "name_spanish": "Tipo de agarre",
+        "name_english": "Grip type",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"008_hand_position",
+        "field_type": "checkbox",
+        "name_spanish": "Posición de las manos",
+        "name_english": "Hand position",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"008_leg_position",
+        "field_type": "checkbox",
+        "name_spanish": "Posición de las piernas",
+        "name_english": "Leg position",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos",
+        "name_english": "Glute bridge",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos sobre superficie inestable",
+        "name_english": "Glute bridge on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge_with_left_leg_extension",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos con extensión de pierna izquierda",
+        "name_english": "Glute bridge with left leg extension",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge_with_right_leg_extension",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos con extensión de pierna derecha",
+        "name_english": "Glute bridge with right leg extension",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge_with_left_leg_extension_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos con extensión de pierna izquierda sobre superficie inestable",
+        "name_english": "Glute bridge with left leg extension on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_glute_bridge_with_right_leg_extension_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Puente de glúteos con extensión de pierna derecha sobre superficie inestable",
+        "name_english": "Glute bridge with right leg extension on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"009_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica",
+        "name_english": "Isometric plank",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank_on_unstable_surface",
+        "field_type": "number",
+       "name_spanish": "Plancha isométrica sobre superficie inestable",
+        "name_english": "Isometric plank on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank_with_left_leg_extension",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica con extensión de pierna izquierda",
+        "name_english": "Isometric plank with left leg extension",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank_with_right_leg_extension",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica con extensión de pierna derecha",
+        "name_english": "Isometric plank with right right extension",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank_with_left_leg_extension_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica con extensión de pierna izquierda sobre superficie inestable",
+        "name_english": "Isometric plank with left leg extension on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_isometric_plank_with_right_leg_extension_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica con extensión de pierna derecha sobre superficie inestable",
+        "name_english": "Isometric plank with right leg extension on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"010_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"011_isometric_side_plank",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica lateral",
+        "name_english": "Isometric Side Plank",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"011_isometric_side_plank_with_leg_raise",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica lateral con elevación de pierna",
+        "name_english": "Isometric side plank with leg raise",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"011_isometric_side_plank_with_leg_and_arm_raise",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica lateral con elevación de pierna y brazo",
+        "name_english": "Isometric side plank with leg and arm raise",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"011_isometric_side_plank_with_leg_and_arm_raise_on_unstable_surface",
+        "field_type": "number",
+        "name_spanish": "Plancha isométrica lateral con elevación de pierna y brazo sobre superficie inestable",
+        "name_english": "Isometric side plank with leg and arm raise on unstable surface",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"011_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"012_rope_height",
+        "field_type": "radio",
+        "name_spanish": "Altura de la cuerda",
+        "name_english": "Rope height",
+        "is_configuration_question": true,
+         "question_category_code":null
+    },
+    {
+        "code":"012_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit":"sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"012_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"012_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"012_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"013_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit":"sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"013_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"013_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"013_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_1_left",
+        "field_type": "number",
+        "name_spanish": "Test 1 pierna izquierda",
+        "name_english": "Test 1 left leg",
+        "unit":"sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_2_left",
+        "field_type": "number",
+        "name_spanish": "Test 2 pierna izquierda",
+        "name_english": "Test 2 left leg",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_3_left",
+        "field_type": "number",
+        "name_spanish": "Test 3 pierna izquierda",
+        "name_english": "Test 3 left leg",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_1_right",
+        "field_type": "number",
+        "name_spanish": "Test 1 pierna derecha",
+        "name_english": "Test 1 right leg",
+        "unit":"sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_2_right",
+        "field_type": "number",
+        "name_spanish": "Test 2 pierna derecha",
+        "name_english": "Test 2 right leg",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_test_3_right",
+        "field_type": "number",
+        "name_spanish": "Test 3 pierna derecha",
+        "name_english": "Test 3 right leg",
+        "unit":"sg",
+        "required": false,        
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"014_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_exercise_to_evaluate_in_the_test",
+        "field_type": "alphanumber",
+        "name_spanish": "Ejercicio a evaluar en el test",
+        "name_english": "Exercise to evaluate in the test",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_1_left",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima izquierda",
+        "name_english": "Maximum left strength ",
+        "unit":"newton",
+        "required": false,   
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_2_left",
+        "field_type": "number",
+        "name_spanish": "Fuerza promedio izquierda",
+        "name_english": "Average left strength",
+        "unit":"newton",
+        "required": false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_3_left",
+        "field_type": "number",
+        "name_spanish": "Potencia izquierda",
+        "name_english": "Power left",
+        "unit":"watios",
+        "required": false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_1_right",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima derecha",
+        "name_english": "Maximum right strength ",
+        "unit":"newton",
+        "required": false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_2_right",
+        "field_type": "number",
+        "name_spanish": "Fuerza promedio derecha",
+        "name_english": "Average right strength",
+        "unit":"newton",
+        "required": false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_test_3_right",
+        "field_type": "number",
+        "name_spanish": "Potencia derecha",
+        "name_english": "Power right",
+        "unit":"watios",
+        "required": false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"015_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_exercise_to_evaluate_in_the_test",
+        "field_type": "alphanumber",
+        "name_spanish": "Ejercicio a evaluar en el test",
+        "name_english": "Exercise to evaluate in the test",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_1_left",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima izquierda",
+        "name_english": "Maximum left strength ",
+        "unit":"newton",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_2_left",
+        "field_type": "number",
+        "name_spanish": "Fuerza promedio izquierda",
+        "name_english": "Average left strength",
+        "unit":"newton",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_3_left",
+        "field_type": "number",
+        "name_spanish": "Potencia izquierda",
+        "name_english": "Power left",
+        "unit":"watios",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_1_right",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima derecha",
+        "name_english": "Maximum right strength ",
+        "unit":"newton",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_2_right",
+        "field_type": "number",
+        "name_spanish": "Fuerza promedio derecha",
+        "name_english": "Average right strength",
+        "unit":"newton",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_test_3_right",
+        "field_type": "number",
+        "name_spanish": "Potencia derecha",
+        "name_english": "Power right",
+        "unit":"watios",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"016_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"017_left",
+        "field_type": "radio",
+        "name_spanish": "Valoración pierna izquierda",
+        "name_english": "Left leg valoration",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"017_right",
+        "field_type": "radio",
+        "name_spanish": "Valoración pierna derecha",
+        "name_english": "Right leg valoration",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"017_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"019_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"019_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit":"cm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"019_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit":"cm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"019_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"020_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit":"n",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"020_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit":"n",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"020_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit":"n",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"020_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"variant_test",
+        "field_type": "checkbox",
+        "name_spanish": "Variante del test",
+        "name_english": "Variant test",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"seg_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit":"sg",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"seg_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"seg_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_mark_reached",
+        "field_type": "number",
+        "name_spanish": "Marca alcanzada",
+        "name_english": "Mark reached",
+        "unit":"m",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_minimum_hr",
+        "field_type": "number",
+        "name_spanish": "FC Mínima",
+        "name_english": "Lowest HR",
+        "tooltip_spanish": "ppm = pulsaciones por minuto",
+        "tooltip_english": "bpm = beats per minute",
+        "unit": "ppm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_mean_hr",
+        "field_type": "number",
+        "name_spanish": "FC Media",
+        "name_english": "Average HR",
+        "tooltip_spanish": "ppm = pulsaciones por minuto",
+        "tooltip_english": "bpm = beats per minute",
+        "unit": "ppm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_maximum_hr",
+        "field_type": "number",
+        "name_spanish": "FC Máxima",
+        "name_english": "Highest HR",
+        "tooltip_spanish": "ppm = pulsaciones por minuto",
+        "tooltip_english": "bpm = beats per minute",
+        "unit": "ppm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_post_test_hr",
+        "field_type": "number",
+        "name_spanish": "FC Post test",
+        "name_english": "Post Test HR",
+        "tooltip_spanish": "ppm = pulsaciones por minuto",
+        "tooltip_english": "bpm = beats per minute",
+        "unit": "ppm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_recovery_hr",
+        "field_type": "number",
+        "name_spanish": "FC Recuperación",
+        "name_english": "Recovery HR",
+        "tooltip_spanish": "ppm = pulsaciones por minuto",
+        "tooltip_english": "bpm = beats per minute",
+        "unit": "ppm",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"022_time_recovery_hr",
+        "field_type": "number",
+        "name_spanish": "Tiempo de recuperación",
+        "name_english": "Recovery time",
+        "unit":"sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"observation",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+    {
+        "code":"period_reached",
+        "name_spanish":"Periodo alcanzado",
+        "name_english":"Period reached",
+        "unit":"period",
+        "is_configuration_question": false,
+        "question_category_code":null
+        
+    },
+    {
+        "code":"previous",
+        "name_spanish":"Anterior (A)",
+        "name_english":"Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false
+    },
+    {
+        "code":"previous_left_l",
+        "name_spanish":"Pierna izquierda: Anterior (A)",
+        "name_english":"Left leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":"left_leg"
+    },
+    {
+        "code":"previous_left",
+        "name_spanish":"Pierna izquierda: Anterior (A)",
+        "name_english":"Left leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":"test_1"
+    },
+    {
+        "code":"previous_left_2",
+        "name_spanish":"Pierna izquierda: Anterior (A)",
+        "name_english":"Left leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":"test_2"
+    },
+    {
+        "code":"previous_left_3",
+        "name_spanish":"Pierna izquierda: Anterior (A)",
+        "name_english":"Left leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":"test_3"
+    },
+    {
+        "code":"previous_right_r",
+        "name_spanish":"Pierna derecha: Anterior (A)",
+        "name_english":"Right leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":"right_leg"
+    },
+    {
+        "code":"previous_right",
+        "name_spanish":"Pierna derecha: Anterior (A)",
+        "name_english":"Right leg: Previous (A)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"anterolateral",
+        "name_spanish":"Anterolateral"	,
+        "name_english":"Anterolateral",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"anterolateral_left",
+        "name_spanish":"Pierna izquierda: Anterolateral (C)",
+        "name_english":"Left leg: Anterolateral (C)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },    
+    {
+        "code":"anterolateral_right",
+        "name_spanish":"Pierna derecha : Anterolateral (B)",
+        "name_english":"Right leg: Anterolateral (B)",
+        "unit":"cm",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"side",
+        "name_spanish":"Lateral"	,
+        "name_english":"Side",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"side_left",
+        "name_spanish":"Pierna izquierda: Lateral (E)",
+        "name_english":"Left leg: Side  (E)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"side_right",
+        "name_spanish":"Pierna derecha: Lateral (D)",
+        "name_english":"Right leg: Side (D)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"posterolateral",
+        "name_spanish":"Posterolateral"	,
+        "name_english":"Posterolateral",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    }, 	
+    {
+        "code":"posterolateral_left",
+        "name_spanish":"Pierna izquierda: Posterolateral (G)",
+        "name_english":"Left leg: Posterolateral (G)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    }, 	
+    {
+        "code":"posterolateral_right",
+        "name_spanish":"Pierna derecha: Posterolateral (F)",
+        "name_english":"Right leg: Posterolateral (F)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    }, 	
+    {
+        "code":"later",
+        "name_spanish":"Posterior",
+        "name_english":"Later",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"later_left",
+        "name_spanish":"Pierna izquierda: Posterior (H)",
+        "name_english":"Left leg: Later (H)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"later_right",
+        "name_spanish":"Pierna derecha: Posterior (H)",
+        "name_english":"Right leg: Later (H)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"posteromedial",
+        "name_spanish":"Posteromedial",
+        "name_english":"Posteromedial",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"posteromedial_left",
+        "name_spanish":"Pierna izquierda: Posteromedial (F)",
+        "name_english":"Left leg: Posteromedial (F)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"posteromedial_right",
+        "name_spanish":"Pierna derecha: Posteromedial (G)",
+        "name_english":"Right leg: Posteromedial (G)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"medial"	,
+        "name_spanish":"Medial"	,
+        "name_english":"Medial"	,
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"medial_left",
+        "name_spanish":"Pierna izquierda: Medial (D)",
+        "name_english":"Left leg: Medial (D)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"medial_right",
+        "name_spanish":"Pierna derecha: Medial (E)",
+        "name_english":"Right leg: Medial (E)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },	
+    {
+        "code":"anteromedial",
+        "name_spanish":"Anteromedial",
+        "name_english":"Anteromedial",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },	
+    {
+        "code":"anteromedial_right",
+        "name_spanish":"Pierna derecha: Anteromedial (C)",
+        "name_english":"Right leg: Anteromedial  (C)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },
+    {
+        "code":"anteromedial_left",
+        "name_spanish":"Pierna Izquierda: Anteromedial  (B)",
+        "name_english":"Left leg: Anteromedial (B)",
+        "unit":"cm",
+        "is_configuration_question": false,        
+        "question_category_code":null
+    },	
+    {
+        "code":"affected_side",
+        "name_spanish":"Lado afectado",
+        "name_english":"Affected side",
+        "question_category_code":null
+    },
+    {
+        "code":"assessment",
+        "name_spanish":"Valoración",
+        "name_english":"Assessment",
+        "question_category_code":null
+    },
+    {
+        "code":"run_type",
+        "field_type": "checkbox",
+        "name_spanish":"Tipo de carrera",
+        "name_english":"Run type",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"start_type",
+        "field_type": "checkbox",
+        "name_spanish":"Tipo de salida",
+        "name_english":"Start type",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"test_distance",
+        "field_type": "number",
+        "name_spanish": "Distancia del test",
+        "name_english": "Distance test",
+        "unit":"m",
+        "is_configuration_question": true,       
+        "question_category_code":null
+    },
+    {
+        "code":"min_mark_reached",
+        "field_type": "number",
+        "name_spanish": "Marca alcanzada",
+        "name_english": "Mark reached",
+        "unit":"min",
+        "is_configuration_question": false,
+        "question_category_code":null
+    }
+    ,
+    {
+        "code":"environment",
+        "field_type": "checkbox",
+        "name_spanish":"Instalación",
+        "name_english":"Environment",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"style",
+        "field_type": "checkbox",
+        "name_spanish":"Estilo",
+        "name_english":"Style",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"test_level",
+        "field_type": "checkbox",
+        "name_spanish":"Nivel del test",
+        "name_english":"Test level",
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"Shuttle_reached",
+        "field_type": "number",
+        "name_spanish":"Periodo alcanzado",
+        "name_english":"Shuttle reached",
+        "unit": "min",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_cont_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "contacts",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_cont_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit": "contacts",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_cont_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "contacts",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "sg",
+        "is_configuration_question": false
+    },
+    {
+        "code":"vel_test_1_l",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "sg",
+        "is_configuration_question": false,
+        "question_category_code":"left_side"
+    },
+    {
+        "code":"vel_test_1_r",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "sg",
+        "is_configuration_question": false,
+        "question_category_code":"right_side"
+    },
+    {
+        "code":"vel_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit": "sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "sg",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_observations",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_time",
+        "field_type": "number",
+        "name_spanish": "Tiempo del test",
+        "name_english": "Test time",
+        "value": 0,
+        "unit": "sg",
+        "is_configuration_question": true,
+        "question_category_code":null
+    }, 
+    {
+        "code":"vel_dominant_hand",
+        "field_type": "checkbox",
+        "name_spanish": "Mano dominante",
+        "name_english": "Dominant hand",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"vel_distance",
+        "field_type": "number",
+        "name_spanish": "Distancia del test (A-B)",
+        "name_english": "Test distance (A-B)",
+        "unit":"m",
+        "is_configuration_question": true,       
+        "question_category_code":null
+    },
+    {
+        "code":"vel2_distance",
+        "field_type": "number",
+        "name_spanish": "Distancia del test (B-C)",
+        "name_english": "Test distance (B-C)",
+        "unit":"m",
+        "is_configuration_question": true,       
+        "question_category_code":null
+    },
+    {
+        "code":"vel_predistance",
+        "field_type": "number",
+        "name_spanish": "Zona de pre-carrera (A-B)",
+        "name_english": "Pre-race area (A-B)",
+        "unit":"m",
+        "is_configuration_question": true,       
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_1_left",
+        "field_type": "number",
+        "name_spanish": "Pierna izquierda: Test 1",
+        "name_english": "Test 1 left leg",
+        "unit":"intentos",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_2_left",
+        "field_type": "number",
+        "name_spanish": "Pierna izquierda: Test 2",
+        "name_english": "Test 2 left leg",
+        "unit":"intentos",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_3_left",
+        "field_type": "number",
+        "name_spanish": "Pierna izquierda: Test 3",
+        "name_english": "Test 3 left leg",
+        "unit":"intentos",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_1_right",
+        "field_type": "number",
+        "name_spanish": "Pierna derecha: Test 1",
+        "name_english": "Test 1 right leg",
+        "unit":"intentos",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_2_right",
+        "field_type": "number",
+        "name_spanish": "Pierna derecha: Test 2",
+        "name_english": "Test 2 right leg",
+        "unit":"intentos",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"int_leg_test_3_right",
+        "field_type": "number",
+        "name_spanish": "Pierna derecha: Test 3",
+        "name_english": "Test 3 right leg",
+        "unit":"intentos",
+        "required": false,        
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+
+
+
+
+
+
+    {
+        "code":"drawer_height",
+        "field_type": "checkbox",
+        "name_spanish": "Altura del cajón",
+        "name_english": "Drawer height",
+        "unit":"cm",     
+        "is_configuration_question": true,
+        "question_category_code":null
+    },
+    {
+        "code":"left_shoulder",
+        "field_type": "radio",
+        "name_spanish": "Valoración hombro izquierdo",
+        "name_english": "Left shoulder assessment",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_shoulder",
+        "field_type": "radio",
+        "name_spanish": "Valoración hombro derecha",
+        "name_english": "Right shoulder assessment",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"valgus_test",
+        "field_type": "radio",
+        "name_spanish": "Prueba de valgo",
+        "name_english": "Valgus test",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"varus_test",
+        "field_type": "radio",
+        "name_spanish": "Prueba de varo",
+        "name_english": "Varus test",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"pivot_shift_test",
+        "field_type": "radio",
+        "name_spanish": "Prueba de pivot-shift:",
+        "name_english": "Pivot-shift test",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"select_assessment",
+        "field_type": "radio",
+        "name_spanish": "Valoración",
+        "name_english": "Assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_side_ipsilateral",
+        "field_type": "radio",
+        "name_spanish": "Valoración homolateral lado izquierdo",
+        "name_english": "Left side ipsilateral assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"ipsilateral_right_side",
+        "field_type": "radio",
+        "name_spanish": "Valoración homolateral lado derecho",
+        "name_english": "Ipsilateral assessment right side",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"contralateral_left_side",
+        "field_type": "radio",
+        "name_spanish": "Valoración contralateral lado izquierdo",
+        "name_english": "Contralateral assessment left side",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"contralateral_right_side",
+        "field_type": "radio",
+        "name_spanish": "Valoración contralateral lado derecho",
+        "name_english": "Contralateral assessment right side",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"hip_left",
+        "field_type": "radio",
+        "name_spanish": "Valoración cadera izquierda",
+        "name_english": "Left hip assessment",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"hip_right",
+        "field_type": "radio",
+        "name_spanish": "Valoración cadera derecho",
+        "name_english": "Right hip assessment",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"min_test_1",
+        "field_type": "number",
+        "name_spanish": "Test 1",
+        "name_english": "Test 1",
+        "unit": "min",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"min_test_2",
+        "field_type": "number",
+        "name_spanish": "Test 2",
+        "name_english": "Test 2",
+        "unit": "min",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"min_test_3",
+        "field_type": "number",
+        "name_spanish": "Test 3",
+        "name_english": "Test 3",
+        "unit": "min",
+        "required": false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"rom_left",
+        "field_type": "radio",
+        "name_spanish": "ROM pierna izquierda",
+        "name_english": "Left leg ROM",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"rom_right",
+        "field_type": "radio",
+        "name_spanish": "ROM pierna derecha",
+        "name_english": "Right leg ROM",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"rear_drawer",
+        "field_type": "radio",
+        "name_spanish": "Valoración Cajón posterior",
+        "name_english": "Rear drawer rating",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"valuation_Previous",
+        "field_type": "radio",
+        "name_spanish": "Valoración Cajón anterior",
+        "name_english": "Valuation Previous drawer",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_knee",
+        "field_type": "radio",
+        "name_spanish": "Valoración rodilla izquierda",
+        "name_english": "Left knee assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_knee",
+        "field_type": "radio",
+        "name_spanish": "Valoración rodilla derecha",
+        "name_english": "Right knee assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_ankle",
+        "field_type": "radio",
+        "name_spanish": "Valoración tobillo derecho",
+        "name_english": "Right ankle assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_ankle",
+        "field_type": "radio",
+        "name_spanish": "Valoración tobillo izquierdo",
+        "name_english": "Left ankle assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_internal_ligament",
+        "field_type": "radio",
+        "name_spanish": "Ligamento lateral interno (LLI) tobillo izquierdo",
+        "name_english": "Internal lateral ligament (LLI) left ankle",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_external_ligament",
+        "field_type": "radio",
+        "name_spanish": "Ligamento lateral externo (LLE) tobillo izquierdo",
+        "name_english": "External lateral ligament (LLE) left ankle",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_internal_ligament",
+        "field_type": "radio",
+        "name_spanish": "Ligamento lateral interno (LLI) tobillo derecho",
+        "name_english": "Internal lateral ligament (LLI) right ankle",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_external_ligament",
+        "field_type": "radio",
+        "name_spanish": "Ligamento lateral externo (LLE) tobillo derecho",
+        "name_english": "External lateral ligament (LLE) right ankle",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"left_side_assessment",
+        "field_type": "radio",
+        "name_spanish": "Valoración del lado izquierdo",
+        "name_english": "Left side assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"right_side_assessment",
+        "field_type": "radio",
+        "name_spanish": "Valoración del lado derecho",
+        "name_english": "Right side assessment",
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+
+
+    {
+        "code":"vertical_jump_height",
+        "field_type": "number",
+        "name_spanish": "Altura del salto vertical",
+        "name_english": "Vertical jump height",
+        "unit":"cm",     
+        "is_configuration_question": false,
+        "question_category_code":"test_1"
+    },
+    {
+        "code":"flight_time",
+        "field_type": "number",
+        "name_spanish": "Tiempo de vuelo",
+        "name_english": "Flight time",
+        "unit":"ms",    
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"contact_time",
+        "field_type": "number",
+        "name_spanish": "Tiempo de contacto",
+        "name_english": "Contact time",
+        "unit":"ms",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_strength",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima",
+        "name_english": "Maximum strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_strength",
+        "field_type": "number",
+        "name_spanish": "Fuerza relativa",
+        "name_english": "Relative strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_power",
+        "field_type": "number",
+        "name_spanish": "Potencia máxima",
+        "name_english": "Maximum power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_power",
+        "field_type": "number",
+        "name_spanish": "Potencia relativa",
+        "name_english": "Relative power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_speed",
+        "field_type": "number",
+        "name_spanish": "Velocidad máxima",
+        "name_english": "Maximum speed",
+        "unit":"m/s",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"acceleration",
+        "field_type": "number",
+        "name_spanish": "Aceleración",
+        "name_english": "Acceleration",
+        "unit":"m/s2",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"observation_1",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+
+    {
+        "code":"vertical_jump_height_2",
+        "field_type": "number",
+        "name_spanish": "Altura del salto vertical",
+        "name_english": "Vertical jump height",
+        "unit":"cm",    
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":"test_2"
+    },
+    {
+        "code":"flight_time_2",
+        "field_type": "number",
+        "name_spanish": "Tiempo de vuelo",
+        "name_english": "Flight time",
+        "unit":"ms",    
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"contact_time_2",
+        "field_type": "number",
+        "name_spanish": "Tiempo de contacto",
+        "name_english": "Contact time",
+        "unit":"ms",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_strength_2",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima",
+        "name_english": "Maximum strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_strength_2",
+        "field_type": "number",
+        "name_spanish": "Fuerza relativa",
+        "name_english": "Relative strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_power_2",
+        "field_type": "number",
+        "name_spanish": "Potencia máxima",
+        "name_english": "Maximum power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_power_2",
+        "field_type": "number",
+        "name_spanish": "Potencia relativa",
+        "name_english": "Relative power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_speed_2",
+        "field_type": "number",
+        "name_spanish": "Velocidad máxima",
+        "name_english": "Maximum speed",
+        "unit":"m/s",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"acceleration_2",
+        "field_type": "number",
+        "name_spanish": "Aceleración",
+        "name_english": "Acceleration",
+        "unit":"m/s2",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"observation_2",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+
+    {
+        "code":"vertical_jump_height_3",
+        "field_type": "number",
+        "name_spanish": "Altura del salto vertical",
+        "name_english": "Vertical jump height",
+        "unit":"cm",     
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":"test_3"
+    },
+    {
+        "code":"flight_time_3",
+        "field_type": "number",
+        "name_spanish": "Tiempo de vuelo",
+        "name_english": "Flight time",
+        "unit":"ms",    
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"contact_time_3",
+        "field_type": "number",
+        "name_spanish": "Tiempo de contacto",
+        "name_english": "Contact time",
+        "unit":"ms",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_strength_3",
+        "field_type": "number",
+        "name_spanish": "Fuerza máxima",
+        "name_english": "Maximum strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_strength_3",
+        "field_type": "number",
+        "name_spanish": "Fuerza relativa",
+        "name_english": "Relative strength",
+        "unit":"newton",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_power_3",
+        "field_type": "number",
+        "name_spanish": "Potencia máxima",
+        "name_english": "Maximum power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"relative_power_3",
+        "field_type": "number",
+        "name_spanish": "Potencia relativa",
+        "name_english": "Relative power",
+        "unit":"watios",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"maximum_speed_3",
+        "field_type": "number",
+        "name_spanish": "Velocidad máxima",
+        "name_english": "Maximum speed",
+        "unit":"m/s",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"acceleration_3",
+        "field_type": "number",
+        "name_spanish": "Aceleración",
+        "name_english": "Acceleration",
+        "unit":"m/s2",     
+        "required":false, 
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+    {
+        "code":"observation_3",
+        "field_type": "textarea",
+        "name_spanish": "Observaciones",
+        "name_english": "Notes",
+        "required":false,
+        "is_configuration_question": false,
+        "question_category_code":null
+    },
+
+
+
+
+
+
+    
+    {
+        "code":"maximum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca máxima",
+        "name_english":"Maximum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"average_heart_rate",
+        "name_spanish":"Frecuencia cardiaca media",
+        "name_english":"Average heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"minimum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca mínima",
+        "name_english":"Minimum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_reserve",
+        "name_spanish":"Frecuencia cardiaca de reserva",
+        "name_english":"Heart rate reserve",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_variability",
+        "name_spanish":"Variabilidad de la frecuencia cardiaca (VFC)",
+        "name_english":"Heart rate variability (HRV)",
+        "field_type": "number",
+        "unit":"m/s",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_1",
+        "name_spanish":"Zona entrenamiento 1 (50-60 % Fc max)",
+        "name_english":"Training zone 1 (50-60% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_2",
+        "name_spanish":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "name_english":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_3",
+        "name_spanish":"Zona entrenamiento 3 (70-80 % Fc max)",
+        "name_english":"Training zone 3 (70-80% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_4",
+        "name_spanish":"Zona entrenamiento 4 (80-90 % Fc max)",
+        "name_english":"Training zone 4 (80-90% Fc max)",
+        "field_type": "number",
+        "unit":"percentage", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_5",
+        "name_spanish":"Zona entrenamiento 5 (90-100 % Fc max)",
+        "name_english":"Training zone 5 (90-100% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+
+
+
+    {
+        "code":"distance_total",
+        "name_spanish":"Distancia total",
+        "name_english":"Total distance",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_15_20",
+        "name_spanish":"Distancia 15-20 km/h",
+        "name_english":"Distance 15-20km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_20_25",
+        "name_spanish":"Distancia 20-25 km/h",
+        "name_english":"Distance 20-25km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_25",
+        "name_spanish":"Distancia >25 km/h (sprint)",
+        "name_english":"Distance >25 km/h (sprint)",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"relative_distance",
+        "name_spanish":"Distancia relativa",
+        "name_english":"Relative distance",
+        "field_type": "number",
+        "unit":"m/min",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"maximum_speed",
+        "name_spanish":"Velocidad máxima",
+        "name_english":"Maximum speed",
+        "field_type": "number",
+        "unit":"km/h",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"equivalent_distance_index",
+        "name_spanish":"Índice de Distancia Equivalente (EDI)",
+        "name_english":"Equivalent Distance Index (EDI)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"metabolic_power",
+        "name_spanish":"Potencia metabólica",
+        "name_english":"Metabolic power",
+        "field_type": "number",
+        "unit":"w/kg",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"accelerations",
+        "name_spanish":"Aceleraciones",
+        "name_english":"Accelerations",
+        "field_type": "number",
+        "unit":"m/s2", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"slowdowns",
+        "name_spanish":"Desaceleraciones",
+        "name_english":"Slowdowns",
+        "field_type": "number",
+        "unit":"m/s2",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"response_number",
+        "name_spanish":"valor",
+        "name_english":"valor",
+        "field_type": "number",
+        "required":false, 
+        "is_configuration_question": false
+    },
+
+
+
+
+    {
+        "code":"response_number_fisio",
+        "name_spanish":"valor",
+        "name_english":"valor",
+        "field_type": "number",
+        "required":false, 
+        "is_configuration_question": false
+    },
+
+
+
+
+    {
+        "code": "progressiont",
+        "name_spanish": "¿ Cómo valoras la progresión experimentada en el proceso de readaptación de tu lesión ? ",
+        "name_english": "How do you assess the progression experienced in the rehabilitation process of your injury ?",
+        "question_category_code": null,
+        "field_type": "select",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "emotionallyt",
+        "name_spanish": "¿ Cómo te encuentras animicamente ?",
+        "name_english": "How do you feel emotionally ?",
+        "question_category_code": null,
+        "field_type": "select",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "physical_conditiont",
+        "name_spanish": "¿ Cómo es tu estado físico para volver con el equipo ?",
+        "name_english": "How is your physical condition to return to the team ?",
+        "question_category_code": null,
+        "field_type": "select",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "functional_statet",
+        "name_spanish": "¿ Cómo valoras el estado funcional de tu zona dañada ?",
+        "name_english": "How do you assess the functional state of your damaged area ?",
+        "question_category_code": null,
+        "field_type": "select",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "discomfortt",
+        "name_spanish": "¿ Sientes alguna incomodidad, limitación, que te impida entrenar con normalidad ?",
+        "name_english": "Do you feel any discomfort, limitation, that prevents you from training normally ?",
+        "question_category_code": null,
+        "field_type": "select",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "nervoust",
+        "name_spanish": "¿ Tienes nervios por tener que volver con el equipo ?",
+        "name_english": "Are you nervous about having to go back to the team ?",
+        "question_category_code": null,
+        "field_type": "radio",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "gesturet",
+        "name_spanish": "Valora la seguridad con la que realizarías algún gesto o movimiento relacionado con la lesión",
+        "name_english": "Assess the security with which you would perform any gesture or movement related to the injury",
+        "question_category_code": null,
+        "field_type": "radio",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "relapsingt",
+        "name_spanish": "¿ Qué porcentaje de posibilidades crees que tienes de recaer de esta lesión a corto plazo ?",
+        "name_english": "What percentage of chances do you think you have of relapsing from this injury in the short term?",
+        "question_category_code": null,
+        "field_type": "radio",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "pressuret",
+        "name_spanish": "¿ Qué nivel de presión recibes en tu entorno para volver a entrenar con el equipo ?",
+        "name_english": "What level of pressure do you receive in your environment to return to training with the team ?",
+        "question_category_code": null,
+        "field_type": "radio",
+        "required":false, 
+        "is_configuration_question": false
+    },
+    {
+        "code": "global_statust",
+        "name_spanish": "¿ Cómo calificarias tu estado GLOBAL actual para volver a la dinámica normalizada del equipo ?",
+        "name_english": "How would you rate your current GLOBAL status to return to normal team dynamics ?",
+        "question_category_code": null,
+        "field_type": "radio",
+        "required":false, 
+        "is_configuration_question": false
+    }
+
+
+
+    
+]

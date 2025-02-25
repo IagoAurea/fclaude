@@ -1,0 +1,226 @@
+/* Contenedor de la tabla y el buscador en fila */
+.d-flex {
+  display: flex;
+  gap: 20px;
+  /* Espacio entre el buscador y la tabla */
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  /* Añadir margen en la parte inferior */
+}
+
+/* Contenedor del buscador */
+.search-container {
+  flex: 0 0 auto;
+  /* No se estira ni se reduce */
+  width: 300px;
+  /* Ajusta el tamaño del buscador */
+  margin-top: 20px;
+  /* Añadimos un margen superior para dar espacio */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Tabla con los permisos */
+.table-container {
+  flex-grow: 1;
+  /* La tabla ocupa el espacio restante */
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Tabla con estilo */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Celdas de la tabla */
+.table th,
+.table td {
+  padding: 12px 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+  background-color: white;
+  color: #193e65;
+  font-weight: bold;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  color: #193e65;
+  font-size: 16px;
+}
+
+.table tbody td {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.table tbody tr {
+  height: 50px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Toggle container */
+.toggle-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.toggle-arrow {
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-arrow.open {
+  transform: rotate(180deg);
+}
+
+/* Estilo para los checkboxes */
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.4);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #193e65;
+  /* Color de fondo para checkboxes seleccionadas */
+  border-color: #193e65;
+}
+
+/* Añadir margen a las columnas */
+.ml-3 {
+  margin-left: 15px;
+}
+
+/* Espacio entre elementos dentro de la tabla */
+.w-25 {
+  width: 25%;
+}
+
+.custom-select {
+  width: 200px;
+}
+
+/* Estilos para los botones */
+.table-container .btn {
+  padding: 10px 20px;
+  background-color: #024cac;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.table-container .btn:hover {
+  background-color: #155a7b;
+}
+
+/* Estilos del texto */
+p {
+  color: #193e65;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilo de los mensajes de feedback */
+.feedback-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.feedback-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.feedback-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.feedback-message.warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.feedback-message.info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+/* Asegurarse de que el contenedor de expansión se vea bien */
+.expanding-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.6s ease-in-out;
+}
+
+.expanding-container.expanded {
+  max-height: 500px;
+  width: 100%;
+}
+
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #ccc;
+  border-top: 3px solid #024cac;
+  /* Color principal */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

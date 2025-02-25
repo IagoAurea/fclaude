@@ -1,0 +1,13 @@
+{
+    "name": "InjuryPrevention",
+    "alias": "injuryprevention",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InjuryPrevention\\Providers\\InjuryPreventionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

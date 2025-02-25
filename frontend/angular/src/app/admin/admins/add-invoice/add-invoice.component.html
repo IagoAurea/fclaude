@@ -1,0 +1,43 @@
+<h5 class="mb-3">Crear nueva factura</h5>
+<p class="text-muted mb-0 mt-3 small">Genere una nueva factura para hacerla</p>
+<p class="text-muted mb-0 small"> específica a nombre de la empresa o</p>
+<p class="text-muted mb-3 small"> la persona natural</p>
+<hr class="mx-0 my-3 custom-hr">
+
+<form #userForm="ngForm" class="row g-3">
+  <!-- Factura a nombre de -->
+  <div class="col-md-12 mb-3">
+    <label for="nombreFactura" class="form-label">Factura a nombre de :</label>
+    <input type="text" class="form-control" id="nombreFactura" name="nombreFactura" [(ngModel)]="newUser.nombreFactura" required>
+  </div>
+
+  <!-- Primera columna -->
+  <div class="col-md-6">
+    <!-- Itera sobre los items dinámicos -->
+    <div *ngFor="let item of items; let i = index" class="col-md-12 mb-3">
+      <label [for]="'item' + i" class="form-label">Item {{ i + 1 }}:</label>
+      <input type="email" class="form-control" [id]="'item' + i" [name]="'item' + i" [(ngModel)]="item.item" required>
+    </div>
+  </div>
+
+  <!-- Segunda columna -->
+  <div class="col-md-6">
+    <!-- Itera sobre los precios dinámicos -->
+    <div *ngFor="let item of items; let i = index" class="col-md-12 mb-3">
+      <label [for]="'precioItem' + i" class="form-label">Precio Item {{ i + 1 }}:</label>
+      <input type="text" class="form-control" [id]="'precioItem' + i" [name]="'precioItem' + i" [(ngModel)]="item.precioItem" required>
+    </div>
+  </div>
+
+  <!-- Botón para agregar más filas -->
+  <div class="col-md-12 mb-3">
+    <button type="button" class="btn btn-custom w-100" (click)="agregarFila()" style="text-align: left; padding-left: 10px;">Añadir nueva columna</button>
+</div>
+
+  <hr class="mx-0 my-3 mt-4 custom-hr">
+
+  <div class="col-12 d-flex justify-content-end">
+    <button type="button" class="btn btn-secondary me-2" (click)="close()">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="saveUser()" [disabled]="!userForm.form.valid">Guardar</button>
+  </div>
+</form>

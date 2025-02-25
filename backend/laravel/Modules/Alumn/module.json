@@ -1,0 +1,13 @@
+{
+    "name": "Alumn",
+    "alias": "alumn",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Alumn\\Providers\\AlumnServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

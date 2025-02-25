@@ -1,0 +1,1540 @@
+[
+    {
+        "code": "squat_jump",
+        "name_spanish": "Squat jump (SJ)",
+        "name_english": "Squat jump (SJ)",
+        "description_spanish": "El objetivo principal del test de media sentadilla con salto o más bien conocido como Squat Jump (SJ) es medir la fuerza explosiva de los miembros inferiores. El test SJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concéntrica.",
+        "instruction_spanish": "El objetivo principal del test de media sentadilla con salto o más bien conocido como Squat Jump (SJ) es medir la fuerza explosiva de los miembros inferiores. El test SJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concéntrica.",
+        "material_spanish": "Se pueden utilizar diferentes instrumentos de medición, tales como: plataformas de fuerza, plataformas de contacto, transductores ópticos de posición (por infrarrojos), acelerómetros, video análisis o incluso softwares y Apps específicas.",
+        "procedure_spanish": "El sujeto debe situarse sobre el instrumento de medición con las manos en las caderas y las rodillas flexionadas formando un ángulo de 90º (posición de media sentadilla). Después el participante debe mantener la posición durante 5 sg eliminando así la mayor parte de la energía elástica acumulada durante la flexión. Una vez adoptada la posición de partida, el sujeto tratará de dar un salto lo mas alto posible, evitando cualquier acción de contramovimiento y sin soltar las manos, cayendo en la misma posición con los pies y las piernas extendidas como muestra la imágen, apoyando primero la zona del metatarso y posteriormente la parte posterior del pie.",
+        "evaluation_spanish": "La altura del salto se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main objective of the Squat Jump (SJ) test is to measure the explosive strength of the lower limbs. The SJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is called concentric contraction.",
+        "instruction_english": "The main objective of the Squat Jump (SJ) test is to measure the explosive strength of the lower limbs. The SJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is called concentric contraction.",
+        "material_english": "Different measuring instruments can be used, such as: force platforms, contact platforms, optical position transducers (infrared), accelerometers, video analysis or even specific software and apps.",
+        "procedure_english": "The subject should stand on the measuring instrument with hands on hips and knees bent at a 90° angle (half squat position). He/she must hold this position for 5 seconds to eliminate most of the elastic energy accumulated during bending. Once the starting position has been adopted, the subject will try to jump as high as possible, avoiding any countermovement action and without releasing his/her hands, to land in the same position with feet and legs extended as shown in the image, landing on the metatarsal area first and then on the back of the foot.",
+        "evaluation_english": "he height of the jump must be measured in centimetres (cm) and the subject has a maximum of 3 attempts. The highest height reached by the subject can be recorded, as well as the mean and the median. In addition to jump height, different variables of interest depending on the measuring instrument can be",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "jump",
+        "type_valoration_code": "average_item",
+        "sport_code": null,
+        "configurations":  ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vertical_jump_height",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    },
+    {
+        "code": "countermovement_jump",
+        "name_spanish": "Salto con contramovimiento (CMJ)",
+        "name_english": "Counter movement jump (CMJ)",
+        "description_spanish": "El objetivo principal del test de salto con contramovimiento (CMJ) es medir la fuerza explosivo elástica de los miembros inferiores. El test CMJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concéntrica precedida de una fase muy breve de contracción excéntrica.",
+        "instruction_spanish": "El objetivo principal del test de salto con contramovimiento (CMJ) es medir la fuerza explosivo elástica de los miembros inferiores. El test CMJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concéntrica precedida de una fase muy breve de contracción excéntrica.",
+        "material_spanish": "Se pueden utilizar diferentes instrumentos de medición, tales como: plataformas de fuerza, plataformas de contacto, transductores ópticos de posición (por infrarrojos), acelerómetros, video análisis o incluso softwares y Apps específicas.",
+        "procedure_spanish": "En esta prueba el sujeto se encuentra en posición erguida con las manos colocadas en la cintura, teniendo que efectuar un salto vertical después de un rápido contramovimiento hacia abajo. Las rodillas deben flexionarse hasta un ángulo de 90 grados y se debe evitar en todo momento la flexión del tronco, eliminando así cualquier influencia positiva al salto que no provenga de los miembros inferiores. Durante toda la fase de vuelo el sujeto debe mantener el tronco y los miembros inferiores completamente extendidos, hasta la recepción del salto, apoyando primero la zona del metatarso y posteriormente la parte posterior del pie. Se trata de una prueba similar al Squat Jump (SJ), en la que cambia la posición de partida. La altura del salto puede verse afectada por el grado de flexión de las piernas, por lo que la prueba puede invalidarse si el participante no las flexiona los 90 grados requeridos.",
+        "evaluation_spanish": "La altura del salto se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main objective of the countermovement jump test (CMJ) is to measure the elastic explosive strength of the lower limbs. The CMJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is concentric contraction preceded by a very brief phase of eccentric contraction.",
+        "instruction_english": "The main objective of the countermovement jump test (CMJ) is to measure the elastic explosive strength of the lower limbs. The CMJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is concentric contraction preceded by a very brief phase of eccentric contraction.",
+        "material_english": "Different measuring instruments can be used, such as: force platforms, contact platforms, optical position transducers (infrared), accelerometers, video analysis or even specific software and apps.",
+        "procedure_english": "In this test the subject is in an upright position with hands placed on the waist, and must perform a vertical jump after a rapid downward countermovement. The subject should bend his/her knees to an angle of 90 degrees and should avoid trunk flexion at all times in order to eliminate any positive influence to the jump that does not come from the lower limbs. During the entire flight phase, the subject must keep the trunk and lower limbs fully extended, until the landin, when he/she will fall on his/her the metatarsal area and then on the heel. This is a similar test to the Squat Jump (SJ), with a different starting position. The reachable height can be affected by the angle the subject bents his/her legs, so the test may be invalidated if he/she does not bend the legs the required 90 degrees.",
+        "evaluation_english": "The height of the jump must be measured in centimetres (cm) and the subject has a maximum of 3 attempts. The highest height reached by the subject can be recorded, as well as the mean and the median. In addition to jump height, different variables of interest depending on the measuring instrument can be recorded.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "jump",
+        "type_valoration_code": "average_item",
+        "sport_code": null,
+        "configurations":  ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vertical_jump_height",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    },
+    {
+        "code": "abalakov_jump",
+        "name_spanish": "Salto Abalakov (ABK)",
+        "name_english": "Abalakov jump (ABK)",
+        "description_spanish": "El objetivo principal del test de salto Abalakov (ABK) es medir la fuerza explosiva y potencia máxima de los miembros inferiores y lleva el nombre del científico que lo describió por primera vez en 1938. El test ABK forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concentrica precedida de una fase muy breve de contracción excéntrica.",
+        "instruction_spanish": "El objetivo principal del test de salto Abalakov (ABK) es medir la fuerza explosiva y potencia máxima de los miembros inferiores y lleva el nombre del científico que lo describió por primera vez en 1938. El test ABK forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores. El tipo de acción muscular que se desarrolla en esta prueba es la contracción concentrica precedida de una fase muy breve de contracción excéntrica.",
+        "material_spanish": "Se pueden utilizar diferentes instrumentos de medición, tales como: plataformas de fuerza, plataformas de contacto, transductores ópticos de posición (por infrarrojos), acelerómetros, video análisis o incluso softwares y Apps específicas.",
+        "procedure_spanish": "En esta prueba el sujeto se encuentra en posición erguida, teniendo que efectuar un salto vertical después de un rápido contramovimiento hacia abajo. Se realiza un salto vertical por medio de un ciclo de estiramiento - acortamiento (CEA), es decir, una flexión seguida lo más rápido posible de una extensión de piernas con libre influencia de los brazos. Las rodillas deben flexionarse hasta un ángulo de 90 grados. Esta prueba es muy parecida al Salto Contramovimiento (CMJ) con la diferencia que en este test si que se pueden usar los brazos para beneficiar el salto vertical. Tal y como puede apreciarse en la imágen, los brazos hacen un recorrido hacia atrás para posteriormente impulsarlos enérgicamente hacia delante y arriba durante la realización del salto. La altura del salto puede verse afectada por el grado de flexión de las piernas, por lo que la prueba puede invalidarse si el participante no las flexiona los 90 grados requeridos.",
+        "evaluation_spanish": "La altura del salto se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"El test de salto vertical Abalakov depende de muchos factores que se interrelacionan entre sí y que hacen muy difícil su análisis. Aun así, son muchos los investigadores que concluyen que lo más importante es tener buena técnica de ejecución y realizar un buen entrenamiento, además de las características individuales del pico fuerza explosiva, potencia y torque articular.",
+        "description_english": "The main purpose of the Abalakov jumping test (ABK) is to measure the explosive strength and maximal power of the lower limbs. It was named after the scientist who first described it in 1938. The ABK test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is concentric contraction preceded by a very brief phase of eccentric contraction.",
+        "instruction_english": "The main purpose of the Abalakov jumping test (ABK) is to measure the explosive strength and maximal power of the lower limbs. It was named after the scientist who first described it in 1938. The ABK test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs. The type of muscular action developed in this test is concentric contraction preceded by a very brief phase of eccentric contraction.",
+        "material_english": "Different measuring instruments can be used, such as: force platforms, contact platforms, optical position transducers (infrared), accelerometers, video analysis or even specific software and apps.",
+        "procedure_english": "The subject starts this test in an upright position and has to perform a vertical jump after a rapid downward countermovement. A vertical jump is performed by means of a stretch-shortening cycle (SSS), i.e. a flexion followed as quickly as possible by an extension of the legs with free influence of the arms. The subject must bend his/her knees to an angle of 90 degrees. It is very similar to the Countermovement Jump (CMJ), except that in this test the arms can be used to benefit the vertical jump. As can be seen in the picture, the arms are moved backwards and then pushed vigorously forwards and upwards during the jump. The reachable height can be affected by the angle the subject bents his/her legs, so the test may be invalidated if he/she does not bend the legs the required 90 degrees.",
+        "evaluation_english": "The height of the jump must be measured in centimetres (cm) and the subject has a maximum of 3 attempts. The highest height reached by the subject can be recorded, as well as the mean and the median. In addition to jump height, different variables of interest depending on the measuring instrument can be recorded.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "jump",
+        "type_valoration_code": "average_item",
+        "sport_code": null,
+        "configurations":  ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vertical_jump_height",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "horizontal_jump",
+        "name_spanish": "Salto horizontal",
+        "name_english": "Standing long jump",
+        "description_spanish": "El objetivo principal de este test es medir la fuerza explosiva del tren inferior.",
+        "instruction_spanish": "El objetivo principal de este test es medir la fuerza explosiva del tren inferior.",
+        "material_spanish": "Una superfice antideslizante, cinta métrica y un material que permita señalar las líneas y la marca del salto.",
+        "procedure_spanish": "En esta prueba el sujeto se encuentra de pie, detrás de la línea de salto. Los pies podrán estar juntos o ligeramente separados (recomendablemente a la anchura de los hombros). A la señal del evaluador, el sujeto deberá flexionar el tronco y las piernas mientras realiza una extensión de hombros (brazos detrás del torso). Es aconsejable balancear los brazos para posteriormente realizar un salto explosivo hacia delante. El despegue del salto deberá realizarse con los dos pies y caer de igual forma en el suelo, manteniéndose en equilibrio en esa posición para realizar la medición.",
+        "evaluation_spanish": "La distancia del salto se mide en centímetros (cm) y la medición se realizará desde la línea de salto a la parte corporal más cercana que esté en contacto con el suelo, normalmente el talón del pie más retrasado tras la caída (ver ilustración). El sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana.",
+        "description_english": "The main objective of this test is to measure the explosive strength of the lower body.",
+        "instruction_english": "The main objective of this test is to measure the explosive strength of the lower body.",
+        "material_english": "A non-slip surface, measuring tape and something to draw the lines and mark the place where the feet land after the jump.",
+        "procedure_english": "For this test the subject must be standing behind the jumping line. His/her feet may be close together or slightly apart (preferably shoulder-width apart). At the signal of the evaluator, the subject shall flex the trunk and legs while performing a shoulder extension (arms behind the torso). It is advisable for the subject to swing his/her arms and then perform an explosive jump forward. Take-off and landing should be done with both feet, and the subject should remain balanced in that position on the ground to take the measurement.",
+        "evaluation_english": "The distance of the jump is measured in centimetres (cm) and the measurement shall be taken from the jump line to the nearest body part in contact with the ground, usually the heel of the rearmost foot after the landing (see illustration). The subject has a maximum of 3 attempts. The highest height reached by the subject can be recorded, as well as the mean and the median.",
+        "tooltip_english": "It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "jump",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations":  ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {      
+                "question_code": "019_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+               "question_code": "019_test_2",
+               "value": 0,
+               "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "019_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    },
+    {
+        "code": "drop_jump",
+        "name_spanish": "Drop jump (DJ)",
+        "name_english": "Drop jump (DJ)",
+        "description_spanish": "El objetivo principal del test Drop Jump (DJ) es medir la fuerza explosivo-reactivo-balística de los miembros inferiores, con aprovechamiento del reflejo miotático. El test DJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores.",
+        "instruction_spanish": "El objetivo principal del test Drop Jump (DJ) es medir la fuerza explosivo-reactivo-balística de los miembros inferiores, con aprovechamiento del reflejo miotático. El test DJ forma parte de la batería de tests de saltos verticales de Bosco, para valorar las características funcionales, neuromusculares  y morfofisiológicas de la musculatura extensora de los miembros inferiores.",
+        "material_spanish": "Cajones de varias alturas (suelen oscilar entre 20-100 cm.) Para la realización de este test se pueden utilizar diferentes instrumentos de medición, tales como: plataformas de fuerza, plataformas de contacto, transductores ópticos de posición (por infrarrojos), acelerómetros, video análisis o incluso softwares y Apps específicas.",
+        "procedure_spanish": "El Drop Jump es un salto que consiste en dejarse caer desde un cajón a altura estandarizada, contactar con el suelo flexionando las rodillas a 90º, para a continuación y, sin pausa, realizar un salto vertical máximo. Esta totalmente prohibido que el participante salte del cajón, en lugar de simplemente dejarse caer. Tampoco esta permido que el sujeto realizace balanceo de brazos, para ello el sujeto debe colocar sus manos en la cintura-cadera durante toda la prueba, focalizando así la acción de la extremidad inferior.",
+        "evaluation_spanish": "La altura del salto se mide en centímetros (cm) y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The main objective of the Drop Jump (DJ) test is to measure the explosive-reactive-ballistic strength of the lower limbs, using the myotatic reflex. The DJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs.",
+        "instruction_english": "The main objective of the Drop Jump (DJ) test is to measure the explosive-reactive-ballistic strength of the lower limbs, using the myotatic reflex. The DJ test is part of the Bosco vertical jump test battery to assess the functional, neuromuscular and morphophysiological characteristics of the extensor muscles of the lower limbs.",
+        "material_english": "Plyometric boxes of different heights (usually ranging from 20 to 100 cm). Different measuring instruments can be used for this test, such as force platforms, contact platforms, optical position transducers (infrared), accelerometers, video analysis or even specific software and Apps.",
+        "procedure_english": "The Drop Jump is a drill that consists of dropping from a plyo box at a certain height, bending the knees to 90º upon contact with the ground, and then, without pause, making a maximum vertical jump. It is not permitted for the participant to jump out of the box instead of simply dropping. Nor is it allowed to perform arm swings, since the subject must place his/her hands on the waist-hip during the entire test, thus focusing the action of the lower limbs.",
+        "evaluation_english": "The jump height is measured in centimetres (cm) and the subject has a maximum of 3 attempts. The highest mark obtained by the subject can be recorded, as well as the mean and the median. In addition to jump height, different variables of interest can be recorded depending on the measuring instrument used.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "jump",
+        "type_valoration_code": "average_item",
+        "sport_code": null,
+        "configurations":  ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "drawer_height",
+                "value": 0,
+                "associate_responses": [
+                    {
+                        "response_code": "10cm",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "20cm",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "30cm",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "40cm",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "50cm",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "vertical_jump_height",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vertical_jump_height_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "1"
+                }]
+            },
+            {
+                "question_code": "flight_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "2"
+                }]
+            },
+            {
+                "question_code": "contact_time_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "3"
+                }]
+            },
+            {
+                "question_code": "maximum_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "4"
+                }]
+            },
+            {
+                "question_code": "relative_strength_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "5"
+                }]
+            },
+            {
+                "question_code": "maximum_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "6"
+                }]
+            },            
+            {
+                "question_code": "relative_power_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "7"
+                }]
+            },
+            {
+                "question_code": "maximum_speed_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "8"
+                }]
+            },
+            {
+                "question_code": "acceleration_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": "9"
+                }]
+            },
+            {
+                "question_code": "observation_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    }   
+]

@@ -1,0 +1,98 @@
+version: "3"
+services:
+  #Container PHP
+  testing-api-fisco-php:
+    image: testing-api-fisco
+    build:
+      args:
+        user: ${HOST_DOCKER_USER}
+        uid: ${HOST_DOCKER_UID}
+      context: .
+      dockerfile: docker/php/Dockerfile-prod
+    container_name: testing_api_fisco_php
+    restart: always
+    user: ${HOST_DOCKER_UID}:${HOST_DOCKER_UID}
+    environment:
+      PHP_OPCACHE_VALIDATE_TIMESTAMPS: 0
+    volumes:
+      - ./laravel:/usr/src/app:cached
+      - ./docker/php/supervisord.conf:/etc/supervisor/supervisord.conf
+    ports:
+      - ${DOCKER_PHP_PORTS}
+    #command: sh -c "php artisan octane:start --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}" && "/usr/bin/supervisord"
+    ## case first start command: sh -c "composer install && php artisan octane:start --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}"
+    command: 
+      - /bin/sh
+      - -c
+      - |
+        nohup php artisan queue:work --daemon &
+        php artisan octane:start --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}
+    depends_on:
+      # - api-fisco-postgres
+      - testing-api-fisco-redis
+
+  #Container websocket
+  testing-api-fisco-websocket:
+    image: testing-api-fisco
+    container_name: testing_api_fisco_websocket
+    volumes:
+      - ./laravel:/usr/src/app:cached
+    restart: always
+    ports:
+      - ${DOCKER_WEBSOCKET_PORTS}
+    command: bash -c 'php artisan reverb:start --debug --host 0.0.0.0'
+    depends_on:
+      - testing-api-fisco-php
+
+  #Container postgres
+  # api-fisco-postgres:
+  #   image: postgres
+  #   deploy:
+  #       resources:
+  #           limits:
+  #             cpus: '0.50'
+  #             memory: '1024M'
+  #           reservations:
+  #             cpus: '0.25'
+  #             memory: '512M'
+  #   container_name: api_fisco_postgres
+  #   restart: always
+  #   command: ["postgres", "-c", "logging_collector=on", "-c", "log_statement=all", "-c", "max_prepared_transactions=100", "-c", "shared_preload_libraries=pg_stat_statements,pg_trgm", "-c", "pg_stat_statements.max=10000", "-c", "pg_stat_statements.track=all", "-c", "autovacuum=on", "-c", "track_counts=on", "-c", "log_autovacuum_min_duration=250ms", "-c", "autovacuum_vacuum_scale_factor=0.2", "-c", "autovacuum_vacuum_threshold=50", "-c", "autovacuum_analyze_scale_factor=0.1", "-c", "autovacuum_analyze_threshold=50", "-c", "autovacuum_vacuum_cost_limit=-1", "-c", "autovacuum_vacuum_cost_delay=20ms", "-c", "vacuum_cost_page_hit=1", "-c", "vacuum_cost_page_miss=10", "-c" ,"vacuum_cost_page_dirty=20"]
+  #   environment:
+  #     POSTGRES_USER: ${DOCKER_POSTGRES_USER}
+  #     POSTGRES_PASSWORD: ${DOCKER_POSTGRES_PASSWORD}
+  #     POSTGRES_DB: ${DOCKER_POSTGRES_DB}
+  #   volumes:
+  #     - ./docker/postgresql/data:/var/lib/postgresql/data
+  #     - ./docker/postgresql/conf:/etc/postgresql/
+  #     - ./docker/postgresql/logs:/var/log/postgresql/
+  #   ports:
+  #     - ${DOCKER_POSTGRES_PORTS}
+
+  #Container minio
+  # api-fisco-minio:
+  #   image: minio/minio
+  #   container_name: api_fisco_minio
+  #   command: server /data --console-address ":${DOCKER_MINIO_PORT}"
+  #   volumes:
+  #     - ./docker/minio:/data
+  #   restart: always
+  #   environment:
+  #       MINIO_ROOT_USER: ${DOCKER_MINIO_USER}
+  #       MINIO_ROOT_PASSWORD: ${DOCKER_MINIO_PASSWORD}
+  #   ports:
+  #     - ${DOCKER_MINIO_PORTS}
+  #     - ${DOCKER_MINIO_PORTS_CONSOLE}
+
+  #Container redis
+  testing-api-fisco-redis:
+    image: redis:alpine
+    container_name: testing_api_fisco_redis
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${DOCKER_REDIS_PASSWORD}"]
+    volumes:
+      - ./docker/redis/data:/data
+    restart: always
+    expose:
+      - ${DOCKER_REDIS_PORT_EXPOSE}
+    ports:
+      - ${DOCKER_REDIS_PORTS}

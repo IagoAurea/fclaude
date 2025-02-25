@@ -1,0 +1,322 @@
+html {
+    margin: 0px;
+    overflow-x: hidden;
+}
+section {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.energy-border {
+    width: 300px;
+    padding: 2px;
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #00e9c5;
+    font-size: 15px;
+    border-radius: 125px;
+    border: 3px solid #00e9c5;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.effort-border {
+    width: 300px;
+    padding: 2px;
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #00e9c5;
+    font-size: 15px;
+}
+
+.pdf-title {
+    margin-top: 120px;
+    margin-left: 10px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #00e9c5;
+    font-size: 20px;
+}
+.pdf-full-name {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 20px;
+}
+.pdf-avatar {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    top: 125px;
+    border-radius: 125px;
+    border: 9px solid #00e9c5;
+    outline: 5px solid #050C44;
+    background-color: #c4c4c4;
+    left: 520px;
+}
+
+.team-image {
+    position: absolute;
+    text-align: center;
+    top: 315px;
+    left: 500px;
+}
+
+.team-image img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.team {
+    position: absolute;
+    top: 325px;
+    left: 580px;
+}
+.team-name {
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    padding: 5px;
+    border-radius: 125px;
+    border: 5px solid #00e9c5;
+    font-size: 15px;
+}
+.team-modality {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 15px;
+}
+.team-category {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 15px;
+}
+.pdf-section-bar {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px 0px 10px 50px;
+    background: #050C44;
+    color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    border-top: 5px solid #00e9c5;
+}
+
+.pdf-section-bar-notmargin {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0px 10px 50px;
+    background: #050C44;
+    color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    border-top: 5px solid #00e9c5;
+}
+
+.pdf-attributes {
+    margin-top: 10px;
+    list-style-type: none;
+}
+.pdf-text-bold {
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 13px;
+}
+.pdf-text-thin {
+    font-family: 'cooper-hewitt-thin', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 13px;
+}
+.pdf-p-text {
+    display: flex;
+    margin: 0px 100px;
+    word-wrap: break-word;
+    font-family: 'cooper-hewitt-thin', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 13px;
+}
+.p-text {
+    font-family: 'cooper-hewitt-thin', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 13px;
+}
+.pdf-bottom-banner {
+    width: 325px;
+    float: right;
+    margin-top: -15px;
+}
+li {
+    text-align: left;
+}
+.section-1 {
+    margin-bottom: 50px;
+}
+
+.section-1-left {
+    width: 450px;
+}
+
+.section-1-right{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 150px;
+    top: 205px;
+}
+
+.table-bar {
+    width: 100%;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    left: 0px;
+}
+
+.table-bar th {
+    text-align: left;
+    padding: 5px 5px 5px 20px;
+}
+
+.table-bar td {
+    text-align: left;
+    padding: 5px 5px 5px 20px;
+}
+
+.table-bar thead tr {
+    color: white;
+    background: #050C44;
+    border-top: 5px solid #00e9c5;
+}
+
+.pdf-image {
+    width: 25px;
+    height: 25px;
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.pdf-image-result {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -4.5px;
+}
+
+.rubric-result {
+    width: 200px;
+    height: 30px;
+    float: right;
+    margin-top: -45px;
+    margin-right: 380px;
+    display: inline;
+    align-items: center;
+}
+
+.rubric-result span {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.details {
+    margin-left: 35px;
+    margin-top: -50px;
+}
+
+.competences {
+    width: 90%;
+    margin-left: 35px;
+}
+
+.pdf-rubric-title {
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 20px;
+}
+
+.pdf-image-competences {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -4.5px;
+}
+
+.pdf-calification {
+    margin-left: 10px;
+    display: flex;
+}
+
+.pdf-competences {
+    margin-left: 10px;
+    display: inline;
+}
+
+.pdf-competences-items {
+    margin-left: 10px;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.pdf-competences-items span {
+    margin-left: 45px;
+}
+
+.rubric-border {
+    width: 130px;
+    padding: 2px;
+    text-align: center;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #00e9c5;
+    font-size: 15px;
+    border: 3px solid #00e9c5;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.section-1-right-invoice{
+    position: absolute;
+    float: right;
+    margin-right: 30px;
+    top: 5px;
+}
+
+.pdf-title-secondary {
+    margin-left: 10px;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    color: #03002D;
+    font-size: 15px;
+}
+
+.invoice-details {
+    float: right;
+    margin-right: 70px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 155px;
+}
+
+.pdf-attributes-invoice {
+    margin-top: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.cache-bold {
+    font-family: Arial, Verdana, Tahoma, sans-serif; 
+}
+
+.cache-book {
+    font-family: Arial, Verdana, Tahoma, sans-serif; 
+}

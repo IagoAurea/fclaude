@@ -1,0 +1,89 @@
+<div class="title-container">
+  <hr class="line">
+  <span class="title">Planes basicos</span>
+  <hr class="line">
+</div>
+<div class="items-per-page-selector">
+  <label for="itemsPerPage">Planes por página:</label>
+  <select id="itemsPerPage" [(ngModel)]="itemsPerPage">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <!-- Agrega más opciones si lo necesitas -->
+  </select>
+</div>
+<div class="container">
+  <ng-container *ngFor="let package of packages | paginate: { itemsPerPage: itemsPerPage, currentPage: p }">
+    <div *ngIf="package.code === 'teacher'">
+      <div class="rectangle-container">
+        <ng-container *ngFor="let subpackage of package.subpackages">
+          <div class="rectangle">
+            <div class="icon-container">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Bronce'" [src]="icons.teacher_bronze" alt="Icono" class="icono">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Plata'" [src]="icons.teacher_silver" alt="Icono" class="icono">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Oro'" [src]="icons.teacher_gold" alt="Icono" class="icono">
+            </div>
+
+            <div class="info-container">
+              <h2 class="small-text">{{ subpackage.name }}</h2>
+            </div>
+            <hr class="linea-horizontal">
+            <div class="button-container">
+              <button class="button" (click)="openEditModal(subpackage)" style="font-family: 'Montserrat', sans-serif; border: 1px solid #050c44; background: white; color: #014cac; font-size: 12px;">Cancelar plan</button>
+              <button class="button" (click)="openEditModal(subpackage)">Editar plan</button>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+</div>
+
+<div class="pagination-controls">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>
+
+<div class="title-container">
+  <hr class="line">
+  <span class="title">Planes personalizados</span>
+  <hr class="line">
+</div>
+<div class="items-per-page-selector">
+  <label for="itemsPerPage">Planes por página:</label>
+  <select id="itemsPerPage" [(ngModel)]="itemsPerPage">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <!-- Agrega más opciones si lo necesitas -->
+  </select>
+</div>
+<div class="container">
+  <ng-container *ngFor="let package of packages | paginate: { itemsPerPage: itemsPerPage, currentPage: p }">
+    <div *ngIf="package.code === 'teacher'">
+      <div class="rectangle-container">
+        <ng-container *ngFor="let subpackage of package.subpackages">
+          <div class="rectangle">
+            <div class="icon-container">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Bronce'" [src]="icons.teacher_bronze" alt="Icono" class="icono">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Plata'" [src]="icons.teacher_silver" alt="Icono" class="icono">
+              <img *ngIf="subpackage.name === 'P.E. Profesor Oro'" [src]="icons.teacher_gold" alt="Icono" class="icono">
+            </div>
+
+            <div class="info-container">
+              <h2 class="small-text">{{ subpackage.name }}</h2>
+            </div>
+            <hr class="linea-horizontal">
+            <div class="button-container">
+              <button class="button" (click)="openEditModal(subpackage)" style="font-family: 'Montserrat', sans-serif; border: 1px solid #050c44; background: white; color: #014cac; font-size: 12px;">Cancelar plan</button>
+              <button class="button" (click)="openEditModal(subpackage)">Editar plan</button>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+</div>
+
+<div class="pagination-controls">
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

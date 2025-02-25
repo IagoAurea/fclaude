@@ -1,0 +1,13 @@
+{
+    "name": "Generality",
+    "alias": "generality",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Generality\\Providers\\GeneralityServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

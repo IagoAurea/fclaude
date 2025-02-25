@@ -1,0 +1,10 @@
+<svg id="meh" xmlns="http://www.w3.org/2000/svg" width="28.09" height="28.09" viewBox="0 0 28.09 28.09">
+  <g id="Grupo_1821" data-name="Grupo 1821" transform="translate(0 0)">
+    <g id="Grupo_1820" data-name="Grupo 1820">
+      <path id="Trazado_1840" data-name="Trazado 1840" d="M14.045,0A14.045,14.045,0,1,0,28.09,14.045,14.061,14.061,0,0,0,14.045,0Zm0,26.869A12.824,12.824,0,1,1,26.869,14.045,12.838,12.838,0,0,1,14.045,26.869Z" transform="translate(0 0)" fill="#d9f10a"/>
+      <path id="Trazado_1841" data-name="Trazado 1841" d="M97.832,131.664A1.832,1.832,0,1,0,96,129.832,1.834,1.834,0,0,0,97.832,131.664Zm0-2.443a.611.611,0,1,1-.611.611A.612.612,0,0,1,97.832,129.221Z" transform="translate(-88.672 -118.23)" fill="#d9f10a"/>
+      <path id="Trazado_1842" data-name="Trazado 1842" d="M225.832,128a1.832,1.832,0,1,0,1.832,1.832A1.834,1.834,0,0,0,225.832,128Zm0,2.443a.611.611,0,1,1,.611-.611A.612.612,0,0,1,225.832,130.443Z" transform="translate(-206.902 -118.23)" fill="#d9f10a"/>
+      <path id="Trazado_1843" data-name="Trazado 1843" d="M108.824,224H96.611a.611.611,0,0,0,0,1.221h12.213a.611.611,0,1,0,0-1.221Z" transform="translate(-88.672 -206.902)" fill="#d9f10a"/>
+    </g>
+  </g>
+</svg>

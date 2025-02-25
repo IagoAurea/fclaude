@@ -1,0 +1,155 @@
+input {
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #f0f0f0;
+  margin: 2px 0;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+p {
+  color: #193e65;
+  font-weight: bold;
+}
+
+.search-results li .user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.selected-user-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.selected-user-container {
+  display: flex;
+  align-items: center;
+  padding: 12px 18px;
+  background-color: #024cac;
+  border-radius: 25px;
+  color: white;
+  max-width: 300px;
+  height: 70px;
+  position: relative;
+  padding-right: 45px;
+  margin-right: 10px;
+}
+
+.selected-user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 15px;
+}
+
+.deselect-button {
+  background: none;
+  border: none;
+  color: #666666;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.fas.fa-times {
+  color: #666666;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.selected-tick {
+  color: #024cac; 
+  font-weight: bold; 
+  margin-left: 10px; 
+  font-size: 1em; 
+}
+
+.button-cargar {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 8px auto;
+  /* Centrado */
+  background-color: #024cac;
+  /* Azul moderno */
+  color: white;
+  /* Texto blanco */
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  /* Sin bordes */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cambia el puntero al pasar */
+  transition: all 0.3s ease;
+  /* Suavidad en los efectos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra ligera */
+}
+
+.button-cargar:hover {
+  background-color: #023570;
+  /* Azul más oscuro al pasar */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  /* Aumenta la sombra */
+}
+
+.button-cargar:active {
+  background-color: #021f44;
+  /* Azul más profundo al presionar */
+  transform: scale(0.98);
+  /* Efecto de clic */
+}
+
+.button-cargar:disabled {
+  background-color: #cccccc;
+  /* Gris para botón deshabilitado */
+  color: #666666;
+  /* Texto más claro */
+  cursor: not-allowed;
+  /* No clickeable */
+  box-shadow: none;
+  /* Sin sombra */
+}
+
+.search-results {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.loading-indicator {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  color: #666;
+}

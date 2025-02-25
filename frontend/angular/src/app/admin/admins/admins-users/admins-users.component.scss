@@ -1,0 +1,320 @@
+.custom-border {
+  border: 0.1rem solid #c5c5c5;
+}
+.extra-container {
+  border: none !important;
+}
+
+.table-with-margin td, .table-with-margin th {
+  white-space: normal;
+  vertical-align: middle; // Centra el texto verticalmente en las celdas
+  background-color: white; // Añade color de fondo blanco a las celdas
+}
+
+.btn-primary {
+  background-color: #024cac !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9 !important;
+  color: white !important;
+}
+
+.table tr {
+  height: 4rem; // Ajusta este valor a la altura que desees
+}
+
+:host ::ng-deep .table-with-margin {
+  margin: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+.house-icon {
+  width: 15px; /* Cambia esto al tamaño que desees */
+  height: auto; /* Esto mantendrá la proporción del icono */
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custom-input {
+  border: 0.1rem solid #ccc;
+  background-color: #f2f2f2;
+  width: 55%; // Ajusta este valor para cambiar el ancho del input
+  margin-right: 0.5rem;
+  padding-left: 4rem; // Añade un padding a la izquierda para hacer espacio para el icono
+}
+
+.w-30 {
+  width: 100%; // Hacer que el botón ocupe todo el ancho
+}
+.mt-0 {
+  margin-top: 0;
+}
+
+td .styled-text, th .styled-text {
+  color: #808080 !important;
+  font-family: 'Tu Fuente', sans-serif !important;
+  font-weight: 550;
+}
+:host ::ng-deep .table-with-margin {
+  margin: 0 auto !important; // Centra la tabla horizontalmente
+  border-collapse: collapse;
+
+}
+.table-responsive {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #FAFAFA;
+}
+.button-container {
+  justify-content: flex-end; /* Alinea el botón a la derecha */
+}
+
+.table-container {
+  max-width: calc(100% - 2em);
+  margin: 1em;
+}
+
+.table {
+  border: 1px solid #d3d3d3;
+  margin-top: 10px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.language-selector {
+  margin-left: auto;
+}
+.button-cell {
+  text-align: right; // Alinea el botón a la derecha
+}
+
+
+
+@media (max-width: 48rem) {
+
+  :host ::ng-deep .table-with-margin {
+    margin: 0 auto !important; // Centra la tabla horizontalmente
+    border-collapse: collapse;
+    width: 100vw !important;
+  }
+  .button-cell {
+    text-align: center; // Centra el botón en la vista móvil
+  }
+
+
+  .responsive-row {
+    flex-direction: column-reverse;
+  }
+  .user-list {
+    display: none;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .form-text {
+    font-size: 3vw;
+  }
+  .w-30 {
+    width: 100%; // Hacer que el botón ocupe todo el ancho
+    height: 2rem; // Reducir la altura del botón
+    font-size: 0.8em; // Reducir el tamaño de la fuente del botón
+    margin: 0 auto; // Centrar el botón
+    display: block; // Necesario para que funcione margin: auto
+  }
+  .table-container, .custom-border {
+    max-width: 100%;
+    margin-left: 0.5rem; // Ajusta este valor para cambiar el margen izquierdo
+    margin-right: 0.5rem; // Ajusta este valor para cambiar el margen derecho
+  }
+  .datatable {
+    width: 100%; // Asegura que la tabla no sea más ancha que la ventana
+    table-layout: auto; // Permite que el navegador ajuste automáticamente el ancho de las columnas
+  }
+  .custom-border {
+    border: 0.1rem solid #c5c5c5;
+  }
+
+  .table-with-margin {
+    margin: 0; // Eliminamos el margen
+  }
+
+  .table-with-margin td, .table-with-margin th {
+    white-space: normal;
+    vertical-align: middle; // Centra el texto verticalmente en las celdas
+    background-color: white; // Añade color de fondo blanco a las celdas
+  }
+
+  .btn-primary {
+    background-color: #024cac !important;
+    color: white !important;
+  }
+
+  .btn-primary:hover {
+    background-color: #0069d9 !important;
+    color: white !important;
+  }
+
+  .table tr {
+    height: 4rem; // Ajusta este valor a la altura que desees
+  }
+
+  :host ::ng-deep .table-with-margin {
+    margin: 0;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .house-icon {
+    width: 15px; /* Cambia esto al tamaño que desees */
+    height: auto; /* Esto mantendrá la proporción del icono */
+  }
+
+
+  .action-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .button-cell {
+    border-bottom: none !important;
+  }
+
+
+  .custom-input {
+    border: 0.1rem solid #ccc;
+    background-color: #f2f2f2;
+    width: 55%; // Ajusta este valor para cambiar el ancho del input
+    margin-right: 0.5rem;
+    padding-left: 4rem; // Añade un padding a la izquierda para hacer espacio para el icono
+  }
+
+  .w-30 {
+    width: 100%; // Hacer que el botón ocupe todo el ancho
+  }
+
+  td .styled-text, th .styled-text {
+    color: #808080 !important;
+    font-family: 'Tu Fuente', sans-serif !important;
+    font-weight: 550;
+  }
+  :host ::ng-deep .table-with-margin {
+    margin: 0 auto !important; // Centra la tabla horizontalmente
+    border-collapse: collapse;
+    width: 80vw !important; // Limita el ancho de la tabla
+  }
+  .table-responsive {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+  }
+  .button-container {
+    justify-content: flex-end; /* Alinea el botón a la derecha */
+  }
+  .pagination-container {
+    text-align: right;
+  }
+
+  .table-container {
+    max-width: 80vw;
+    margin: 1em auto;
+  }
+
+  .table {
+    border: 1px solid #d3d3d3;
+    margin-top: 10px;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .language-selector {
+    margin-left: auto;
+  }
+  .button-cell {
+    text-align: right; // Alinea el botón a la derecha
+  }
+  .buscador.p-input-icon-left > i:first-of-type {
+    left: 1rem;
+}
+.p-input-icon-left > .p-icon-wrapper.p-icon, .p-input-icon-left > i:first-of-type {
+    left: 0.5rem;
+    color: #6c757d;
+}
+.buscador .pi-search {
+    color: #050c44;
+    font-weight: 600;
+}
+.p-input-icon-left>i, .p-input-icon-left>.p-icon-wrapper, .p-input-icon-right>i, .p-input-icon-right>.p-icon-wrapper {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+}
+
+@media (max-width: 992px) { // Este tamaño de pantalla corresponde a la vista de tablet en Bootstrap
+  .buscador {
+    margin-bottom: 1rem; // Ajusta este valor según tus necesidades
+  }
+}
+  @media (max-width: 48rem) {
+    :host ::ng-deep .table-with-margin {
+      margin: 0 auto !important; // Centra la tabla horizontalmente
+      border-collapse: collapse;
+      width: 100vw !important;
+    }
+    .button-cell {
+      text-align: center; // Centra el botón en la vista móvil
+    }
+
+
+    .responsive-row {
+      flex-direction: column-reverse;
+    }
+    .user-list {
+      display: none;
+    }
+    .mobile-hide {
+      display: none;
+    }
+    .form-text {
+      font-size: 3vw;
+    }
+    .w-30 {
+      width: 100%; // Hacer que el botón ocupe todo el ancho
+      height: 2rem; // Reducir la altura del botón
+      font-size: 0.8em; // Reducir el tamaño de la fuente del botón
+      margin: 0 auto; // Centrar el botón
+      display: block; // Necesario para que funcione margin: auto
+    }
+
+    .button-container {
+      margin-bottom: 1rem; // Ajusta este valor para cambiar el margen
+    }
+    .table-container, .custom-border, .clase-tabla-inferior {
+      max-width: 99% !important;
+      margin-left: 0.5rem !important; // Ajusta este valor para cambiar el margen izquierdo
+      margin-right: 1.0rem !important; // Ajusta este valor para cambiar el margen derecho
+      margin-top: 1.5rem !important;
+    }
+    .datatable {
+      width: 100%; // Asegura que la tabla no sea más ancha que la ventana
+      table-layout: auto; // Permite que el navegador ajuste automáticamente el ancho de las columnas
+    }
+    .datatable td, .datatable th {
+      padding: 0 !important; // Cambia esto para eliminar el padding interno de las celdas
+    }
+
+  }
+
+
+}

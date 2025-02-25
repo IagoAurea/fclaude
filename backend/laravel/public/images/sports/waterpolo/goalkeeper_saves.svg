@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 45.6 27.2" style="enable-background:new 0 0 45.6 27.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#00E9C5;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#00E9C5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#00E9C5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#00E9C5;stroke-width:0.2789;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#00E9C5;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g id="Iconos">
+	<polyline id="Portería" class="st0" points="1,26.2 1,1 44.6,1 44.6,26.2 	"/>
+</g>
+<g id="Iconos_00000165939626999713684750000014526845545373487520_">
+	<circle class="st1" cx="21.9" cy="11.2" r="3.3"/>
+	<path class="st1" d="M9.7,26.6c0,0,1.3-2.8,4.5-1c2.4,2.1,4.6,0.8,6.7,0.1c0.8-0.2,1.5-0.4,2.3-0.4c1.6-0.1,3.3,0.2,4.8,0.9
+		c0.9,0.4,1.8,0.5,2.6,0.4C33,26.3,34,25,34,25"/>
+</g>
+<path class="st2" d="M27.7,10.3l-0.1,2.9c0,0.4-0.2,0.9-0.5,1.2L27,14.5c-0.1,0.1-0.2,0.2-0.4,0.3c-1.4,1.1-3,1.6-4.6,1.6l0,0
+	c-1.8,0-3.5-0.7-4.9-1.5l-0.9-0.8V9c0-1-0.8-1.8-1.8-1.8l0,0c-1,0-1.8,0.8-1.8,1.8v5.2c0,0.8,0.4,1.6,1.1,2.1l3.4,2.5
+	c0.2,0.1,0.2,0.2,0.2,0.3v7.2"/>
+<path class="st2" d="M26.3,25.3v-6.3c0-0.2,0.1-0.3,0.2-0.4l3.4-2.4c0.7-0.4,1.1-1.2,1.1-2.1v-3.1"/>
+<g id="Iconos_00000081648454471392247830000018394686975358410910_">
+	<g id="Balón">
+		<path class="st3" d="M30.6,10.5"/>
+		<path class="st3" d="M32.1,10.5"/>
+	</g>
+</g>
+<g id="Iconos_00000017484027156199532800000012528609287975629717_">
+	<g id="Balón_00000100378954288448991550000002115177197916929936_">
+		<path class="st4" d="M31.5,3.7c1.9,0.8,2.7,3,1.9,4.8c-0.9,1.9-3,2.7-4.8,1.9s-2.7-3-1.9-4.8S29.7,3.1,31.5,3.7z"/>
+		<path class="st4" d="M28.7,3.7c0.3,0.1,0.5,0.4,0.5,0.7c0,0.1,0,0.1-0.1,0.1c-1.2,1.2-1.3,3.3-0.4,4.6c0.1,0,0,0,0,0.1
+			c-0.1,0.3-0.4,0.7-0.8,0.7c-0.1,0-0.1,0.1-0.2,0C26.5,6.9,27.7,4.2,28.7,3.7C28.8,3.8,28.6,3.7,28.7,3.7z"/>
+		<path class="st4" d="M29.9,3.5c0,0,0.4,0.4,0.4,1.2"/>
+		<path class="st4" d="M31,3.6c0.2,0.1,0.5,0.7,0.4,1.1"/>
+		<path class="st4" d="M33.1,5c-1.3-0.3-2.6-0.4-3.8-0.5"/>
+		<path class="st4" d="M33.7,6.8c0,0-1.1-1.2-5.3-0.8"/>
+		<path class="st4" d="M28.2,7.2c0,0,3.2,1.1,5.4,0.8"/>
+		<path class="st4" d="M32.9,9.3l-4.2-0.2l1.8,0.2c-0.3,0.5-0.7,1-1.3,1.3"/>
+		<path class="st4" d="M31.5,9.4c-0.2,0.8-0.5,1.4-0.9,1.3"/>
+	</g>
+</g>
+</svg>

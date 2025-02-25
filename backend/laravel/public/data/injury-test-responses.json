@@ -1,0 +1,1772 @@
+[
+    {
+        "code": "very_bad",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy mala",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "bad",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Mala",
+        "name_english": "Bad"
+    },
+    {
+        "code": "regular",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Regular",
+        "name_english": "Regular"
+    },
+    {
+        "code": "good",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Buena",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_good",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy buena",
+        "name_english": "Very good"
+    },
+    {
+        "code": "very_bad_2",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy mal",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "bad_2",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Mal",
+        "name_english": "Bad"
+    },
+    {
+        "code": "good_2",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bien",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_good_2",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy bien",
+        "name_english": "Very good"
+    },
+    {
+        "code": "very_bad_3",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy malo",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "bad_3",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Malo",
+        "name_english": "Bad"
+    },
+    {
+        "code": "good_3",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bueno",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_good_3",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy bueno",
+        "name_english": "Very good"
+    },
+    {
+        "code": "yes",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Si",
+        "name_english": "Yes"
+    },
+    {
+        "code": "dont_know",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "No sabría",
+        "name_english": "I dont know"
+    },
+    {
+        "code": "no",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good", 
+        "name_spanish": "No",
+        "name_english": "No"
+    },
+    {
+        "code": "porcent_100",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "80% - 100%",
+        "name_english": "80% - 100%"
+    },
+    {
+        "code": "porcent_80",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "60% - 80%",
+        "name_english": "60% - 80%"
+    },
+    {
+        "code": "porcent_60",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "40% - 60%",
+        "name_english": "40% - 60%"
+    },
+    {
+        "code": "porcent_40",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "20% - 40%",
+        "name_english": "20% - 40%"
+    },
+    {
+        "code": "porcent_20",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "0% - 20%",
+        "name_english": "0% - 20%"
+    },
+    {
+        "code": "porcent_100_mas",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "80% - 100%",
+        "name_english": "80% - 100%"
+    },
+    {
+        "code": "porcent_80_mas",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "60% - 80%",
+        "name_english": "60% - 80%"
+    },
+    {
+        "code": "porcent_60_mas",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "40% - 60%",
+        "name_english": "40% - 60%"
+    },
+    {
+        "code": "porcent_40_mas",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "20% - 40%",
+        "name_english": "20% - 40%"
+    },
+    {
+        "code": "porcent_20_mas",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "0% - 20%",
+        "name_english": "0% - 20%"
+    },
+    {
+        "code": "excessive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad", 
+        "name_spanish": "Excesivo",
+        "name_english": "Excessive"
+    },
+    {
+        "code": "high",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Alto",
+        "name_english": "High"
+    },
+    {
+        "code": "normal_rfd",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Normal",
+        "name_english": "Normal"
+    },
+    {
+        "code": "low",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bajo",
+        "name_english": "Low"
+    },
+    {
+        "code": "neither",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Ninguno",
+        "name_english": "Neither"
+    },
+    {
+        "code": "very_bad_pc",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy mala (0-20%)",
+        "name_english": "Very bad (0-20%)"
+    },
+    {
+        "code": "bad_pc",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Mala (20-40%)",
+        "name_english": "Bad (20-40%)"
+    },
+    {
+        "code": "regular_pc",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Regular (40-60%)",
+        "name_english": "Regular (40-60%)"
+    },
+    {
+        "code": "good_pc",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Buena (60-80%)",
+        "name_english": "Good (60-80%)"
+    },
+    {
+        "code": "very_good_pc",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy buena (80-100%)",
+        "name_english": "Very good (80-100%)"
+    },
+    {
+        "code": "pain_absence",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Ausencia de dolor",
+        "name_english": "Pain absence"
+    },
+    {
+        "code": "mild",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Leve",
+        "name_english": "Mild"
+    },
+    {
+        "code": "moderate",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Moderado",
+        "name_english": "Moderate"
+    },
+    {
+        "code": "moderate_2",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Moderada",
+        "name_english": "Moderate"
+    },
+    {
+        "code": "intense",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Intenso",
+        "name_english": "Intense"
+    },
+    {
+        "code": "intense_2",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Intensa",
+        "name_english": "Intense"
+    },
+    {
+        "code": "very_intense",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy intenso",
+        "name_english": "Very intense"
+    },
+    {
+        "code": "very_intense_2",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy intensa",
+        "name_english": "Very intense"
+    },
+    {
+        "code": "inflammation_absence",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Ausencia de inflamación",
+        "name_english": "Inflammation absence"
+    },
+    {
+        "tooltip_spanish": "Ausencia de edema",
+        "tooltip_english": "Ausencia de edema",
+        "code": "grade_0",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Grado 0",
+        "name_english": "Grade 0"
+    },
+    {
+        "tooltip_spanish": "Leve depresión y desaparición casi instantánea.",
+        "tooltip_english": "Mild depression and almost instantaneous disappearance.",
+        "code": "grade_1",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Grado 1",
+        "name_english": "Grade 1"
+    },
+    {
+        "tooltip_spanish": "Depresión hasta 4mm. y desaparición en 10-15 sg.",
+        "tooltip_english": "Depression up to 4mm. and disappearance in 10-15 seconds.",
+        "code": "grade_2",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Grado 2",
+        "name_english": "Grade 2"
+    },
+    {
+        "tooltip_spanish": "Depresión hasta 6mm. y recuperación en 1 minuto.",
+        "tooltip_english": "Depression up to 6mm. and recovery in 1 minute.",
+        "code": "grade_3",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Grado 3",
+        "name_english": "Grade 3"
+    },
+    {
+        "tooltip_spanish": "Depresión hasta 1cm. y persistencia entre 2-5 minutos.",
+        "tooltip_english": "Depresión hasta 1cm. y persistencia entre 2-5 minutos.",
+        "code": "grade_4",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Grado 4",
+        "name_english": "Grade 4"
+    },
+    {
+        "tooltip_spanish": "Caminar entre 0-6 km/h",
+        "tooltip_english": "March between 0-6 km/h",
+        "code": "march",
+        "name_spanish": "Marcha",
+        "name_english": "March"
+    },
+    {
+        "tooltip_spanish": "Trotar entre 6-12 km/h",
+        "tooltip_english": "Jog between 6-12 km/h",
+        "code": "trot",
+        "name_spanish": "Trote",
+        "name_english": "Jog"
+    },
+    {
+        "tooltip_spanish": "Carrera: 12-18 km/h (running) - Carrera alta velocidad: 14-21 km/h (High Speed Ruining) - Carrera muy alta velocidad: 21-24km/h (Very High Speed Running) - Sprint: > 24km/h",
+        "tooltip_english": "Race: 12-18 km/h (running) - High speed race: 14-21 km/h (High Speed Ruining) - Very high speed race: 21-24km/h (Very High Speed Running) - Sprint: > 24km/h",
+        "code": "run",
+        "name_spanish": "Carrera",
+        "name_english": "Run"
+    },
+    {
+        "code": "scroll_forward_backward",
+        "name_spanish": "Desplazamiento adelante - atrás",
+        "name_english": "Scroll forward - backward"
+    },
+    {
+        "code": "side_shift",
+        "name_spanish": "Desplazamiento lateral",
+        "name_english": "Side shift"
+    },
+    {
+        "code": "diagonal_offset",
+        "name_spanish": "Desplazamiento diagonal",
+        "name_english": "Diagonal offset"
+    },
+    {
+        "code": "zig_zag",
+        "name_spanish": "Cambio de orientación y zig-zag",
+        "name_english": "Change of orientation and zig-zag"
+    },
+    {
+        "tooltip_spanish": "Velocidad >3ms al cuadrado ",
+        "tooltip_english": "Velocidad >3ms al cuadrado ",
+        "code": "speed_up_and_slow_down",
+        "name_spanish": "Acelerar y desacelerar",
+        "name_english": "Speed up and slow down"
+    },
+    {
+        "code": "turn_pivot_change_of_direction",
+        "name_spanish": "Giro, pivotaje y cambio de sentido",
+        "name_english": "Turn, pivot and change of direction"
+    },
+    {
+        "code": "simultaneous_jumps",
+        "name_spanish": "Saltos simultáneos (2 piernas)",
+        "name_english": "Simultaneous jumps (2 legs)"
+    },
+    {
+        "code": "alternate_jumps",
+        "name_spanish": "Saltos alternos (1 pierna)",
+        "name_english": "Alternate jumps (1 leg)"
+    },
+    {
+        "code": "successive_jumps",
+        "name_spanish": "Saltos sucesivos (1 pierna)",
+        "name_english": "Successive jumps (1 leg)"
+    },
+    {
+        "code": "stable_proprioception",
+        "name_spanish": "Propiocepción estable",
+        "name_english": "Stable proprioception"
+    },
+    {
+        "code": "unstable_proprioception",
+        "name_spanish": "Propiocepción inestable",
+        "name_english": "Unstable proprioception"
+    },
+    {
+        "code": "specialized_technical_skills",
+        "name_spanish": "Habilidades técnicas especializadas",
+        "name_english": "Specialized technical skills"
+    },
+    {
+        "code": "strength",
+        "name_spanish": "Fuerza",
+        "name_english": "Strength"
+    },
+    {
+        "code": "isometric",
+        "name_spanish": "Isométricos",
+        "name_english": "Isometric"
+    },
+    {
+        "code": "concentric",
+        "name_spanish": "Concéntricos",
+        "name_english": "Concentric"
+    },
+    {
+        "code": "eccentrics",
+        "name_spanish": "Excéntricos",
+        "name_english": "Eccentrics"
+    },
+    {
+        "code": "plyometrics",
+        "name_spanish": "Pliométricos",
+        "name_english": "Plyometrics"
+    },
+    {
+        "code": "specific_force",
+        "name_spanish": " Fuerza específica",
+        "name_english": "Specific force"
+    },
+    {
+        "code": "passive_and_active_stretches",
+        "name_spanish": " Fuerza Estiramientos pasivos y activos",
+        "name_english": "Passive and active stretches"
+    },
+    {
+        "code": "fnp_and_others",
+        "name_spanish": "FNP y otros",
+        "name_english": "PNF and others"
+    },
+    {
+        "code": "cyclic_speed",
+        "name_spanish": "Velocidad cíclica",
+        "name_english": "Cyclic speed"
+    },
+    {
+        "code": "acyclic_speed",
+        "name_spanish": "Velocidad acíclica",
+        "name_english": "Acyclic speed"
+    },
+    {
+        "code": "aerobic_endurance",
+        "name_spanish": "Resistencia aeróbica",
+        "name_english": "Aerobic endurance"
+    },
+    {
+        "code": "anaerobic_endurance",
+        "name_spanish": "Resistencia anaeróbica",
+        "name_english": "Anaerobic endurance"
+    },
+    {
+        "code": "specific_endurance",
+        "name_spanish": "Resistencia específica (modalidad deportiva)",
+        "name_english": "Specific endurance (sports modality)"
+    },
+    {
+        "code": "functional_agility_test",
+        "name_spanish": "Test funcional de agilidad",
+        "name_english": "Functional agility test"
+    },
+    {
+        "code": "ball_driving_f",
+        "name_spanish": "Conducción de balón",
+        "name_english": "Ball driving",
+        "question_category_code": null
+    },
+    {
+        "code":"dribbling",
+        "name_spanish":"Finta (Regate / Dribbling) / Duelo ofensivo",
+        "name_english":"Feint (Dribbling) / Attacking duel",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"charge_single_duels",
+        "name_spanish":"Defensa individual / Robo de balón / Entrada",
+        "name_english":"Charge / Single Duels",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"anticipation_clearance",
+        "name_spanish":"Anticipación / Despeje",
+        "name_english":"Anticipation / Clearance",
+        "question_category_code": "specific_skills"
+    },
+
+    {
+        "code": "ball_control",
+        "name_spanish": "Control del balón (recepción)",
+        "name_english": "Ball control (reception)",
+        "question_category_code": "specific_skills"
+    },
+
+
+    {
+        "code": "volley_all_kick_shot",
+        "name_spanish": "Volea / Golpeo de balón / Tiro",
+        "name_english": "Volley / Ball kick / Shot",
+        "question_category_code":"specific_skills"
+    },
+
+
+    {
+        "code": "passes",
+        "name_spanish": "Pases",
+        "name_english": "Passes",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "shot_precision_and_power",
+        "name_spanish": "Tiro precisión y potencia",
+        "name_english": "Shot precision and power",
+        "question_category_code": null
+    },
+    {
+        "code": "head_bang",
+        "name_spanish": "Golpeo de cabeza",
+        "name_english": "Head kick",
+        "question_category_code": null
+    },
+    {
+        "code": "volley",
+        "name_spanish": "Voleas",
+        "name_english": "Volley",
+        "question_category_code": null
+    },
+    {
+        "code": "gesture_and_reaction_speed",
+        "name_spanish": "Velocidad gestual y de reacción",
+        "name_english": "Gesture and reaction speed",
+        "question_category_code": null
+    },
+    {
+        "code": "explosive_force",
+        "name_spanish": "Fuerza explosiva",
+        "name_english": "Explosive force",
+        "question_category_code": null
+    },
+    {
+        "code": "endurance_force",
+        "name_spanish": "Fuerza resistencia",
+        "name_english": "Endurance force",
+        "question_category_code": null
+    },
+    {
+        "code": "short_term_endurance",
+        "name_spanish": "Resistencia corta duración",
+        "name_english": "Short-term endurance",
+        "question_category_code": null
+    },
+    {
+        "code": "medium_endurance_and_long_duration",
+        "name_spanish": "Resistencia media y larga duración",
+        "name_english": "Medium endurance and long duration",
+        "question_category_code": null
+    },
+    {
+        "code": "flexibility_elasticity",
+        "name_spanish": "Flexibilidad / Elasticidad",
+        "name_english": "Flexibility / Elasticity",
+        "question_category_code": null
+    },
+    {
+        "code": "coordination",
+        "name_spanish": "Coordinación",
+        "name_english": "Coordination",
+        "question_category_code": null
+    },
+    {
+        "code": "agility",
+        "name_spanish": "Agilidad",
+        "name_english": "Agility",
+        "question_category_code": null
+    },
+    {
+        "code": "balance",
+        "name_spanish": "Equilibrio",
+        "name_english": "Balance",
+        "question_category_code": null
+    },
+    {
+        "code": "maximum_speed_rfd",
+        "name_spanish": "Velocidad máxima",
+        "name_english": "Maximum speed",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "explosive_force",
+        "name_spanish": "Fuerza explosiva",
+        "name_english": "Explosive force",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "endurance_force",
+        "name_spanish": "Fuerza resistencia",
+        "name_english": "Endurance force",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "short_term_endurance",
+        "name_spanish": "Resistencia corta duración",
+        "name_english": "Short-term endurance",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "medium_endurance_and_long_duration",
+        "name_spanish": "Resistencia media y larga duración",
+        "name_english": "Medium endurance and long duration",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "flexibility_elasticity",
+        "name_spanish": "Flexibilidad / Elasticidad",
+        "name_english": "Flexibility / Elasticity",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "coordination",
+        "name_spanish": "Coordinación",
+        "name_english": "Coordination",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "agility",
+        "name_spanish": "Agilidad",
+        "name_english": "Agility",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "balance",
+        "name_spanish": "Equilibrio",
+        "name_english": "Balance",
+        "question_category_code": "physical_manifestations"
+    },
+    {
+        "code": "completed",
+        "name_spanish": "Completado",
+        "name_english": "Completed",
+        "question_category_code": null
+    },
+    {
+        "code": "bounce_and_ball_handling",
+        "name_spanish": "Bote y manejo del balón",
+        "name_english": "Bounce and ball handling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "feint_dribbling_attacking_duel",
+        "name_spanish": "Finta / Duelo ofensivo",
+        "name_english": "Feint / Dribbling / Attacking duel",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "individual_defense_steal_the_ball",
+        "name_spanish": "Defensa individual / Robo de balón",
+        "name_english": "Individual defense / Steal the ball",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "pass",
+        "name_spanish": "Pase",
+        "name_english": "Pass",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "catch",
+        "name_spanish": "Recepción",
+        "name_english": "Catch",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "block",
+        "name_spanish": "Bloqueo",
+        "name_english": "Block",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"block_barrel",
+        "name_spanish":"Bloqueo / Rodamiento",
+        "name_english":"Block / Barrel roll ",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "lay_up",
+        "name_spanish": "Entrada a canasta",
+        "name_english": "Lay up",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "throw_in_support",
+        "name_spanish": "Lanzamiento estático",
+        "name_english": "Throw in support",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "throw_in_suspension",
+        "name_spanish": "Lanzamiento en suspensión",
+        "name_english": "Throw in suspension",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "rebound_block_shot_dunk",
+        "name_spanish": "Rebote / Tapón / Mate",
+        "name_english": "Rebound / Block shot / Dunk",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "bounce_step_with_ball",
+        "name_spanish": "Bote / Desplazamiento con balón",
+        "name_english": "Bounce / Step with ball",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "individual_defense_anticipation",
+        "name_spanish": "Defensa individual / Anticipación",
+        "name_english": "Individual defense / Anticipation",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "interception",
+        "name_spanish": "Interceptación",
+        "name_english": "Interception",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "block_cross",
+        "name_spanish": "Bloqueo / Cruce",
+        "name_english": "Block / Cross",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "block_shot",
+        "name_spanish": "Blocaje lanzamiento",
+        "name_english": "Block shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "overhand_pass",
+        "name_spanish": "Golpe de dedos (manos altas)",
+        "name_english": "Overhand pass",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "forearm_pass",
+        "name_spanish": "Golpe de antebrazos (manos bajas)",
+        "name_english": "Forearm pass",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"hand_serve",
+        "name_spanish":"Saque de abajo / Saque de arriba",
+        "name_english":"Underhand serve / Overhand serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"set_all",
+        "name_spanish":"Colocación (frontal - espaldas - lateral - salto - una mano - antebrazo)",
+        "name_english":"Set (front - back - lateral - jump - one hand - forearm)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "underhand_serve",
+        "name_spanish": "Saque de abajo",
+        "name_english": "Underhand serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "overhand_serve",
+        "name_spanish": "Saque de arriba (tenis)",
+        "name_english": "Underhand serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "jump_serve_float_serve",
+        "name_spanish": "Saque con salto / Saque flotante",
+        "name_english": "Jump serve / Float serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "serve_receive",
+        "name_spanish": "Recepción de saque",
+        "name_english": "Serve receive",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "pancake_dive",
+        "name_spanish": "Plancha / Defensa (Dig)",
+        "name_english": "Pancake / Dig",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "feint",
+        "name_spanish": "Finta",
+        "name_english": "Feint",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"feint_first",
+        "name_spanish":"emate primera fila (zona ataque)",
+        "name_english":"First-row spike (attack zone)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "smash",
+        "name_spanish": "Remate",
+        "name_english": "Smash",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "second_row",
+        "name_spanish": "Remate segunda fila (zona defensa)",
+        "name_english": "Second-row spike (defense zone)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "backhand_serve_forehand_serve",
+        "name_spanish": "Saque revés / Saque derecha",
+        "name_english": "Backhand serve / Forehand serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "return_of_serve",
+        "name_spanish": "Resto (devolución saque)",
+        "name_english": "Return of serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "clear",
+        "name_spanish": "Despeje (Clear)",
+        "name_english": "Clear",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "drop",
+        "name_spanish": "Dejada alta (Drop)",
+        "name_english": "Drop",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"net_drop",
+        "name_spanish":"Dejada en red (Net drop)",
+        "name_english":"Net drop (from the net)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "lob",
+        "name_spanish": "Globo (Lob)",
+        "name_english": "Lob",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "drive",
+        "name_spanish": "Drive",
+        "name_english": "Drive",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "smash_in_support",
+        "name_spanish": "Remate estático",
+        "name_english": "Smash in support",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "smash_in_suspension",
+        "name_spanish": "Remate en suspensión",
+        "name_english": "Smash in suspension",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "smash_defense",
+        "name_spanish": "Defensa de remate",
+        "name_english": "Smash defense",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "tooltip_spanish": "Check obligatorio",
+        "tooltip_english": "Check required",
+        "code": "control_superados",
+        "name_spanish": "control_superados",
+        "name_english": "control_superados"
+    },
+
+    {
+        "code": "serve",
+        "name_spanish": "Saque",
+        "name_english": "Serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code": "return",
+        "name_spanish": "Resto",
+        "name_english": "Return of serve",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"forehand",
+        "name_spanish":"Derecha (Drive)",
+        "name_english":"Forehand (Drive)",
+        "question_category_code": "specific_skills"
+    },  
+    {
+        "code":"backhand",
+        "name_spanish":"Revés",
+        "name_english":"Backhand",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"drop_2",
+        "name_spanish":"Dejada",
+        "name_english":"Drop",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"lob_2",
+        "name_spanish":"Globo",
+        "name_english":"Lob",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"forehand_volley",
+        "name_spanish":"Volea derecha",
+        "name_english":"Forehand volley",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"backhand_volley",
+        "name_spanish":"Volea revés",
+        "name_english":"Backhand volley",
+        "question_category_code": "specific_skills"
+    },
+
+
+    {
+        "code":"lop_dropshot_chiquita",
+        "name_spanish":"Globo / Dejada / Chiquita",
+        "name_english":"Lob / Dropshot / The Chiquita",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"back_wall_boast_side_wall_boast",
+        "name_spanish":"Salida de pared / Contrapared / Contrapared lateral",
+        "name_english":"Back wall / Back wall boast / Side wall boast",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"side_wall_double",
+        "name_spanish":"Pared lateral / Doble pared",
+        "name_english":"Side wall / Double wall",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"off_wall_smash_willy",
+        "name_spanish":"Bajada de pared  / Willy",
+        "name_english":"Off the wall smash (Attack after glass) / Willy",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"bandeja_volley_vibora",
+        "name_spanish":"Bandeja / Volea / Víbora",
+        "name_english":"Bandeja / Volley / The Vibora",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"smash_x3_x4",
+        "name_spanish":"Remate / Remate X3 / Remate X4",
+        "name_english":"Smash / Smash x3 / Smash x4",
+        "question_category_code": "specific_skills"
+    },
+
+
+    {
+        "code":"skating",
+        "name_spanish":"Patinaje",
+        "name_english":"Skating",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"driving_ball_stick_handling",
+        "name_spanish":"Conducción / Manejo de bola y stick",
+        "name_english":"Driving / Ball and stick handling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"fake",
+        "name_spanish":"Finta (Dribbling)",
+        "name_english":"Fake (Feint / Dribbling)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"individual_defense_steal_tackling",
+        "name_spanish":"Defensa individual / Robo de la bola / Entrada",
+        "name_english":"Individual defense / Steal the bola / Tackling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"pass_reception",
+        "name_spanish":"Pase / Recepción (control de la bola)",
+        "name_english":"Pass / Reception (ball control)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"body_checking",
+        "name_spanish":"Carga legal",
+        "name_english":"Body checking",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"anticipation_interception",
+        "name_spanish":"Anticipación / Intercepción",
+        "name_english":"Anticipation / Interception",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"volley_shot",
+        "name_spanish":"Volea / Tiro",
+        "name_english":"Volley / Shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"penalty_shot",
+        "name_spanish":"Penalti / Tiro libre",
+        "name_english":"Penalty / Free kick",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"blocking_shot",
+        "name_spanish":"Bloqueo de tiro",
+        "name_english":"Blocking shot",
+        "question_category_code": "specific_skills"
+    },
+
+    
+    {
+        "code":"stick_handling",
+        "name_spanish":"Manejo del stick",
+        "name_english":"Stick handling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"ball_driving",
+        "name_spanish":"Conducción de bola",
+        "name_english":"Ball driving",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"reception_ball",
+        "name_spanish":" Recepción (control de la bola)",
+        "name_english":"Reception (ball control)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"penalty_shot_goalkeeper",
+        "name_spanish":"Penalti stroke / Shoot out (1vPortero)",
+        "name_english":"Penalty stroke / Shoot out (1vGoalkeeper)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"ball_deflection_blocking_shot",
+        "name_spanish":"Desvío o piche de bola / Bloqueo de tiro",
+        "name_english":"Ball deflection / Blocking shot",
+        "question_category_code": "specific_skills"
+    },
+    
+
+    {
+        "code":"driving_puck_stick_handling",
+        "name_spanish":"Conducción / Manejo del puck y stick",
+        "name_english":"Driving / Puck and stick handling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"individual_defense_puck_tackling",
+        "name_spanish":"Defensa individual / Robo del puck / Entrada",
+        "name_english":"Individual defense / Steal the puck / Tackling",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"pass_reception_puck",
+        "name_spanish":"Pase / Recepción (control de la puck)",
+        "name_english":"Pass / Reception (puck control)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"penalty_shot_ice",
+        "name_spanish":"Tiro libre",
+        "name_english":"Penalty shot",
+        "question_category_code": "specific_skills"
+    },
+
+
+    {
+        "code":"run_with_ball",
+        "name_spanish":"Carrera con balón",
+        "name_english":"Run with ball",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"dribble_attacking_duel",
+        "name_spanish":"Dribbling / Duelo ofensivo",
+        "name_english":"Dribble / Attacking duel",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"tackle_block_individual_defense",
+        "name_spanish":"Placaje / Bloqueo / Defensa individual",
+        "name_english":"Tackle / Block / Individual defense",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"scrum_ruck_line_out",
+        "name_spanish":"Melé (scrum) / Ruck / Line-out (saque de banda)",
+        "name_english":"Scrum / Ruck / Line-out",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"short_pass",
+        "name_spanish":"Pase corto",
+        "name_english":"Short pass (Pop pass)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"long_pass",
+        "name_spanish":"Pase largo",
+        "name_english":"Long pass (Spin pass)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"drop_goal_kick",
+        "name_spanish":"Golpeo a bote pronto (Drop goal kick)",
+        "name_english":"Drop goal kick",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"conversion_kick",
+        "name_spanish":"Tiro de conversión",
+        "name_english":"Conversion kick",
+        "question_category_code": "specific_skills"
+    },
+
+
+    {
+        "code":"short_distance_throw",
+        "name_spanish":"Lanzamiento corta distancia",
+        "name_english":"Short distance throw",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"medium_distance_throw",
+        "name_spanish":"Lanzamiento media distancia",
+        "name_english":"Medium distance throw",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"long_distance_throw",
+        "name_spanish":"Lanzamiento larga distancia",
+        "name_english":"Long distance throw",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"short_distance_hit",
+        "name_spanish":"Bateo corta distancia (Toque de bola)",
+        "name_english":"Short distance hit (Bunting)",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"medium_distance_hit",
+        "name_spanish":"Bateo media distancia",
+        "name_english":"Medium distance hit (Line drive)",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"long_distance_hit",
+        "name_spanish":"Bateo larga distancia",
+        "name_english":"Long distance hit (Fly)",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"long_distance_hit_c",
+        "name_spanish":"Bateo larga distancia",
+        "name_english":"Long distance hit",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"ground_ball_catch",
+        "name_spanish":"Recepción bola rasa",
+        "name_english":"Ground ball catch",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"line_drive_ball_catch",
+        "name_spanish":"Recepción bolas media altura",
+        "name_english":"Line drive ball catch",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"fly_ball_catch",
+        "name_spanish":"Recepción bola alta",
+        "name_english":"Fly ball catch",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"baserunning_sliding",
+        "name_spanish":"Corrido de bases / Deslizamiento",
+        "name_english":"Baserunning / Sliding",
+        "question_category_code": "specific_skills"
+    }, 
+
+    {
+        "code":"body_position",
+        "name_spanish":"Posición del cuerpo",
+        "name_english":"Body position",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"diving",
+        "name_spanish":"Buceo",
+        "name_english":"Diving",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"leg_propulsion",
+        "name_spanish":"Propulsión piernas",
+        "name_english":"Leg Propulsion",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"arm_propulsion",
+        "name_spanish":"Propulsión brazada",
+        "name_english":"Arm propulsion",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"arm_recovery",
+        "name_spanish":"Recobro brazada",
+        "name_english":"Arm recovery",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"coordination_timing",
+        "name_spanish":"Coodinación - Timing (patada-brazada)",
+        "name_english":"Coordination - Timing (leg-arm)",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"rotate",
+        "name_spanish":"Rolido (rotación caderas)",
+        "name_english":"Rotate (hip rotation)",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"start",
+        "name_spanish":"Salida ",
+        "name_english":"Start",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"turn",
+        "name_spanish":"Viraje (giro)",
+        "name_english":"Turn",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"finish",
+        "name_spanish":"Llegada",
+        "name_english":"Finish",
+        "question_category_code": "specific_skills"
+    }, 
+
+
+    {
+        "code":"specific_swim_desplazamientos",
+        "name_spanish":"Nado específico / Desplazamientos",
+        "name_english":"Specific swim / Desplazamientos",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"swim_with_ball",
+        "name_spanish":"Nado con balón",
+        "name_english":"Swim with a ball",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"feint_attacking_duel",
+        "name_spanish":"Finta / Duelo ofensivo",
+        "name_english":"Feint / Attacking duel",
+        "question_category_code": "specific_skills"
+    },     
+    { 
+        "code":"shot",
+        "name_spanish":"Tiro",
+        "name_english":"Shot",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"vaseline",
+        "name_spanish":"Vaselina",
+        "name_english":"Vaseline",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"block_shot_w",
+        "name_spanish":"Blocaje tiro",
+        "name_english":"Block shot",
+        "question_category_code": "specific_skills"
+    }, 
+    
+
+    
+    {
+        "code":"ball_handling_security_fake",
+        "name_spanish":"Manejo y seguridad del balón / Finta",
+        "name_english":"Ball handling and security / Fake",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"shot_snap_long_snap",
+        "name_spanish":"Pase corto (Shot snap) / Pase largo (Long snap)",
+        "name_english":"Shot snap / Long snap",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"kick_off_onside_kick_punt",
+        "name_spanish":"Patada inicial (Kick off) / Patada corta (Onside Kick) / Patada despeje (Punt)",
+        "name_english":"Kick off / Onside Kick / Punt",
+        "question_category_code": "specific_skills"
+    },     
+    { 
+        "code":"kick_off_onside_kick_punt_catching",
+        "name_spanish":"Captura Kick off / Captura Onside Kick / Captura Punt",
+        "name_english":"Kick off catching  / Onside Kick catching  / Punt catching",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"throw_catching_ball_interceptation",
+        "name_spanish":"Lanzamiento / Captura lanzamiento / Interceptación balón",
+        "name_english":"Throw / Throw catching / Ball interceptation",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"field_goal_place_kick",
+        "name_spanish":"Gol de campo (Field goal) / Place Kick",
+        "name_english":"Field goal / Place Kick",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"man_to_man_coverage",
+        "name_spanish":"Cobertura hombre-a-hombre",
+        "name_english":"Man-to-man coverage",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"block_pulling",
+        "name_spanish":"Bloqueo / Tirando (Pulling)",
+        "name_english":"Block / Pulling",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"individual_defense_block_defense",
+        "name_spanish":"Defensa individual / Defensa bloqueo",
+        "name_english":"Individual defense / Block defense",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"tackling_blitz_blocking_kick",
+        "name_spanish":"Placaje / Carga contra Quaterback (Blitz) / Bloqueo de tiro",
+        "name_english":"Tackling / Blitz (Quaterback sack) / Blocking Kick",
+        "question_category_code": "specific_skills"
+    },
+
+
+
+    {
+        "code":"opponent_defense_Steal_the_ball",
+        "name_spanish":"Defensa oponente / Robo de balón",
+        "name_english":"Opponent defense / Steal the ball",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"block_Unlock",
+        "name_spanish":"Bloqueo / Contrabloqueo",
+        "name_english":"Lock / Unlock",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"throw_in_support_h_b",
+        "name_spanish":"Tiro en apoyo",
+        "name_english":"Throw in support",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"throw_in_suspension_h_b",
+        "name_spanish":"Tiro en suspensión",
+        "name_english":"Throw in suspension",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"blocaje",
+        "name_spanish":"Blocaje",
+        "name_english":"Block shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"pass_catch",
+        "name_spanish":"Pase / Recepción",
+        "name_english":"Pass / Catch",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"post_defense",
+        "name_spanish":"Postear / Defensa del poste",
+        "name_english":"Post up / Post defense",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"screen_defense",
+        "name_spanish":"Bloqueo / Defensa de bloqueo",
+        "name_english":"Screen / Screen defense",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"set_shot",
+        "name_spanish":"Lanzamiento posicional",
+        "name_english":"Set shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"jump_shot",
+        "name_spanish":"Lanzamiento en salto",
+        "name_english":"Jump shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"set_shot",
+        "name_spanish":"Lanzamiento posicional",
+        "name_english":"Set shot",
+        "question_category_code": "specific_skills"
+    },    
+    {
+        "code":"drop_baseline",
+        "name_spanish":"Drop (dejada desde el fondo)",
+        "name_english":"Drop (from the baseline)",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"drive_forehand_backhand",
+        "name_spanish":"Tenso (drive) / Revés",
+        "name_english":"Forehand (drive) / Backhand",
+        "question_category_code": "specific_skills"
+    },    
+    {
+        "code":"smash_push_shot",
+        "name_spanish":"Remate / Push shot (tiro de empuje)",
+        "name_english":"Smash / Push shot",
+        "question_category_code": "specific_skills"
+    }, 
+    {
+        "code":"kill_net_brush_shot",
+        "name_spanish":"Remate en la red (Kill) / Net brush shot (golpe de cepillo)",
+        "name_english":"Kill (net smash) / Net brush shot",
+        "question_category_code": "specific_skills"
+    },
+    {
+        "code":"net_block",
+        "name_spanish":"Net block (bloqueo en la red)",
+        "name_english":"Net block",
+        "question_category_code": "specific_skills"
+    },
+
+
+
+
+
+
+    {
+        "code":"maximum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca máxima",
+        "name_english":"Maximum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"average_heart_rate",
+        "name_spanish":"Frecuencia cardiaca media",
+        "name_english":"Average heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"minimum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca mínima",
+        "name_english":"Minimum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_reserve",
+        "name_spanish":"Frecuencia cardiaca de reserva",
+        "name_english":"Heart rate reserve",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_variability",
+        "name_spanish":"Variabilidad de la frecuencia cardiaca (VFC)",
+        "name_english":"Heart rate variability (HRV)",
+        "field_type": "number",
+        "unit":"m/s",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_1",
+        "name_spanish":"Zona entrenamiento 1 (50-60 % Fc max)",
+        "name_english":"Training zone 1 (50-60% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_2",
+        "name_spanish":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "name_english":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_3",
+        "name_spanish":"Zona entrenamiento 3 (70-80 % Fc max)",
+        "name_english":"Training zone 3 (70-80% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_4",
+        "name_spanish":"Zona entrenamiento 4 (80-90 % Fc max)",
+        "name_english":"Training zone 4 (80-90% Fc max)",
+        "field_type": "number",
+        "unit":"percentage", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_5",
+        "name_spanish":"Zona entrenamiento 5 (90-100 % Fc max)",
+        "name_english":"Training zone 5 (90-100% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+
+
+
+    {
+        "code":"distance_total",
+        "name_spanish":"Distancia total",
+        "name_english":"Total distance",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_15_20",
+        "name_spanish":"Distancia 15-20 km/h",
+        "name_english":"Distance 15-20km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_20_25",
+        "name_spanish":"Distancia 20-25 km/h",
+        "name_english":"Distance 20-25km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_25",
+        "name_spanish":"Distancia >25 km/h (sprint)",
+        "name_english":"Distance >25 km/h (sprint)",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"relative_distance",
+        "name_spanish":"Distancia relativa",
+        "name_english":"Relative distance",
+        "field_type": "number",
+        "unit":"m/min",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"maximum_speed",
+        "name_spanish":"Velocidad máxima",
+        "name_english":"Maximum speed",
+        "field_type": "number",
+        "unit":"km/h",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"equivalent_distance_index",
+        "name_spanish":"Índice de Distancia Equivalente (EDI)",
+        "name_english":"Equivalent Distance Index (EDI)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"metabolic_power",
+        "name_spanish":"Potencia metabólica",
+        "name_english":"Metabolic power",
+        "field_type": "number",
+        "unit":"w/kg",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"accelerations",
+        "name_spanish":"Aceleraciones",
+        "name_english":"Accelerations",
+        "field_type": "number",
+        "unit":"m/s2", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"slowdowns",
+        "name_spanish":"Desaceleraciones",
+        "name_english":"Slowdowns",
+        "field_type": "number",
+        "unit":"m/s2",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    }
+]

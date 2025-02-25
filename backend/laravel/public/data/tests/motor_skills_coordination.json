@@ -1,0 +1,168 @@
+[
+    {
+        "code": "alternate_hand_wall",
+        "name_spanish": "Alternate hand wall test (AHWT)",
+        "name_english": "Alternate hand wall test (AHWT)",
+        "description_spanish": "El Alternate Hand Wall Toss (AHWT) es una de las pruebas más utilizadas para medir la coordinación óculo-manual.",
+        "instruction_spanish": "El Alternate Hand Wall Toss (AHWT) es una de las pruebas más utilizadas para medir la coordinación óculo-manual.",
+        "material_spanish": "Una pelota de tenis o béisbol, una pared lisa, cinta adhesiva para colocar en el suelo y marcar la línea de lanzamiento, una cinta métrica y un cronómetro.",
+        "procedure_spanish": "El test comienza con el sujeto situado detrás de la línea de lanzamiento, a 2 metros de la pared, sin llegar a pisarla, tal y como puede observarse en la ilustración. A la señal del evaluador, el sujeto debe lanzar una pelota de tenis, o de béisbol en su defecto, contra una pared lisa, alternando la mano de lanzamiento. Para ello, el sujeto lanza la pelota con una mano y la atrapa con la mano opuesta y así sucesivamente durante los 30 segundos (sg) que dura la prueba. El objetivo del test es lograr el mayor número de capturas exitosas en el tiempo establecido.",
+        "evaluation_spanish": "Se mide el número de capturas que el sujeto ha conseguido realizar en los 30 sg que dura el test. El sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The Alternate Hand Wall Toss (AHWT) is one of the most widely used tests for measuring hand-eye coordination.",
+        "instruction_english": "The Alternate Hand Wall Toss (AHWT) is one of the most widely used tests for measuring hand-eye coordination.",
+        "material_english": "A baseball or tennis ball, a smooth wall, tape to mark the pitching line on the ground, a tape measure and a stopwatch.",
+        "procedure_english": "The test starts with the subject standing behind the throw line, 2 metres from the wall, without stepping on it, as shown in the illustration. On the evaluator's signal, the subject must start throwing the baseball or tennis ball against the wall with one hand and catch the bounce with the other. The subject continues altenatively throwing and catching during the 30 seconds (sec) of the test. The aim of the test is to achieve the highest number of successful catches in the established time.",
+        "evaluation_english": "The number of captures that the subject has managed to make in the 30 seconds lapse is measured. He/She has a maximum of 3 attempts. The highest number, as well as the mean and the median can be recorded.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "coordination",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations":  ["new_score", "average","chart"],
+        "table": {
+            "name_english": "Rating / Points",
+            "name_spanish": "Rating / Puntos",
+            "description_english": "Calculate",
+            "description_spanish": "Calcula el resultado en funcion del promdedio obtenido",
+            "details": [{
+                    "name_english": "Rating",
+                    "name_spanish": "Rating",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "code": "Rating",
+                    "is_index": false,
+                    "values": ["Excellent", "Good","Average", "Fair", "Poor"]
+                },
+                {
+                    "name_english": "Score (in 30 seconds)",
+                    "name_spanish": "Score (in 30 seconds)",
+                    "description_english": "description",
+                    "description_spanish": "descripcion",
+                    "code": "score",
+                    "is_index": true,
+                    "values": [">35", "30-35", "20-29","15-19","<15"]
+                }
+            ]
+
+        },
+        "associate_questions": [{
+                "question_code": "capt_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "capt_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "capt_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observation",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    },
+    {
+        "code": "dynamic_coordination",
+        "name_spanish": "Zig-zag con balón (coordinación dinámica general)",
+        "name_english": "Zig-zag with ball (general dynamic coordination)",
+        "description_spanish": "El objetivo principal de este test es medir la coordinación dinámica general, entendiendo esta como aquella que refleja el buen funcionamiento existente entre el sistema nervioso central (SNC) y la musculatura esquelética en movimiento, donde intervienen gran cantidad de segmentos musculares para desarrollar una acción conjunta utilizando todas las partes del cuerpo.",
+        "instruction_spanish": "El objetivo principal de este test es medir la coordinación dinámica general, entendiendo esta como aquella que refleja el buen funcionamiento existente entre el sistema nervioso central (SNC) y la musculatura esquelética en movimiento, donde intervienen gran cantidad de segmentos musculares para desarrollar una acción conjunta utilizando todas las partes del cuerpo.",
+        "material_spanish": "Una balón que bote bien, una superficie plana y antideslizante, 5 conos con picas o banderillas en lo alto (1,7 m de altura), una cinta métrica y un cronómetro. También podemos llegar a necesitar cinta adhesiva o similar para el marcaje de la línea salida/llegada del circuito.",
+        "procedure_spanish": "Para la realización de esta prueba lo primero que debemos hacer es colocar los 5 conos en línea, separados a una distancia de 2 metros entre sí, dejando 1 metro de distancia desde la salida (A) al primer cono y desde el último cono hasta el final del primer tramo (B). El objetivo de este test es realizar un circuito de ida y vuelta (A-B-A) en zig-zag entre conos, donde el sujeto deberá ir botando el balón durante el recorrido de ida (A-B), dejar el balón en el suelo y llevarlo con el pie en el recorrido de vuelta (B-A). El participante comienza la prueba con el pie detrás de la línea de salida (A), en una posición de inicio de sprint con el balón sujeto con las dos manos y a la señal del evaluador el sujeto tratará de completar el recorrido en el menor tiempo posible. Tal y como puede observarse en la ilustración, al iniciar la prueba el primer cono lo debemos dejar a la izquierda. La prueba se da por finalizada cuando el sujeto regresa de nuevo al cono A y cruza la línea de meta, pudiendo hacerlo con cualquier parte del cuerpo, momento en que se detendrá el cronómetro y anotaremos la marca alcanzada. Se considerará nulo y no se contabilizará, todo intento en el que participante derribe algún cono del circuito.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main goal of this test is to measure general dynamic coordination, i.e. that which reflects the correct communication between the central nervous system (CNS) and the skeletal musculature in movement. This involves a large number of muscle segments to develop a joint action using all parts of the body.",
+        "instruction_english": "The main goal of this test is to measure general dynamic coordination, i.e. that which reflects the correct communication between the central nervous system (CNS) and the skeletal musculature in movement. This involves a large number of muscle segments to develop a joint action using all parts of the body.",
+        "material_english": "A well bouncing ball, a flat, non-slip surface, 5 cones with spikes or flags at the top (1.7 m high), a tape measure and a stopwatch. Adhesive tape or similar to mark the start/finish line of the circuit will also be needed.",
+        "procedure_english": "The  5 cones must be placed in a straight line, 2 metres apart, leaving a distance of 1 metre from the start (A) to the first cone and from the last cone to the finish line (B). The subject must perform a zig-zag back and forth circuit (A-B-A) between cones, bouncing the ball on the outward journey (A-B), then leaving the ball on the ground and carrying it with his/her foot on the return journey (B-A). The participant starts the test with his foot behind the starting line (A), in a sprint start position with the ball held in both hands and on the signal of the evaluator he/she will try to complete the course in the shortest possible time.As seen in the illustration, the subject must start the test with the first cone on his/her left hand side. The test is finished when the subject returns to cone A and crosses the finish line with any part of his/her body. At this moment, the stopwatch will be stopped and the elapsed time will be recorded. Any attempt in which a competitor knocks over a cone on the course will be considered void and will not be counted.",
+        "evaluation_english": "It is measured in seconds (sec) and the subject has a maximum of 3 attempts. The lowest time, as well as the mean and the median can be recorded. This agility circuit is often used as an entrance exam for the degree in Physical Education and Sport Sciences.",
+        "tooltip_english":"It is recommended to repeat the test at least 2 times, and take even a third if necessary. In the first case the mean is calculated and in the second, the median should be taken.",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "motor_skills",
+        "test_sub_type_code": "coordination",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations":  ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "012_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "012_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "observation",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+            
+        ]
+    }
+]

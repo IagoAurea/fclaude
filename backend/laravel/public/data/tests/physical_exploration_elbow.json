@@ -1,0 +1,95 @@
+[
+    {
+        "code": "elbow_instability",
+        "name_spanish": "Inestabilidad de codo",
+        "name_english": "Elbow instability",
+        "description_spanish": "El test de inestabilidad de codo es una prueba que sirve para evaluar la inestabiidad rotatoria del codo, asi como también la luxación a nivel cubito-humeal y posterolateral.",
+        "instruction_spanish": "El test de inestabilidad de codo es una prueba que sirve para evaluar la inestabiidad rotatoria del codo, asi como también la luxación a nivel cubito-humeal y posterolateral.",
+        "material_spanish": "Una camilla de fisioterapia o una silla.",
+        "procedure_spanish": "Para la valoración de la inestabilidad del codo se procederá a realizar diferentes pruebas: a) Prueba de valgo: La persona evaluada esta sentada con el brazo en extensión con una ligera flexión de codo de 10-20º y el hombro en rotación externa máxima. El antebrazo se posiciona en supinación (palma de la mano hacia arriba). El evaluador debe realizar dos tipos de toma aplicando una fuerza en sentido opuesto en el codo; una en la región medial o interna del brazo y otra a nivel del antebrazo efectuando una addución (movimiento hacia dentro).  b) Prueba de varo: El sujeto sentado con el brazo a evaluar en flexión de 10-20º y el hombro en rotación interna máxima. Se realiza una toma sobre la zona lateral del codo para realizar una abducción del antebrazo (movimiento hacia fuera) y evaluar la estabilidad del ligamento colateral medial. c) Prueba de pivot-shift: El sujeto tumbado en la camilla en posición de decúbito supino (boca arriba), con el hombro del codo que va a ser evaluado en flexión de 160º-180º y en rotación externa máxima. El evaluador se sitúa de pie por detrás del sujeto para realizar una toma distal en el antebrazo y una toma proximal en el codo. El evaluador, partiendo de una extensión completa del codo y supinación de antebrazo máxima, debe efectuar una fuerza en valgo a medida que se realiza una flexión de codo para evaluar la estabilidad rotatoria postero-lateral.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto no es capaz de separar la mano de la espalda. En cambio, si el sujeto logra separar la mano de la espalda la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "elbow",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "valgus_test",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "left"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "left"
+                    }
+                ]
+            },
+            {
+                "question_code": "varus_test",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "right"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "right"
+                    }
+                ]
+            },
+            {
+                "question_code": "pivot_shift_test",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "right"
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "right"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

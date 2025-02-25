@@ -1,0 +1,100 @@
+<div class="table-responsive">
+  <div class="table-container">
+    <table class="table" style="border: 1px solid #d3d3d3; margin-top: 10px;">
+      <tr class="bg-white">
+        <th class="text-left" style="border: 1px solid #dddbdb; padding: 20px; color: #050c44;">
+          <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <div class="user-list">
+              <img src="assets/img/icons/houses.png" alt="Icono de casa" class="house-icon" style="margin-right: 5px; width: 15px; position: relative; top: -2px;">
+              {{ 'NAV.LISFACTURAS' | translate }}
+            </div>
+            <app-language-selector></app-language-selector>
+          </div>
+        </th>
+        <th class="admin-dropdown" style="border: 1px solid #dddbdb; padding: 20px; color: #050c44; width: 100px;">
+          <app-admin-dropdown></app-admin-dropdown>
+        </th>
+      </tr>
+    </table>
+  </div>
+
+  <div class="table-container">
+    <div>
+      <label>{{ 'PLAYERS.PLANES_POR_PAGINA' | translate }}</label>
+      <select [(ngModel)]="itemsPerPage" (change)="p = 1"  style="margin-left: 10px;">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+      </select>
+    </div>
+
+    <div class="add-user-button-container-mobile d-lg-none" style="display: flex; justify-content: center;">
+      <button
+        (click)="openAddInvoiceModal()"
+        class="btn btn-primary w-30 d-lg-block"
+        id="crear_factura_btn"
+        pTooltip=" {{ 'profile.Añadir' | translate }}"
+        style="height: 2.625rem; width: 18.75rem; margin: 20px 10px;"
+      >
+        {{ "Añadir nueva factura" | translate }} <span class="plus-symbol">+</span>
+      </button>
+    </div>
+    <div class="buscador p-input-icon-left d-lg-none">
+      <input pInputText type="text" class="p-inputtext p-component p-element" placeholder="Buscar">
+      <i class="pi pi-search"></i>
+    </div>
+    <table class="table table-centered datatable dt-responsive nowrap table-card-list table-with-margin custom-border clase-tabla-inferior">
+      <thead>
+        <tr class="bg-transparent responsive-row">
+          <th class="text-left">
+            <div class="header-container" style="display: flex; justify-content: space-between; align-items: center;">
+              <span class="form-text text-muted styled-text"> {{ 'NAV.LISTA_FACTURAS' | translate }}</span>
+              <div class="extra-container" style="display: flex; align-items: center;">
+                <div class="buscador p-input-icon-left d-none d-lg-block">
+                  <input pInputText type="text" class="p-inputtext p-component p-element" placeholder="{{ 'NAV.BUSCAR' | translate }}">
+                  <i class="pi pi-search"></i>
+                </div>
+                <button
+                  (click)="openAddInvoiceModal()"
+                  class="btn btn-primary w-30 d-none d-lg-block"
+                  id="crear_factura_btn"
+                  pTooltip=" {{ 'profile.Añadir' | translate }}"
+                  style="height: 2.625rem; width: 18.75rem;float: right;"
+                >
+                {{ 'NAV.Factura' | translate }} <span class="plus-symbol">+</span>
+                </button>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
+
+    <table class="table table-centered datatable dt-responsive nowrap table-card-list table-with-margin custom-border clase-tabla-inferior mt-0">
+      <thead>
+        <tr>
+          <th><span class="form-text text-muted styled-text">{{ 'Numero factura' | translate }}</span></th>
+          <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'A nombre de' | translate }}</span></th>
+          <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'Monto total' | translate }}</span></th>
+          <th class="mobile-hide"><span class="form-text text-muted styled-text">{{ 'Fecha creacion' | translate }}</span></th>
+          <th class="actions"><span class="form-text text-muted">{{ 'Acciones' | translate }}</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let factura of invoices | paginate: { itemsPerPage: itemsPerPage, currentPage: p }">
+          <!-- ... (resto de las celdas) ... -->
+        </tr>
+
+        <tr *ngIf="!invoices || invoices.length === 0">
+          <td colspan="5"><span class="form-text text-muted">{{ 'NAV.NOFACTURAS' | translate }}</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="table-container" style="display: flex; justify-content: flex-end;">
+      <div class="pagination-container">
+        <pagination-controls (pageChange)="p = $event" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>
+      </div>
+    </div>
+  </div>
+</div>

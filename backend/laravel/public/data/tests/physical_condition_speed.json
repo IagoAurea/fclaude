@@ -1,0 +1,565 @@
+[  
+    {
+        "code": "batak_pro",
+        "name_spanish": "Batak Pro reaction test",
+        "name_english": "Batak Pro reaction test",
+        "description_spanish": "Batak Pro es un test de velocidad de reacción interactivo donde se ponen a prueba los reflejos del participante. Esta prueba se utiliza frecuentemente en el mundo del deporte y alto rendimiento, sobretodo en el automovilismo. Gracias a este test el deportista podrá trabajar la velocidad de reacción y la coordinacion oculo-manual frente a un estímulo visual.",
+        "instruction_spanish": "Batak Pro es un test de velocidad de reacción interactivo donde se ponen a prueba los reflejos del participante. Esta prueba se utiliza frecuentemente en el mundo del deporte y alto rendimiento, sobretodo en el automovilismo. Gracias a este test el deportista podrá trabajar la velocidad de reacción y la coordinacion oculo-manual frente a un estímulo visual.",
+        "material_spanish": "Un cronómetro y dispositivo Batak Pro, un cuadrado de 2x2 metros con 12 luces led brillantes que se encienden de manera individual. Los botones Batak pueden iluminarse aleatoriamente o según un patrón fijo, estando estos numerados y dispuestos en un diseño que proporciona el mayor movimiento posible. La prueba está controlada por un microordenador especial.",
+        "procedure_spanish": "El participante tiene que pulsar todas las luces que se van encendiendo en un minuto de tiempo. La puntuación se basa en la rapidez con la que se presionan los botones Batak y se reproduce en una pantalla digital a la altura de los ojos con efectos de sonido cuando el participante presiona los botones.",
+        "evaluation_spanish": "Se registran el número total de luces que el sujeto consigue apagar, disponiendo para ello de un máximo de 3 intentos.",
+        "description_english": "Batak Pro is an interactive reaction speed test in which the subject's reflexes are put to the test. This test is frequently used in the world of sports and high performance, especially in motor racing. With this test the athlete will be able to work on reaction speed and hand-eye coordination to a visual stimulus.",
+        "instruction_english": "Batak Pro is an interactive reaction speed test in which the subject's reflexes are put to the test. This test is frequently used in the world of sports and high performance, especially in motor racing. With this test the athlete will be able to work on reaction speed and hand-eye coordination to a visual stimulus.",
+        "material_english": "A Batak Pro device, which is a 2x2 meter square frame with 12 button LED lights that light up individually. Batak's buttons can illuminate randomly or in a fixed sequence, and have been arranged in a square pattern that requires the subject's arms to move widely. The test is controlled by a built-in microcomputer.",
+        "procedure_english": "The subject has to press all the lights that light up in one minute (randomply or in sequence). Scoring is based on how fast the Batak buttons are pressed and is showed on a digital display at eye level. A beep sounds and the light turns off every time a lit button is pressed.",
+        "evaluation_english": "The total number of lights that the subject manages to turn off is recorded. He/she will have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+
+        "associate_questions": [{      
+                "question_code": "vel_cont_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_cont_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_cont_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "reactividad_coordinación_sem",
+        "name_spanish": "Reactividad y coordinación (Witty SEM)",
+        "name_english": "Reactivity and coordination (Witty SEM)",
+        "description_spanish": "Esta prueba se utiliza tanto en rehabilitación como en deporte, para realizar ejercicios que estimulen la capacidad de coordinación y velocidad de reacción del deportista. Witty SEM contiene un sensor de proximidad que detecta la presencia de obstáculos cercanos (máx. 40 cm) en dirección frontal sin que sea necesario un contacto directo.",
+        "instruction_spanish": "Esta prueba se utiliza tanto en rehabilitación como en deporte, para realizar ejercicios que estimulen la capacidad de coordinación y velocidad de reacción del deportista. Witty SEM contiene un sensor de proximidad que detecta la presencia de obstáculos cercanos (máx. 40 cm) en dirección frontal sin que sea necesario un contacto directo.",
+        "material_spanish": "Un cronómetro y 8 o más dispositivos Witty SEM. En este test se puede llegar a combinar un sistema de varios Witty SEM con otros elementos, por ejemplo bases propioceptivas u objetos propios de la modalidad deportiva (raqueta, balón, etc.) para hacer el test más específico.",
+        "procedure_spanish": "El participante tiene que activar todas las luces que se van encendiendo en un tiempo determinado. La puntuación se basa en la rapidez con la que el participante activa los dispositivos Witty SEM según sea el programa elegido por el evaluador. ",
+        "evaluation_spanish": "Se registran el número total de luces que el sujeto consigue activar, disponiendo para ello de un máximo de 3 intentos.",
+        "description_english": "This test is used both in rehabilitation therapies and in sport training, to perform exercises that stimulate the athlete's coordination capacity and reaction speed. Witty SEM contains a proximity sensor that detects the presence of nearby obstacles (max. 40 cm) in front of it without requiring direct contact.",
+        "instruction_english": "This test is used both in rehabilitation therapies and in sport training, to perform exercises that stimulate the athlete's coordination capacity and reaction speed. Witty SEM contains a proximity sensor that detects the presence of nearby obstacles (max. 40 cm) in front of it without requiring direct contact.",
+        "material_english": " A stopwatch and 8 or more Witty SEM devices. In this test, a set of Witty SEM's can be combined with other elements, for example proprioceptive bases or any sport specific objects (racket, ball, etc.) to make the test more specific.",
+        "procedure_english": "The subject has to activate the sensors of the lights that are turned on in a given time. Scoring is based on how quickly the participant activates the Witty SEM devices according to the program chosen by the evaluator.",
+        "evaluation_english": "The total number of Witty SEM sensors that the subject manages to activate is recorded. He/she will have a maximum of 3 attempts.",
+        "value": null,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [{
+            "question_code": "vel_time",
+            "value": 0,
+            "associate_responses": [{
+                "response_code": "text_response",
+                "value": 0,
+                "cal_value": false,
+                "is_index": false,
+                "laterality": ""
+            }]
+            },
+            {      
+                "question_code": "vel_cont_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_cont_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_cont_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "plate_tapping",
+        "name_spanish": "Golpeo de placas",
+        "name_english": "Plate tapping",
+        "description_spanish": "El objetivo principal de este test es medir la velocidad gestual o segmentaria de la extremidad superior.",
+        "instruction_spanish": "El objetivo principal de este test es medir la velocidad gestual o segmentaria de la extremidad superior.",
+        "material_spanish": "Una mesa, un cronómetro, dos círculos y un rectáguno tal y como se muestra en la ilustración.",
+        "procedure_spanish": "El sujeto debe cololocarse de pie frente a la mesa con los pies ligeramente separados. La altura de la mesa debe quedar ligeramente por debajo del ombligo. El participante deberá colocar la mano no dominante en el rectángulo central y la otra sobre uno de los círculos. Este test consiste en tocar alternativamente lo más rápido posible los 2 círculos un total de 25 veces cada uno con la mano dominante, pasando la misma por delante de la mano no dominante que estará  fija y en contacto permanente con el rectángulo. La prueba finalizará deteniendo el cronómetro en el contacto número 50.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main goal of this test is to measure the gestural speed of the upper extremities.",
+        "instruction_english": "The main goal of this test is to measure the gestural speed of the upper extremities.",
+        "material_english": "A table, a stopwatch, two circles and a rectangle as shown in the illustration.",
+        "procedure_english": "The subject should stand in front of the table with his/her feet slightly apart. The height of the table should be slightly below the navel. The subject should place the non-dominant hand on the central rectangle and the other on one of the circles. This test consists of touching alternately as fast as possible the 2 circles a total of 25 times each with the dominant hand, passing it in front of the non-dominant hand which will be steady and in permanent contact with the rectangle. The test will end by stopping the stopwatch at the 50th contact.",
+        "evaluation_english": "It is measured in seconds (sec) and the subject has a maximum of 3 attempts.",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vel_dominant_hand",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "right",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "left",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {      
+                "question_code": "vel_test_1",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_2",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_3",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "swimming_speed",
+        "name_spanish": "Velocidad de natación",
+        "name_english": "Swimming speed",
+        "description_spanish": "El objetivo principal de este test es medir la velocidad máxima del participante en una prueba específica de natación, teniendo en cuenta el estilo y la distancia de la prueba.",
+        "instruction_spanish": "El objetivo principal de este test es medir la velocidad máxima del participante en una prueba específica de natación, teniendo en cuenta el estilo y la distancia de la prueba.",
+        "material_spanish": "Una piscina, una cinta métrica y un cronómetro. Si la prueba lo requiere, se puede utilizar un trampolín de salida para ayudar al participante en la fase de aceleración.",
+        "procedure_spanish": "El objetivo de la prueba consiste en nadar la distancia de la prueba en el menor tiempo posible ejecutando una técnica de nado correcta (según estilo).",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main goal of this test is to measure the subject's maximum speed in a specific swimming style for an established distance.",
+        "instruction_english": "The main goal of this test is to measure the subject's maximum speed in a specific swimming style for an established distance.",
+        "material_english": "A swimming pool, a tape measure and a stopwatch. A springboard can be used to assist the subject in the acceleration phase if the test requires it.",
+        "procedure_english": "The subject must swim the established distance in the shortest time possible with the correct swimming technique (according to style).",
+        "evaluation_english": "It is measured in seconds (sec) and the subject has a maximum of 3 attempts.",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [{
+                "question_code": "style",
+                "value": 0,
+                "associate_responses": [{
+                        "response_code": "freestyle",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "backstroke",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "breaststroke",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "butterfly",
+                        "value": 0,
+                        "cal_value": false,
+                        "is_index": false,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "vel_time",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {      
+                "question_code": "vel_test_1",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_2",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_3",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "stationary_start_sprint",
+        "name_spanish": "Velocidad de carrera desde parado",
+        "name_english": "Running speed from standstill",
+        "description_spanish": "El objetivo principal de este test es medir la capacidad de aceleración del sujeto y su velocidad máxima en una prueba específica de velocidad.",
+        "instruction_spanish": "El objetivo principal de este test es medir la capacidad de aceleración del sujeto y su velocidad máxima en una prueba específica de velocidad.",
+        "material_spanish": "Una superficie plana antideslizante, 4 conos y líneas para delimitar el recorrido de la prueba, una cinta métrica y un cronómetro. Si la prueba lo requiere, se pueden utilizar unos tacos de salida de velocidad para ayudar al participante en la fase de aceleración de la carrera.",
+        "procedure_spanish": "El objetivo del test consiste en correr la distancia en el menor tiempo posible.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "description_english": "The main goal of this test is to measure the subject's acceleration capacity and maximum velocity achieved in a specific speed test.",
+        "instruction_english": "The main goal of this test is to measure the subject's acceleration capacity and maximum velocity achieved in a specific speed test.",
+        "material_english": "A flat non-slip surface, 4 cones to delimit the test course, a tape measure and a stopwatch. If the test requires it, starting blocks can be used to help the participant in the acceleration phase of the race.",
+        "procedure_english": "The subject must run the established distance in the shortest time possible.",
+        "evaluation_english": "It is measured in seconds (sec) and the subject has a maximum of 3 attempts.",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vel_distance",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "environment",
+                "value": 0,
+                "associate_responses": [
+                {
+                    "response_code": "indoor_track",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                },
+                {
+                    "response_code": "outdoor_track",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }
+                ]
+            },
+            {      
+                "question_code": "vel_test_1",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_2",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_3",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    },
+    {
+        "code": "flying_sprint_speed",
+        "name_spanish": "Velocidad de carrera con salida lanzada",
+        "name_english": "Running speed from flying start",
+        "description_spanish": "El objetivo principal de este test es medir la velocidad máxima del sujeto en una prueba de velocidad con carrera lanzada.",
+        "instruction_spanish": "El objetivo principal de este test es medir la velocidad máxima del sujeto en una prueba de velocidad con carrera lanzada.",
+        "material_spanish": "Una superficie plana antideslizante, 6 conos y líneas para delimitar el recorrido de la prueba, una cinta métrica y un cronómetro. ",
+        "procedure_spanish": "El objetivo de la prueba consiste en correr la distancia (B-C) en el menor tiempo posible. El participante inicia el test con el pie detrás del cono de salida (A) en una posición de inicio de sprint y utilizará la distancia A-B como tramo de aceleración para que una vez el sujeto llegue al cono B se inicie el cronómetro. La prueba se dará por finalizada cuando el sujeto cruze la línea de meta (C) con cualquier parte del cuerpo, momento en que se detendrá el cronómetro y anotaremos la marca alcanzada.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces, y tomarse una tercera si fuese necesario. En el primer caso se utiliza la media y en el segundo la mediana",
+        "description_english": "The main goal of this test is to measure the subject's maximum velocity achieved in a flying sprint over an established distance.",
+        "instruction_english": "The main goal of this test is to measure the subject's maximum velocity achieved in a flying sprint over an established distance.",
+        "material_english": "A flat non-slip surface, 4 cones to delimit the test course, a tape measure and a stopwatch.",
+        "procedure_english": "The subject must cover the distance (B-C) in the shortest possible time. He/she must start the test with his/her foot behind the starting cone (A) in a sprint start position and will use the distance A-B as an acceleration zone and once the subject reaches cone B the stopwatch will be started. The test will finish when the subject crosses the finish line (C) with any part of his/her body, the stopwatch will be stopped and the time elapsed will be recorded.",
+        "evaluation_english": "It is measured in seconds (sec) and the subject has a maximum of 3 attempts.",
+        "value": null,
+        "inverse": true,
+        "test_type_code": "physical_condition",
+        "test_sub_type_code": "speed",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["score_negative", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "vel_distance",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "environment",
+                "value": 0,
+                "associate_responses": [
+                {
+                    "response_code": "indoor_track",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                
+                },
+                {
+                    "response_code": "outdoor_track",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }
+                ]
+            },
+            {      
+                "question_code": "vel_test_1",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_2",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_test_3",
+                "value": 0,
+                "unit":"sg",
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "vel_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            }
+        ]
+    }
+]

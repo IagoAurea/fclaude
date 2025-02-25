@@ -1,0 +1,962 @@
+[
+    {
+        "code":"text_response",
+        "name_spanish":"Respuesta en Texto",
+	    "name_english":"Text response"
+    },
+    {
+        "code":"kilogram",
+        "name_spanish":"Kilogramos (kg)",
+	    "name_english":"Kilograms (kg)"
+    },
+    {
+        "code":"pound",
+        "name_spanish":"Libra (lbs)",
+	    "name_english":"Pound (lbs)"
+    },
+    {
+        "code":"left",
+        "name_spanish":"Izquierdo",
+	    "name_english":"Left"
+    },
+    {
+        "code":"right",
+        "name_spanish":"Derecho",
+	    "name_english":"Right"
+    },
+    {
+        "code":"normal_negative",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "tooltip_english":">=3",
+        "tooltip_spanish":">=3",
+        "name_spanish":"Normal / Negativo",
+	    "name_english":"Normal / Negative"
+    },
+    {
+        "code":"normal",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "tooltip_english":"0",
+        "tooltip_spanish":"0",
+        "name_spanish":"Igual",
+	    "name_english":"Normal"
+    },
+    {
+        "code":"abnormal_positive",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "tooltip_english":"<3",
+        "tooltip_spanish":"<3",
+        "name_spanish":"Anormal / Positivo",
+	    "name_english":"Abnormal / Positive"
+    },
+    {
+        "code":"007_overhand_grip",
+        "tooltip_spanish":"Palmas de las manos mirando hacia abajo",
+        "tooltip_english":"Palms facing downward",
+        "name_spanish":"Agarre prono - abierto",
+	    "name_english":"Pronated wide grip / Overhand grip - open"
+    },
+    {
+        "code":"007_supine_grip",
+        "tooltip_spanish":"Palmas de las manos mirando hacia arriba",
+        "tooltip_english":"Palms of the hands facing upward",
+        "name_spanish":"Agarre supino - cerrado",
+	    "name_english":"Supinated narrow grip - closed"
+    },
+    {
+        "code":"007_neutral_grip",
+        "tooltip_spanish":"Palmas de las manos se miran entre sí",
+        "tooltip_english":"Palms of hands facing each other",
+        "name_spanish":"Agarre neutro - cerrado",
+	    "name_english":"Neutral grip - closed"
+    },
+    {
+        "code":"007_alternate_grip",
+        "tooltip_spanish":"Una palma de la mano mira hacia arriba y la otra hacia abajo",
+        "tooltip_english":"One palm of the hand faces up and the other palm faces down.",
+        "name_spanish":"Agarre alterno - mixto",
+	    "name_english":"Mixed grip"
+    },
+    {
+        "code":"007_hands_apart",
+        "name_spanish":"Manos separadas",
+	    "name_english":"Hands separated"
+    },
+    {
+        "code":"007_hands_together",
+        "name_spanish":"Manos juntas",
+	    "name_english":"Hands together"
+    },
+    {
+        "code":"007_crossed_hands",
+        "name_spanish":"Manos cruzadas",
+	    "name_english":"Hands crossed"
+    },
+    {
+        "code":"007_legs_extended",
+        "name_spanish":"Piernas extendidas",
+	    "name_english":"Legs extended"
+    },
+    {
+        "code":"007_flexed_legs",
+        "name_spanish":"Piernas flexionadas",
+	    "name_english":"Legs bent"
+    },
+    {
+        "code":"008_overhand_grip",
+        "name_spanish":"Agarre prono - abierto",
+	    "name_english":"Overhand grip - open"
+    },
+    {
+        "code":"008_supine_grip",
+        "name_spanish":"Agarre supino - cerrado",
+	    "name_english":"Supine grip - closed"
+    },
+    {
+        "code":"008_neutral_grip",
+        "name_spanish":"Agarre neutro - cerrado",
+	    "name_english":"Neutral grip - closed"
+    },
+    {
+        "code":"008_alternate_grip",
+        "name_spanish":"Agarre alterno - mixto",
+	    "name_english":"Mixed grip"
+    },
+    {
+        "code":"008_hands_apart",
+        "name_spanish":"Manos separadas",
+	    "name_english":"Hands apart"
+    },
+    {
+        "code":"008_hands_together",
+        "name_spanish":"Manos juntas",
+	    "name_english":"Hands together"
+    },
+    {
+        "code":"008_crossed_hands",
+        "name_spanish":"Manos cruzadas",
+	    "name_english":"Crossed hands"
+    },
+    {
+        "code":"008_legs_extended",
+        "name_spanish":"Piernas extendidas",
+	    "name_english":"Legs extended"
+    },
+    {
+        "code":"008_flexed_legs",
+        "name_spanish":"Piernas flexionadas",
+	    "name_english":"Flexed legs"
+    },
+    {
+        "code":"012_5_0_meters",
+        "name_spanish":"5 metros",
+	    "name_english":"5 meters"
+    },
+    {
+        "code":"012_5_5_meters",
+        "name_spanish":"5.5 metros",
+	    "name_english":"5.5 meters"
+    },
+    {
+        "code":"012_6_0_meters",
+        "name_spanish":"6 metros",
+	    "name_english":"6 meters"
+    },
+    {
+        "code":"012_6_5_meters",
+        "name_spanish":"6.5 metros",
+	    "name_english":"6.5 meters"
+    },
+    {
+        "code":"012_7_0_meters",
+        "name_spanish":"7 metros",
+	    "name_english":"7 meters"
+    },
+    {
+        "code":"012_7_5_meters",
+        "name_spanish":"7.5 metros",
+	    "name_english":"7.5 meters"
+    },
+    {
+        "code":"012_8_0_meters",
+        "name_spanish":"8 metros",
+	    "name_english":"8 meters"
+    },
+    {
+        "code":"012_8_5_meters",
+        "name_spanish":"8.5 metros",
+	    "name_english":"8.5 meters"
+    },
+    {
+        "code":"012_9_0_meters",
+        "name_spanish":"9 metros",
+	    "name_english":"9 meters"
+    },
+    {
+        "code":"012_9_5_meters",
+        "name_spanish":"9.5 metros",
+	    "name_english":"9.5 meters"
+    },
+    {
+        "code":"012_10_0_meters",
+        "name_spanish":"10 metros",
+	    "name_english":"10 meters"
+    },
+    {
+        "code":"foot",
+        "name_spanish":"Pie",
+        "name_english":"Foot",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"hand",
+        "name_spanish":"Mano",
+        "name_english":"Hand",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"indoor_track",
+        "name_spanish":"Pista cubierta",
+        "name_english":"Indoor track",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"outdoor_track",
+        "name_spanish":"Pista al aire libre",
+        "name_english":"Outdoor track",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"Four_point_start",
+        "name_spanish":"Salida baja (salida de tacos)",
+        "name_english":"Four-point (block) start",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"standing_start",
+        "name_spanish":"Salida alta",
+        "name_english": "Standing start",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"freestyle",
+        "name_spanish":"Crol",
+        "name_english":"Freestyle",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"backstroke",
+        "name_spanish":"Espalda",
+        "name_english":"Backstroke",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"breaststroke",
+        "name_spanish":"Braza",
+        "name_english": "Breaststroke", 
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"butterfly",
+        "name_spanish":"Mariposa",
+        "name_english": "Butterfly",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"indoor_pool",
+        "name_spanish":"Piscina cubierta",
+        "name_english": " Indoor pool", 
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"outdoor_pool",
+        "name_spanish":"Piscina al aire libre",
+        "name_english": "Outdoor pool",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"open_water",
+        "name_spanish":"Aguas abiertas",
+        "name_english": "Open water",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"level_1",
+        "name_spanish":"Nivel 1 (YYET-1)",
+        "name_english": "Level 1 (YYET-1)",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"level_2",
+        "name_spanish":"Nivel 2 (YYET-2)",
+        "name_english": "Level 2 (YYET-2)",
+        "field_type": "checkbox",
+        "question_category_code": null
+    },
+    {
+        "code":"10cm",
+        "name_spanish":"10 cm",
+        "name_english": "10 cm",
+        "field_type": "slectmultiple",
+        "question_category_code": null
+    },
+    {
+        "code":"20cm",
+        "name_spanish":"20 cm",
+        "name_english": "20 cm",
+        "field_type": "slectmultiple",
+        "question_category_code": null
+    },
+    {
+        "code":"30cm",
+        "name_spanish":"30 cm",
+        "name_english": "30 cm",
+        "field_type": "slectmultiple",
+        "question_category_code": null
+    },
+    {
+        "code":"40cm",
+        "name_spanish":"40 cm",
+        "name_english": "40 cm",
+        "field_type": "slectmultiple",
+        "question_category_code": null
+    },
+    {
+        "code":"50cm",
+        "name_spanish":"50 cm",
+        "name_english": "50 cm",
+        "field_type": "slectmultiple",
+        "question_category_code": null
+    },
+    {
+        "code":"lasegue_negative",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "tooltip_english":"Does not show pain",
+        "tooltip_spanish":"No manifiesta dolor",
+        "name_spanish":"Test lasegue negativo",
+	    "name_english":"Lasegue test negative"
+    },
+    {
+        "code":"positive_lasegue",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "tooltip_english":"Pain below 90º",
+        "tooltip_spanish":"Dolor por debajo 90º",
+        "name_spanish":"Test lasegue positivo",
+	    "name_english":"Positive lasegue test"
+    },
+    {
+        "code":"bragard_sign",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "tooltip_english":"Pain between 40-70º",
+        "tooltip_spanish":"Dolor entre los 40-70º",
+        "name_spanish":"Signo de bragard",
+	    "name_english":"Bragard's sign"
+    },
+    {
+        "code":"bonnet_sign",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "tooltip_english":"Pain first 35-40º",
+        "tooltip_spanish":"Dolor primeros 35-40º",
+        "name_spanish":"Signo de bonnet",	
+	    "name_english":"Bonnet's sign"
+    },
+    {
+        "code":"0_is_pain", 
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "name_spanish":"Si hay presencia de dolor",
+	    "name_english":"If there is pain"
+    },
+    {
+        "code":"1_have_instability",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "name_spanish":"Si no realiza correctamente el test y presenta inestabilidad",
+	    "name_english":"If you do not perform the test correctly and have instability"
+    },
+    {
+        "code":"2_some_compensation",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "name_spanish":"Si realiza el test, pero presenta algún tipo de compensación",
+	    "name_english":"If you take the test, but present some type of compensation"
+    },
+    {
+        "code":"3_any_alteration",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "name_spanish":"Si realiza el test sin manifestar ningún tipo de alteración",	
+	    "name_english":"If you perform the test without showing any type of alteration"
+    },
+    {
+        "code":"1_greater_half_hands",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "name_spanish":"Si la distancia es superior a una mano y media.",
+	    "name_english":"If the distance is greater than one and a half hands."
+    },
+    {
+        "code":"2_less_half_hands",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "name_spanish":"Si existe una distancia inferior a una mano y media.",	
+	    "name_english":"If there is a distance of less than one and a half hands."
+    },
+    {
+        "code":"1_stick_below",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "name_spanish":"Si el palo queda por debajo de la rodilla.",
+	    "name_english":"If the stick is below the knee."
+    },
+    {
+        "code":"2_lower_half",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "name_spanish":"Si el palo de referencia queda en la mitad inferior del muslo una vez que se eleva la extremidad.",
+	    "name_english":"If the reference stick is in the lower half of the thigh once the limb is raised."
+    },
+    {
+        "code":"3_exceeds_line",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "name_spanish":"Si la pierna permanece elevada y supera la línea imaginaria entre la espina iliaca antero-superior y la rótula.",	
+	    "name_english":"If the leg remains elevated and exceeds the imaginary line between the anterior superior iliac spine and the patella."
+    },
+    {
+        "code":"1_limited_range",
+        "image": "abnormal_positive",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "name_spanish":"RANGO LIMITADO ≥35º",
+	    "name_english":"LIMITED RANGE ≥35º"
+    },
+    {
+        "code":"2_moderate_range",
+        "image": "normal",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "name_spanish":"RANGO MODERADO 16-34º",
+	    "name_english":"MODERATE RANGE 16-34º"
+    },
+    {
+        "code":"3_normal_range",
+        "image": "normal_negative",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "name_spanish":"RANGO NORMAL 0-15º",	
+	    "name_english":"NORMAL RANGE 0-15º"
+    },
+
+
+
+
+
+
+    
+    {
+        "code":"maximum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca máxima",
+        "name_english":"Maximum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"average_heart_rate",
+        "name_spanish":"Frecuencia cardiaca media",
+        "name_english":"Average heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"minimum_heart_rate",
+        "name_spanish":"Frecuencia cardiaca mínima",
+        "name_english":"Minimum heart rate",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_reserve",
+        "name_spanish":"Frecuencia cardiaca de reserva",
+        "name_english":"Heart rate reserve",
+        "field_type": "number",
+        "unit":"ppm",     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"heart_rate_variability",
+        "name_spanish":"Variabilidad de la frecuencia cardiaca (VFC)",
+        "name_english":"Heart rate variability (HRV)",
+        "field_type": "number",
+        "unit":"m/s",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_1",
+        "name_spanish":"Zona entrenamiento 1 (50-60 % Fc max)",
+        "name_english":"Training zone 1 (50-60% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_2",
+        "name_spanish":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "name_english":"Zona entrenamiento 2 (60-70 % Fc max)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_3",
+        "name_spanish":"Zona entrenamiento 3 (70-80 % Fc max)",
+        "name_english":"Training zone 3 (70-80% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_4",
+        "name_spanish":"Zona entrenamiento 4 (80-90 % Fc max)",
+        "name_english":"Training zone 4 (80-90% Fc max)",
+        "field_type": "number",
+        "unit":"percentage", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+    {
+        "code":"training_zone_5",
+        "name_spanish":"Zona entrenamiento 5 (90-100 % Fc max)",
+        "name_english":"Training zone 5 (90-100% Fc max)",
+        "field_type": "number",
+        "unit":"percentage",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "heart_rate"
+    },
+
+
+
+    {
+        "code":"distance_total",
+        "name_spanish":"Distancia total",
+        "name_english":"Total distance",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_15_20",
+        "name_spanish":"Distancia 15-20 km/h",
+        "name_english":"Distance 15-20km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_20_25",
+        "name_spanish":"Distancia 20-25 km/h",
+        "name_english":"Distance 20-25km/h",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"distance_25",
+        "name_spanish":"Distancia >25 km/h (sprint)",
+        "name_english":"Distance >25 km/h (sprint)",
+        "field_type": "number",
+        "unit":"m",     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"relative_distance",
+        "name_spanish":"Distancia relativa",
+        "name_english":"Relative distance",
+        "field_type": "number",
+        "unit":"m/min",   
+        "required":false,   
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"maximum_speed",
+        "name_spanish":"Velocidad máxima",
+        "name_english":"Maximum speed",
+        "field_type": "number",
+        "unit":"km/h",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"equivalent_distance_index",
+        "name_spanish":"Índice de Distancia Equivalente (EDI)",
+        "name_english":"Equivalent Distance Index (EDI)",
+        "field_type": "number",
+        "unit":"percentage",  
+        "required":false,    
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"metabolic_power",
+        "name_spanish":"Potencia metabólica",
+        "name_english":"Metabolic power",
+        "field_type": "number",
+        "unit":"w/kg",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"accelerations",
+        "name_spanish":"Aceleraciones",
+        "name_english":"Accelerations",
+        "field_type": "number",
+        "unit":"m/s2", 
+        "required":false,     
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"slowdowns",
+        "name_spanish":"Desaceleraciones",
+        "name_english":"Slowdowns",
+        "field_type": "number",
+        "unit":"m/s2",
+        "required":false,      
+        "is_configuration_question": false,
+        "question_category_code": "gps"
+    },
+    {
+        "code":"response_number",
+        "name_spanish":"valor",
+        "name_english":"valor",
+        "field_type": "number",
+        "required":false, 
+        "is_configuration_question": false
+    },
+
+
+
+
+    {
+        "code":"response_number_fisio",
+        "name_spanish":"valor",
+        "name_english":"valor",
+        "field_type": "number",
+        "required":false, 
+        "is_configuration_question": false
+    },
+
+
+
+
+
+
+    {
+        "code": "very_badt",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy mala",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "badt",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Mala",
+        "name_english": "Bad"
+    },
+    {
+        "code": "regulart",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Regular",
+        "name_english": "Regular"
+    },
+    {
+        "code": "goodt",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Buena",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_goodt",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy buena",
+        "name_english": "Very good"
+    },
+    {
+        "code": "very_bad_2t",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy mal",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "bad_2t",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Mal",
+        "name_english": "Bad"
+    },
+    {
+        "code": "good_2t",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bien",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_good_2t",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy bien",
+        "name_english": "Very good"
+    },
+    {
+        "code": "very_bad_3t",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Muy malo",
+        "name_english": "Very bad"
+    },
+    {
+        "code": "bad_3t",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Malo",
+        "name_english": "Bad"
+    },
+    {
+        "code": "good_3t",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bueno",
+        "name_english": "Good"
+    },
+    {
+        "code": "very_good_3t",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Muy bueno",
+        "name_english": "Very good"
+    },
+    {
+        "code": "yest",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "Si",
+        "name_english": "Yes"
+    },
+    {
+        "code": "dont_knowt",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "No sabría",
+        "name_english": "I dont know"
+    },
+    {
+        "code": "not",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good", 
+        "name_spanish": "No",
+        "name_english": "No"
+    },
+    {
+        "code": "porcent_100t",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "80% - 100%",
+        "name_english": "80% - 100%"
+    },
+    {
+        "code": "porcent_80t",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "60% - 80%",
+        "name_english": "60% - 80%"
+    },
+    {
+        "code": "porcent_60t",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "40% - 60%",
+        "name_english": "40% - 60%"
+    },
+    {
+        "code": "porcent_40t",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "20% - 40%",
+        "name_english": "20% - 40%"
+    },
+    {
+        "code": "porcent_20t",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "0% - 20%",
+        "name_english": "0% - 20%"
+    },
+    {
+        "code": "porcent_100_mast",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "80% - 100%",
+        "name_english": "80% - 100%"
+    },
+    {
+        "code": "porcent_80_mast",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "60% - 80%",
+        "name_english": "60% - 80%"
+    },
+    {
+        "code": "porcent_60_mast",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "40% - 60%",
+        "name_english": "40% - 60%"
+    },
+    {
+        "code": "porcent_40_mast",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "20% - 40%",
+        "name_english": "20% - 40%"
+    },
+    {
+        "code": "porcent_20_mast",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad",
+        "name_spanish": "0% - 20%",
+        "name_english": "0% - 20%"
+    },
+    {
+        "code": "excessivet",
+        "color": "#fac8c8",
+        "color_secondary": "#F92F28",
+        "image": "face_very_bad", 
+        "name_spanish": "Excesivo",
+        "name_english": "Excessive"
+    },
+    {
+        "code": "hight",
+        "color": "#f8e1c0",
+        "color_secondary": "#FFA200",
+        "image": "face_bad",
+        "name_spanish": "Alto",
+        "name_english": "High"
+    },
+    {
+        "code": "normal_rfdt",
+        "color": "#fbffce",
+        "color_secondary": "#C8DF00",
+        "image": "face_regular",
+        "name_spanish": "Normal",
+        "name_english": "Normal"
+    },
+    {
+        "code": "lowt",
+        "color": "#a9e6ff",
+        "color_secondary": "#0065E9",
+        "image": "face_good",
+        "name_spanish": "Bajo",
+        "name_english": "Low"
+    },
+    {
+        "code": "neithert",
+        "color": "#9af9e9",
+        "color_secondary": "#00E9C5",
+        "image": "face_very_good",
+        "name_spanish": "Ninguno",
+        "name_english": "Neither"
+    }
+]

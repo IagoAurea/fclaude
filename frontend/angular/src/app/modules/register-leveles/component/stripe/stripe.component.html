@@ -1,0 +1,31 @@
+<div id="stripe-card">
+  <div class="row justify-content-center">
+    <div class="col-12 text-center example example3">
+      <img src="/assets/img/tarjeta.jpg" alt="Tarjeta de crédito" />
+      <p>
+        {{ "registerMembership.tex_info_payment" | translate }}
+      </p>
+
+      <!-- Componente StripeCard -->
+      <stripe-card #stripeCard style="width: auto" (catch)="onStripeError($event)" [(complete)]="cardDetailsFilledOut"
+        [(invalid)]="invalidError" (cardMounted)="cardCaptureReady = 1" [options]="options"></stripe-card>
+
+      <!-- Mensaje de error -->
+      <div *ngIf="invalidError && !cardDetailsFilledOut" class="error">
+        <span class="text-danger">{{ invalidError?.code | translate }}</span>
+      </div>
+
+      <!-- Botón de pago -->
+      <button id="btn-validar" type="button" class="btn btn-block btn-main" (click)="handlePayment()"
+        [disabled]="loading || !cardDetailsFilledOut">
+        <span *ngIf="loading; else processing">
+          {{ "registerMembership.processing" | translate }}
+        </span>
+
+        <ng-template #processing>
+          {{ "registerMembership.processPayment" | translate }}
+        </ng-template>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,112 @@
+/* sidebar.component.css */
+.sidebar-container {
+  height: 100%;
+}
+
+.sidebar-drawer {
+  width: 250px; /* Ajusta este valor para cambiar el ancho de la barra lateral */
+  padding: 20px;
+  background-color:  #050C44; /* Cambia el color de fondo a azul */
+  color: white; /* Cambia el color de las letras a blanco */
+  padding: 0;
+}
+
+.sidebar-drawer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 80px; /* Aumenta este valor para aumentar la separación entre el logo y "Usuarios" */
+}
+
+
+.sidebar-drawer li {
+  display: flex; /* Cambia a flex para alinear los elementos */
+  align-items: center; /* Centra los elementos verticalmente */
+  justify-content: start; /* Alinea los elementos al inicio horizontalmente */
+  height: 100%;
+}
+.sidenav-blue {
+  background-color: #050C44; /* Cambia este valor al color azul que estás utilizando */
+}
+mat-toolbar {
+  background-color: #050C44;
+}
+mat-sidenav {
+  height: auto;
+}
+
+.sidebar-drawer li a {
+  display: flex; /* Cambia a flex para alinear los elementos */
+  align-items: center; /* Centra los elementos verticalmente */
+  padding: 20px 0; /* Ajusta este valor para cambiar el espacio alrededor del texto */
+  padding-left: 0px; /* Reduce este valor para mover el icono un poco a la izquierda */
+  width: 100%; /* Añade esta línea para hacer que el enlace ocupe el 100% del ancho */
+  height: 100%; /* Añade esta línea para hacer que el enlace ocupe todo el alto disponible */
+  box-sizing: border-box; /* Añade esta línea para incluir el relleno en el ancho total del elemento */
+}
+.menu-item {
+  margin-right: 40px; /* Ajusta este valor a la cantidad de margen que necesites */
+}
+
+.custom-margin {
+  margin-top: 200px; /* Ajusta este valor según tus necesidades */
+}
+
+.sidebar-drawer a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: white; /* Mantiene el color de los enlaces en blanco */
+}
+
+.sidebar-drawer img {
+  margin-top: 45px; /* Ajusta este valor para cambiar el margen superior */
+  width: 85%; /* Ajusta este valor para cambiar el tamaño de la imagen */
+  height: auto; /* Esto mantiene la relación de aspecto de la imagen */
+  padding-left: 15px; /* Reduce este valor para mover el logo un poco a la izquierda */
+}
+
+.sidebar-drawer a.active {
+  background-color: #024CAC; /* Cambia este valor al color que quieras cuando el enlace está activo */
+  width: 100%;
+  height: 100%; /* Añade esta línea para hacer que el color de fondo cambie en toda la altura del botón */
+}
+
+
+.sidebar-drawer a.active .shortcut-arrow {
+  display: inline;
+  width: 20px;
+  margin-left: 105px;
+  position: relative;
+  top: -15px;
+}
+
+.sidebar-drawer a .shortcut-arrow {
+  display: none;
+}
+
+.icon-white {
+  fill: white;
+}
+.sidebar-drawer {
+  display: block;
+}
+
+.top-bar {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .sidebar-drawer {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+  @media screen and (max-width: 820px) {
+    .sidebar-drawer {
+      display: none;
+    }
+
+    .top-bar {
+      display: block;
+    }
+  }
+}

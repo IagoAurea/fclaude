@@ -1,0 +1,377 @@
+[
+    {
+        "code": "anterior_posterior_drawer",
+        "name_spanish": "Prueba del cajón anterior y posterior",
+        "name_english": "Anterior and posterior drawer test",
+        "description_spanish": "Las pruebas de cajón sirven para valorar la integridad de los ligamentos cruzados de la rodilla, tanto el ligamento cruzado anterior (LCA) como el ligamento cruzado posterior (LCP).",
+        "instruction_spanish": "Las pruebas de cajón sirven para valorar la integridad de los ligamentos cruzados de la rodilla, tanto el ligamento cruzado anterior (LCA) como el ligamento cruzado posterior (LCP).",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto debe situarse tumbado en posición decúbito supino (boca arriba), con las caderas en flexión de 45º y las rodillas en 90º. Los pies apoyados sobre la camilla o esterilla. La posición de evaluador debe permitir fijar o bloquear el pie del sujeto evaluado. A partir de esta posición, el evaluador debe tomar con ambas manos el extremo proximal de la tibia, de tal forma que se abraze la epífisis proximal con los dedos y los pulgares queden a la altura de la interlínea articular. A partir de la posición indicada, deberemos aplicar una fuerza de empuje en la dirección de la maniobra que permita comprobar la integridad y grado de afectación en relación a la estabilidad de la rodilla. De este modo, para la maniobra de cajón anterior aplicaremos una fuerza hacia adelante y, por el contrario en el cajón posterior, lo haremos hacia atrás.",
+        "evaluation_spanish": "Las pruebas se considerarán anomales o positivas cuando exista un desplazamiento excesivo de la meseta tibial en la dirección de la maniobra realizada. De lo contrario, las pruebas se considerarán normales o negativas.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "knee",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "rear_drawer",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "valuation_Previous",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "lateral_pivot",
+        "name_spanish": "Lateral pivot shift test", 
+        "name_english": "Lateral pivot shift test",
+        "description_spanish": "Sirve para valorar la inestabilidad anterolateral de la rodilla por lesión del ligamento cruzado anterior (LCA). Es uno de los test más aceptados y utlizados en la actualidad.",
+        "instruction_spanish": "Sirve para valorar la inestabilidad anterolateral de la rodilla por lesión del ligamento cruzado anterior (LCA). Es uno de los test más aceptados y utlizados en la actualidad.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": " La maniobra de evaluación debe realizarse con el sujeto en posición decúbito supino (boca arriba), la cadera de la extremidad lesionada en posición neutra, la rodilla extendida y el talón fijo. El evaluador debe sujetar con una mano el cóndilo femoral externo colocándola a nivel de la parte superior de la tibia y el peroné y, con la otra mano, debe hacer una toma a nivel de maleolo externo y planta del pie. A partir de esta posición, se procede a realizar una abducción de cadera, una rotación interna de la pierna y un valgo de rodilla (ver ilustración).",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando el platillo tibial lateral se subluxa anteriormente y se clasifica con los siguientes valores según la gravedad: 1) Cuando existe sensación de deslizamiento 2 ) Cuando existe un clunk. El movimiento en el lado externo es más fácil de apreciar, pero en el lado interno es más difícil. 3) Indica gran choque femorotibial e indica rotura del LCA. Si no existe un movimiento anormal del platillo tibial sobre el fémur (subluxación), la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "knee",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "left_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "right_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "lachman_test",
+        "name_spanish": "Test de Lachman", 
+        "name_english": "Lachman test",
+        "description_spanish": "Esta prueba sirve para valorar el grado de afectación a nivel de estabilidad del ligamento cruzado anterior (LCA).",
+        "instruction_spanish": "Esta prueba sirve para valorar el grado de afectación a nivel de estabilidad del ligamento cruzado anterior (LCA).",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto debe tumbarse en posición decúbito supino (boca arriba) y el evaluador se situa frente a la rodilla a evaluar. El evaluador debe situar a la rodilla en 15º de flexión a partir de la extensión de la rodilla. Situará una mano a nivel de la parte anterior del tercio inferior del muslo para estabilizarlo, mientras que a otra mano deberá sujetar el tercio superior de la pieran. A partir de esta posición, deberá aplicar una fuerza con el objetivo de probocar un desliamiento anterior de la tibia.",
+        "evaluation_spanish": "La prueba se considerará anormal o positiva cuando se produzca un desplazamiento excesivo de la tibia con respecto al fémur. En caso contrario, la prueba se considerará normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "knee",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "left_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "right_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "mcmurray_test",
+        "name_spanish": "Test de McMurray", 
+        "name_english": "McMurray test",
+        "description_spanish": "Prueba cuyo objetivo es valorar la posible lesón de menisco y regiones parameniscales.",
+        "instruction_spanish": "Prueba cuyo objetivo es valorar la posible lesón de menisco y regiones parameniscales.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto se colocará en decuito supino con flexión de la cadera en 90º y la rodilla en flexión máxima. Una mano tomará la zona bimaleolar del tobillo. La otra mano colocará el pulgar en la interlínea articular externa y los otros dedos en la interlínea articular interna.",
+        "evaluation_spanish": "Desde la posición indicada se realizarán rotaciones de la rodilla a ambos lados. La maifestación de dolor o chasquido articular es indicativo de lesión meniscal.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "knee",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "left_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "right_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "patellar_instability",
+        "name_spanish": "Test de inestabilidad rotuliana", 
+        "name_english": "Patellar apprehension test",
+        "description_spanish": "El test de aprehensión rotuliana o de Fairbank es una prueba muy utilizada para valorar la estabilidad patelofemoral.",
+        "instruction_spanish": "El test de aprehensión rotuliana o de Fairbank es una prueba muy utilizada para valorar la estabilidad patelofemoral.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitamos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto se sitúa tumbado decúbito supino (boca arriba) en la camilla, con la rodilla extendida y la musculatura relajada. El evaluador, desde el lado contrario a la rodilla examinada, coloca sus pulgares  sobre el borde interno de la rótula y el resto de los dedos sobre la extremidad inferior, realizando un contacto firme. Desde esta posición se realiza un desplazamiento lateral con la intención de provocar una luxación de rótula mientras se realiza una flexión de 20º- 30º de la rodilla.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva si el sujeto tiene la sensación de que la rótula se le luxa y reacciona interrumpiendo la maniobra. En tal caso,  puede tratarse de una inestabilidad real o potencial de la rótula. En cambio, si el sujeto no experimenta la sensación de luxación de la rótula la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 2 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "knee",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "left_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "right_knee",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

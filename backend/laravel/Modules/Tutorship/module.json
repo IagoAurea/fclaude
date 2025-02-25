@@ -1,0 +1,13 @@
+{
+    "name": "Tutorship",
+    "alias": "tutorship",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Tutorship\\Providers\\TutorshipServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,69 @@
+version: "3"
+services:
+  api-fisco-php:
+    build:
+      args:
+        user: ${HOST_DOCKER_USER}
+        uid: ${HOST_DOCKER_UID}
+      context: .
+      dockerfile: docker/php/Dockerfile-prod
+    image: api-fisco-v1
+    container_name: api_fisco_php
+    restart: always
+    user: 1001:1001
+    environment:
+      PHP_OPCACHE_VALIDATE_TIMESTAMPS: 1
+    volumes:
+      - ./laravel:/usr/src/app:cached
+      - ./docker/php/supervisord.conf:/etc/supervisor/supervisord.conf
+      - ./docker/php/php.ini:/usr/local/etc/php/conf.d/app.ini
+    ports:
+      - ${DOCKER_PHP_PORTS}
+    #command: sh -c "composer install && php artisan octane:start --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}"
+    #command: sh -c "php artisan serve --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}"
+    depends_on:
+      - api-fisco-redis
+    command:
+      - /bin/sh
+      - -c
+      - |
+        nohup php artisan queue:work --daemon &
+        php artisan octane:start --server=swoole --host=0.0.0.0 --port=${DOCKER_OCTANE_PORT}
+
+
+  #Container Queue
+  # api-fisco-queue:
+  #  image: api-fisco-v1
+  #  container_name: api_fisco_queue
+  #  restart: always
+  #  command: bash -c "php artisan queue:work --daemon"
+  #  depends_on:
+  #    - api-fisco-php
+
+
+  #Container websocket
+  api-fisco-websocket:
+    image: api-fisco-v1
+    container_name: api_fisco_websocket
+    volumes:
+      - ./laravel:/usr/src/app:cached
+    restart: always
+    ports:
+      - ${DOCKER_WEBSOCKET_PORTS}
+    command: bash -c 'php artisan reverb:start --debug --host 0.0.0.0'
+    depends_on:
+      - api-fisco-php
+
+
+  #Container redis
+  api-fisco-redis:
+    image: redis:alpine
+    container_name: api_fisco_redis
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${DOCKER_REDIS_PASSWORD}"]
+    volumes:
+      - ./docker/redis/data:/data:cached
+    restart: always
+    expose:
+      - ${DOCKER_REDIS_PORT_EXPOSE}
+    ports:
+      - ${DOCKER_REDIS_PORTS}

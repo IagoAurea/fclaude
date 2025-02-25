@@ -1,0 +1,92 @@
+image: php:7.1.29
+
+definitions:
+  steps:
+    - step: &build-step
+        name: "[Test] SonarQube analysis"
+        script:
+          - pipe: sonarsource/sonarqube-scan:1.0.0
+            variables:
+              SONAR_HOST_URL: ${SONAR_HOST_URL}
+              SONAR_TOKEN: ${SONAR_TOKEN}
+  caches:
+    sonar: ~/.sonar
+
+clone:
+  depth: full
+
+pipelines:
+  branches:
+    master:
+    - step:
+        name: "[Production] Deployment Production"
+        script:
+          - pipe: atlassian/ssh-run:0.2.4
+            variables:
+              SSH_USER: $USERNAME_PROD
+              SERVER: $SERVER_PROD
+              PORT: $PORT_PROD
+              MODE: 'command'
+              COMMAND: 'bash /home/fisicalcoach/scripts/deploit_back_fisicalcoach'
+    demo:
+    - step:
+        name: "[Production] Deployment Demo"
+        script:
+          - pipe: atlassian/ssh-run:0.2.4
+            variables:
+              SSH_USER: $USERNAME_DEMO
+              SERVER: $SERVER_DEMO
+              PORT: $PORT_DEMO
+              MODE: 'command'
+              COMMAND: 'bash /home/fisicalcoach/scripts/deploit_back_demo_fisicalcoach'
+    develop:
+    #- step:
+    #    name: "[Test] Deployment Stage"
+    #    script:
+    #      - pipe: atlassian/ssh-run:0.2.4
+    #        variables:
+    #          SSH_USER: $USERNAME
+    #          SERVER: $SERVER
+    #          PORT: $PORT
+    #          MODE: 'command'
+    #          COMMAND: 'bash /opt/scripts/deploitscript_backend_fisicalcoach_dev'
+
+    # - step:
+    #     name: "[Test] Code Quality Stage"
+    #     caches:
+    #       - composer
+    #     script:
+    #       - pipe: atlassian/ssh-run:0.2.4
+    #         variables:
+    #           SSH_USER: $USERNAME
+    #           SERVER: $SERVER
+    #           PORT: $PORT
+    #           MODE: 'command'
+    #           COMMAND: 'bash /opt/scripts/deploitscript_backend_fisicalcoach_phpstan'
+
+    #- step:
+    #    name: "[Test] Unit Testing Stage"
+    #    caches:
+    #      - composer
+    #    script:
+    #      - pipe: atlassian/ssh-run:0.2.4
+    #        variables:
+    #          SSH_USER: $USERNAME
+    #          SERVER: $SERVER
+    #          PORT: $PORT
+    #          MODE: 'command'
+    #          COMMAND: 'bash /opt/scripts/deploitscript_backend_fisicalcoach_phpunit'
+    #- step: *build-step
+    - step:
+        name: "[Dev] Deployment Stage"
+        script:
+          - pipe: atlassian/ssh-run:0.2.4
+            variables:
+              SSH_USER: $USERNAME
+              SERVER: $SERVER
+              PORT: $PORT
+              MODE: 'command'
+              COMMAND: 'bash /home/fisicalcoach/scripts/deploit_back_testing_fisicalcoach'
+  pull-requests:
+    '**':
+      - step: *build-step

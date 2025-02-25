@@ -1,0 +1,442 @@
+[
+    {
+        "code": "psychological",
+        "name_spanish": "Evolución Psicológica",
+        "name_english": "Psycological Evolution",
+        "description_spanish":"Evalúa a nivel psicológico al jugador",
+        "instruction_spanish": "El término Return to Play (RTP), o retorno a la competición, es el proceso de decisión de cuando un deportista lesionado puede volver de manera segura y con ciertas garantias a los entrenamientos y a la competición. El presente cuestionario mide la percepción del deportista lesionado en relación a su RTP a corto plazo.",
+        "material_spanish": "No se requiere ningún material específico.",
+        "procedure_spanish": "El evaluador deberá pasar el cuestionario al deportista y anotar el resultado de los puntos obtenidos. El cuestionario consta de 10 preguntas valoradas de 1 a 5 puntos cada una.",
+        "evaluation_spanish": "La maxíma puntuación que se puede obtener en el cuestionario es de 50 puntos: a) Más de 40 puntos: el jugador puede volver con ciertas garantías. b) Entre 35 y 39 puntos: se deberían de tener en cuenta otro tipo de pruebas complementarias. c) Menos de 35 puntos: la predisposición del deportista al retorno no es adecuada.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english":"Psychologically evaluates the player",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": 100,
+        "test_type_code": "psychological_test",
+        "test_sub_type_code": null,
+        "type_valoration_code":"qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions":[
+               {
+                      "question_code" : "progressiont",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_badt",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"badt",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"goodt",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_goodt",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "emotionallyt",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_bad_2t",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"bad_2t",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"good_2t",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_good_2t",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "physical_conditiont",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_bad_3t",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"bad_3t",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"good_3t",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_good_3t",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "functional_statet",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_bad_3t",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"bad_3t",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"good_3t",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_good_3t",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "discomfortt",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"yest",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"dont_knowt",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"not",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "nervoust",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"yest",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"dont_knowt",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"not",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "gesturet",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_badt",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"badt",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"goodt",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_goodt",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "relapsingt",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"porcent_100t",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"porcent_80t",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"porcent_60t",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"porcent_40t",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"porcent_20t",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "pressuret",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"excessivet",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"hight",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"normal_rfdt",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"lowt",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"neithert",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+               },
+               {
+                      "question_code" : "global_statust",
+                      "name_spanish":null	,
+                      "name_english":null	,
+                      "question_category_code":null,
+                      "value": 10,
+                      "associate_responses":[
+                             {
+                                    "response_code":"very_bad_3t",
+                                    "value": 2,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"bad_3t",
+                                    "value": 4,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"regulart",
+                                    "value": 6,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"good_3t",
+                                    "value": 8,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             },
+                             {
+                                    "response_code":"very_good_3t",
+                                    "value": 10,
+                                    "cal_value":true,
+                                    "is_index":false,
+                                    "laterality":""
+                             }
+                      ]
+                      
+               }
+        
+        ]
+    }
+]

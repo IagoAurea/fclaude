@@ -1,0 +1,433 @@
+[
+    {
+        "code": "active_piriformis",
+        "name_spanish": "Test de Beatty (síndrome piramidal activo)",
+        "name_english": "Beatty test (active piriformis syndrome)",
+        "description_spanish": "Esta prueba es muy útil para valorar síndrome del piramidal o también conocido como falsa ciática, que consiste en una contractura o sobrecarga del músculo piramidal. Sus síntomas practicamente iguales a los de la lumbociática, pero a diferencia de esta no es causada por una compresión del nervio ciático a nivel lumbosacro (L5-S1).",
+        "instruction_spanish": "Esta prueba es muy útil para valorar síndrome del piramidal o también conocido como falsa ciática, que consiste en una contractura o sobrecarga del músculo piramidal. Sus síntomas practicamente iguales a los de la lumbociática, pero a diferencia de esta no es causada por una compresión del nervio ciático a nivel lumbosacro (L5-S1).",
+        "material_spanish": "El evaluador se situará del lado a evaluar. El sujeto se colocará en decúbito lateral con la extremidad a evaluar en flexión y addución y la extremidad sana se colocará en extensión sobre la camilla o suelo. El evaluador estabiliza la pelvis con una mano y con la otra realizara un apoyo sobre la rodilla para realizar una rotación interna (aumento de tensión en el músculo piramidal), mientras el sujeto realiza una abducción y rotación externa (activación del músculo piramidal).",
+        "procedure_spanish": "El sujeto se tumba en la camilla decúbito prono (boca abajo), con un cojinete colocado a la altura de las espinas ilíacas como se observa en la ilustración. El sujeto debe realizar una extensión del tronco durante un tiempo determinado, previamente establecido por el evaluador. En este test, la extensión de tronco se realiza sin despegar la zona lumbar del suelo y antes de dar comienzo la prueba, se desplazan lo máximo posible los hombros y codos hacia delante tomando contacto con los muslos, esta será nuestra referencia.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "hip_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "hip_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "passive_piriformis",
+        "name_spanish": "Test de Pace (síndrome piramidal pasivo)",
+        "name_english": "Pace test (passive piriformis syndrome)",
+        "description_spanish": "Esta prueba sirve para valorar el grado de flexibilidad y/o acortamiento del músculo piramidal o piriforme.",
+        "instruction_spanish": "Esta prueba sirve para valorar el grado de flexibilidad y/o acortamiento del músculo piramidal o piriforme.",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitaremos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El evaluador se situará del lado a evaluar. El sujeto se coloca de lado y apoyado un poco sobre su vientre (decúbito lateral-ventral). La extremidad inferior a evaluar en flexión aproximada de 60º de cadera y ligeramente mayor a 90º de rodilla por fuera de la camilla y el pie de la extremidad sobre el hueco poplíteo de la extremidad sana que permance apoyada sobre la camilla y en extensión. El evaluador, estabiliza con una mano la cadera y con la otra aplica una presión vertical y descendente.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra. Si no hay presencia de dolor la prueba se considera normal o negativa. La aparición de dolor es signo de tensión en el músculo indicando que existe el atrapamiento o impigement acromioclavicular.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "hip_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "hip_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "adductor_flexibility",
+        "name_spanish": "Flexibilidad de aductores",
+        "name_english": "Adductor flexibility",
+        "description_spanish": "Esta prueba sirve para valorar el grado de acortaminto de la musculatura adductora.",
+        "instruction_spanish": "Esta prueba sirve para valorar el grado de acortaminto de la musculatura adductora.",
+        "material_spanish": "Una cinta métrica. Se aconseja el uso de una colchoneta o esterilla para mayor comodidad del sujeto al sentarse en el suelo.",
+        "procedure_spanish": "El sujeto se sienta en el suelo realizando una flexión de cadera y rodillas de tal forma que pueda juntar la planta de sus pies. El tronco debe situarlo ligeramente hacia adelante. El evaluador se situa delante del sujeto y observa la distancia que existe entre las tibias y el suelo.",
+        "evaluation_spanish": "Se mide en centímetros (cm) y milímetros (mm). Se toma la medida entre la tibia y el suelo, así como también la distancia que existe entre ambos pies.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "select_assessment",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "gillet_test",
+        "name_spanish": "Test de Gillet",
+        "name_english": "Gillet test",
+        "description_spanish": "Esta prueba sirve para valorar las restricciones de movilidad de la articulación sacroilíaca.",
+        "instruction_spanish": "Esta prueba sirve para valorar las restricciones de movilidad de la articulación sacroilíaca.",
+        "material_spanish": "No se requiere ningún material específico.",
+        "procedure_spanish": "El sujeto se sitúa de pie frente a una pared con las manos apoyadas en la misma. El evaluador se sitúa por detrás de la persona evaluada colocando un pulgar sobre la espina ilíaca portero-superior y el otro sobre la base del sacro al mismo nivel. Pedirá al sujeto que realice una flexión de cadera elevando la rodilla hasta al menos 90º de flexión de cadera tanto en el lado homolateral como contralateral.",
+        "evaluation_spanish": "El test es normal o negativo cuando el pulgar del lado evaluado se desplaza hacia abajo en relación al pulgar situado sobre la base del sacra o cuando el pulgar de la base sacra se desplaza cuando se flexiona la cadera del lado contralateral. Por el contrario, si en las maniobras realizadas no existe movimiento del pulgar situado a nivel iliaco o sacro, la prueba se considera anormal o positiva y, por lo tanto, existe una fijación del íleon o del sacro.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "hip_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "hip_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "hip_internal_rotation",
+        "name_spanish": "Fuerza muscular rotadores internos de cadera",
+        "name_english": "Hip internal rotators muscular strength", 
+        "description_spanish": "Esta prueba sirve para valorar la flexibilidad de los rotadores de cadera (externos e internos).",
+        "instruction_spanish": "Esta prueba sirve para valorar la flexibilidad de los rotadores de cadera (externos e internos).",
+        "material_spanish": "Una camilla de fisioterapia. Si la prueba se realiza en el suelo, necesitamos disponer de una colchoneta o esterilla.",
+        "procedure_spanish": "El evaluador se situará a un lado de la camilla sobre el lado a evaluar. El sujeto deberá estar en una posición de decúbito supino (boca arriba). El evaluador con una mano toma la rodilla y  con la otra el pie del sujeto, que deberá tener la cadera y la rodilla en flexión de 90º.",
+        "evaluation_spanish": "El movimiento articular en rotación externa debería ser de 45º. El movimiento articular de la rotación interna debería ser de 30-40º.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "hip_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "hip_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "thomas_test",
+        "name_spanish": "Test de Thomas",
+        "name_english": "Thomas test", 
+        "description_spanish": "El test de Thomas es una prueba de valoración de los flexores de cadera o un acortamiento del psoas ilíaco. También puede indicar acortamientos del músculo cuádriceps.",
+        "instruction_spanish": "El test de Thomas es una prueba de valoración de los flexores de cadera o un acortamiento del psoas ilíaco. También puede indicar acortamientos del músculo cuádriceps.",
+        "material_spanish": "Una camilla de fisioterapia.",
+        "procedure_spanish": "El sujeto se tumbará en la camilla en posición de decúbtio supino colocando la zona glúteo en el borde de la camilla de tal forma que la extremidad inferior a evaluar quede suspendida, mientras que la otras se flexiona situándola cerca del abdomen sujetándola con las manos.",
+        "evaluation_spanish": "El test se considera positivo si el muslo apoyado de la extremidad evaluada se levanta (acortamiento de psoas ilíaco) y/o la rodilla tiende a la extensión (acortamiento de cuádriceps).",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "hips",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "hip_left",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "hip_right",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

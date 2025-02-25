@@ -1,0 +1,397 @@
+[
+    {
+        "code": "ito_test",
+        "name_spanish": "Ito test (IT)",
+        "name_english": "Ito test (IT)",
+        "description_spanish": "El Ito test (IT) es una prueba que sirve para valorar la resistencia de la musculatura extensora del tronco.",
+        "instruction_spanish": "El Ito test (IT) es una prueba que sirve para valorar la resistencia de la musculatura extensora del tronco.",
+        "material_spanish": "Una camilla de fisioterapia y un cojinete. La prueba puede realizarse directamente desde el suelo sobre una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto se tumba en la camilla decúbito prono (boca abajo), con un cojinete colocado a la altura de las espinas ilíacas como se observa en la ilustración. El sujeto debe realizar una extensión del tronco durante un tiempo determinado, previamente establecido por el evaluador. En este test, la extensión de tronco se realiza sin despegar la zona lumbar del suelo y antes de dar comienzo la prueba, se desplazan lo máximo posible los hombros y codos hacia delante tomando contacto con los muslos, esta será nuestra referencia.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando el sujeto no es capaz de aguantar la duración del test debido a algún tipo de dolor, disconfort o fatiga. Si el sujeto es capaz de soportar el test sin dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "column",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "008_duration",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "select_assessment",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "normal_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "abnormal_positive",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "braggar_test",
+        "name_spanish": "Test de Bragard",
+        "name_english": "Bragard test",
+        "description_spanish": "El test de Laségue es una prueba que sirve para valorar la sintomatología de una lumbalgia por irritación de la raíz nervisosa o de una hernia discal a nivel lumbar (sobre todo a nivel de L4-L5).",
+        "instruction_spanish": "El test de Laségue es una prueba que sirve para valorar la sintomatología de una lumbalgia por irritación de la raíz nervisosa o de una hernia discal a nivel lumbar (sobre todo a nivel de L4-L5).",
+        "material_spanish": "Una camilla de fisioterapia. La prueba puede realizarse directamente desde el suelo sobre una colchoneta o esterilla.",
+        "procedure_spanish": "Test de Laségue: La prueba se inicia con el sujeto tendido decúbito supino (boca arriba) sobre la camilla. El evaluador se coloca de pie y a un lado del sujeto, elevando la extremidad inferior lentamente tomando el talón mientras la rodilla del sujeto permanece en extensión durante toda la maniobra. Signo de Bragard y Signo de Bonnet: Se realiza el mismo procedimiento. Sin embargo, si aparece dolor o tensión a un determinado ángulo, se debe modificar el ángulo hasta que este desaparezca. A ese nivel, se debería realizar una flexión dorsal del pie.",
+        "evaluation_spanish": "La prueba se considera anormal o positiva cuando se manifieste algún tipo de dolor o disconfort a lo largo de la maniobra, indicando una alteración de la raíz nerviosa o del disco intervertebral. Test de Laségue: Si el dolor se manifiesta por encima de los 70º podría indicar una patología a nivel de la zona lumbar. Signo de Bragard: Si el dolor se manifiesta entre los 35º-70º, podría indicar una afectación de la raíz nerviosa o del disco intervertebral (compresión radicular de L4-L5). Signo de Bonnet: Si el dolor se manifiesta en los primeros 35º podría indicar una afectación del nervio ciático, teniendo como causa la articulación sacroilíaca y el músculo piramidal. Si no hay presencia de dolor la prueba se considera normal o negativa.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "column",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "right_side_assessment",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "lasegue_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "positive_lasegue",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    },
+                    {
+                        "response_code": "bragard_sign",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }, 
+                    {
+                        "response_code": "bonnet_sign",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "RIGHT"
+                    }
+                ]
+            },
+            {
+                "question_code": "left_side_assessment",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "lasegue_negative",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "positive_lasegue",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    },
+                    {
+                        "response_code": "bragard_sign",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }, 
+                    {
+                        "response_code": "bonnet_sign",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": "LEFT"
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "rotation_stability",
+        "name_spanish": "Estabilidad con rotación",
+        "name_english": "Rotary stability",
+        "description_spanish": "Esta prueba pertenece a la batería de test FMS (Functional Movement Screen) de Gray Cook. El objetivo de este test es valorar la coordinación y estabilidad de la cintura escapular, tronco y pelvis en dos planos (frontal y transversal).",
+        "instruction_spanish": "Esta prueba pertenece a la batería de test FMS (Functional Movement Screen) de Gray Cook. El objetivo de este test es valorar la coordinación y estabilidad de la cintura escapular, tronco y pelvis en dos planos (frontal y transversal).",
+        "material_spanish": "Una colchoneta o esterilla.",
+        "procedure_spanish": "El sujeto se posicionará en cuadrupedia, apoyándose con las rodillas a 90º en relación a la tibia y las manos a 90º en relación con el tronco y el codo en extensión. A continuación, se realiza una extensión de cadera y una flexión del hombro del lado homolateral, manteniendo el torso paralelo al suelo (ilustración A). Por otro lado, el sujeto debe llevar el codo y la rodilla del mismo lado hacia el vientre (ilustración B).",
+        "evaluation_spanish": "Se valora siguiendo los criterios de la batería FMS: 0 = Si al realizar el test manifiesta dolor. 1 = Si no realiza correctamente el test y presenta inestabilidad. 2 = Si realiza el test, pero presenta algún tipo de compensación. 3 = Si realiza el test sin manifestar ningún tipo de alteración",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "column",
+        "type_valoration_code": "qualitative",
+        "sport_code": null,
+        "configurations": ["new_score"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "left_side_ipsilateral",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "1_have_instability",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "2_some_compensation",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }, 
+                    {
+                        "response_code": "3_any_alteration",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "ipsilateral_right_side",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "1_have_instability",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "2_some_compensation",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }, 
+                    {
+                        "response_code": "3_any_alteration",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "contralateral_left_side",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "1_greater_half_hands",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "2_less_half_hands",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "contralateral_right_side",
+               "value": 0,
+                "associate_responses": [{
+                        "response_code": "0_is_pain",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "1_greater_half_hands",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    },
+                    {
+                        "response_code": "2_less_half_hands",
+                        "value": 0,
+                        "cal_value": true,
+                        "is_index": true,
+                        "laterality": ""
+                    }
+                ]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    },
+    {
+        "code": "biering_sorenson",
+        "name_spanish": "Biering-Sorensen test (BST)",
+        "name_english": "Biering-Sorensen test (BST)",
+        "description_spanish": "El Biering Sorense test (BST) es una prueba que sirve para valorar la capacidad de resistencia extensora de los músculos del tronco.",
+        "instruction_spanish": "Esta prueba pertenece a la batería de test FMS (Functional Movement Screen) de Gray Cook. El objetivo de este test es valorar la coordinación y estabilidad de la cintura escapular, tronco y pelvis en dos planos (frontal y transversal).",
+        "material_spanish": "Una camilla de fisioterapia o un banco romano.",
+        "procedure_spanish": "El sujeto se coloca en posición de decúbito prono (boca abajo), con la pelvis (espinas ilíacas antero-superiores) y la extremidad inferior en contacto con la camilla. El tronco en suspensión y en posición horizontal con respecto al suelo y con los brazos y las manos cruzadas en contacto con el tronco. La prueba consiste hacer una extensión de tronco y en mantener la posición el mayor tiempo posible.",
+        "evaluation_spanish": "Se mide en segundos (sg) y el sujeto dispone de un máximo de 3 intentos.",
+        "tooltip_spanish":"Se recomienda repetir el test al menos 3 veces",
+        "description_english": "",
+        "instruction_english": "",
+        "material_english": "",
+        "procedure_english": "",
+        "evaluation_english": "",
+        "tooltip_english":"",
+        "value": null,
+        "test_type_code": "physical_exploration",
+        "test_sub_type_code": "column",
+        "type_valoration_code": "new_score",
+        "sport_code": null,
+        "configurations": ["new_score", "average"],
+        "table": null,
+        "associate_questions": [
+            {
+                "question_code": "min_test_1",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "min_test_2",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "min_test_3",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": true,
+                    "is_index": false,
+                    "laterality": ""
+                }]
+            },
+            {
+                "question_code": "017_observations",
+                "value": 0,
+                "associate_responses": [{
+                    "response_code": "text_response",
+                    "value": 0,
+                    "cal_value": false,
+                    "is_index": true,
+                    "laterality": ""
+                }]
+            }
+        ]    
+    }
+]

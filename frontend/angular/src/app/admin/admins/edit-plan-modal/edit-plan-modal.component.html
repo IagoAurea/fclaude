@@ -1,0 +1,53 @@
+<p-dialog (onHide)="onHide()" [(visible)]="data.view" [modal]="true"
+          class="custom_dialog" header="{{'Detalles plan'|translate}}"
+          id="subscriptiondetail" maskStyleClass="purple_mask" styleClass="">
+  <div *ngIf="data.selectedPackage" class="row" style="margin: 10px">
+    <div class="table_labels">
+      <div *ngFor="let item of data.selectedPackage.attributes " style="display: flex; flex-direction: row; ">
+        <div class="labels">{{item.name}}</div>
+      </div>
+    </div>
+    <div class="row mx-lg-n2">
+      <div class="suscription_pack">
+        <table class="table">
+          <thead style="height: 80px">
+          <th class="text-center">
+            <div class="suscription_pack_header">
+                  <span class="suscription_pack_caption">{{
+                    "registerPlank.packagename" | translate
+                    }}</span>
+              <span class="suscription_pack_name">{{ data.selectedPackage.name }}</span>
+            </div>
+          </th>
+          <th class="text-center editar ">Habilitar </th> <!-- Nueva columna -->
+          <th class="text-center editar ">Editar</th>
+          </thead>
+          <tbody>
+          <tr *ngFor="let dato of data.selectedPackage.attributes">
+            <ng-container *ngIf="dato && dato.pivot">
+              <td *ngIf="dato.pivot.quantity">{{ dato.pivot.quantity }}</td>
+              <td *ngIf="!dato.pivot.quantity && dato.pivot.available">
+                <i class="fa fa-check" style="font-size: 20px; color:#04e9c5"></i>
+              </td>
+              <td *ngIf="!dato.pivot.quantity && !dato.pivot.available">
+                <i class="fa fa-times" style="font-size: 20px; color:#e90404"></i>
+              </td>
+              <td> <!-- Nueva celda para el checkbox -->
+                <input [(ngModel)]="editFlags[dato.id]" type="checkbox" class="custom-checkbox">
+              </td>
+              <td> <!-- Nueva celda para editar -->
+                <input *ngIf="dato.pivot.quantity && editFlags[dato.id]" [(ngModel)]="tempQuantity[dato.id]" type="number" style="width: 50px; text-align: center;">
+                <!-- Elemento de selección para cambiar el valor de 'available' -->
+                <input *ngIf="!dato.pivot.quantity && editFlags[dato.id]" [(ngModel)]="tempQuantity[dato.id]" type="checkbox" class="custom-checkbox">
+              </td>
+            </ng-container>
+          </tr>
+          </tbody>
+        </table>
+        <div class="button-container">
+          <button class="btn btn-primary p-button" (click)="guardar()">Actualizar plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</p-dialog>
